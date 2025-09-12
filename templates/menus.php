@@ -76,7 +76,7 @@
                   id="mobileServicesBtn"
                   class="btn btn-link nav-link toggled-nav-items px-0 d-lg-none d-flex justify-content-between align-items-center w-100"
                   type="button">
-                  <span>Services</span>
+                  <span class="accordion-services">Services</span>
                   <i id="serviceArrow" class="bi bi-chevron-down"></i>
                 </button>
 

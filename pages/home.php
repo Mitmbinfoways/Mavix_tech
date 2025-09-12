@@ -778,20 +778,3 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 </script>
 
 
-
-<!-- const formData = new FormData(form);
-      fetch(window.location.href, {
-          method: "POST",
-          body: formData,
-        })
-        .then(async (response) => {
-          form.reset();
-        })
-        .catch((error) => {
-          form.reset();
-        })
-        .finally(() => {
-          spinner.classList.add("d-none");
-          btnText.textContent = "Send Message";
-          submitBtn.disabled = false;
-        }); -->

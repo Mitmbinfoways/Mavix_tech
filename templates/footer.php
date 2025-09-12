@@ -8,40 +8,12 @@
             alt="Mavix Tech"
             class="nav-logo-img" />
         </div>
-        <!-- <p class="mt-4 footer-font logo-content">
-              Sparkly is your gateway to expert-led, accessible learning.
-              Empowering you with skills to succeed in a fast-changing world, we
-              offer courses designed to help you grow and achieve your goals at
-              your own pace.
-            </p> -->
         <div class="d-flex justify-content-lg-start back-to-top footer-font mt-5">
           <span class="me-2">Back to top</span>
           <a href="#" class="btn btn-light btn-sm">↑</a>
         </div>
       </div>
 
-      <!-- <div class="col-12 col-md-6 col-lg-2 mb-5">
-            <div class="mt-4">
-              <h5 class="footer-font-heading">Company</h5>
-              <ul
-                class="list-unstyled footer-font d-flex flex-column gap-3 mt-4"
-              >
-                <li>
-                  <a href="#" class="text-white text-decoration-none">Home</a>
-                </li>
-                <li>
-                  <a href="#" class="text-white text-decoration-none"
-                    >Mentors</a
-                  >
-                </li>
-                <li>
-                  <a href="#" class="text-white text-decoration-none"
-                    >About us</a
-                  >
-                </li>
-              </ul>
-            </div>
-          </div> -->
 
       <div class="col-12 col-md-6 col-lg-2 mb-5">
         <div class="mt-4">
