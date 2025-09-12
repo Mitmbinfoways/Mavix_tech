@@ -3,9 +3,9 @@
 
 <head>
   <title><?= $config['site_name'] ?></title>
-  <link
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-    rel="stylesheet" />
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+  <link rel="preconnect" href="https://cdn.rawgit.com" crossorigin>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link
     href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
@@ -48,14 +48,14 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <?php
   $webPath = $config['WEB_PATH'];
-  switch (strtolower($_GET['p'] ?? '')) {
+  $currentPage = isset($page) ? strtolower($page) : strtolower($_GET['p'] ?? '');
+  switch ($currentPage) {
     case "salesforces-services":
-      echo '<link rel="stylesheet" href="' . $webPath . 'components/salesforsesheader/salesforsesheader.css" />
-      <link rel="stylesheet" href="' . $webPath . 'components/salesforceservices/salesforceservices.css" />
-      <link rel="stylesheet" href="' . $webPath . 'components/salesforcebusinesspotential/salesforcebusinesspotential.css" />
-      <link rel="stylesheet" href="' . $webPath . '>components/salseforceconclusionslider/salseforceconclusionslider.css" />
-      <script type="text/javascript" src="' . $webPath . 'components/salseforceconclusionslider/salseforceconclusionslider.js">
-      </script>';
+      echo '<link rel="stylesheet" href="' . $webPath . 'components/salesforsesheader/salesforsesheader.css" />';
+      echo '<link rel="stylesheet" href="' . $webPath . 'components/salesforceservices/salesforceservices.css" />';
+      echo '<link rel="stylesheet" href="' . $webPath . 'components/salesforcebusinesspotential/salesforcebusinesspotential.css" />';
+      echo '<link rel="stylesheet" href="' . $webPath . 'components/salesforceconclusionslider/salesforceconclusionslider.css" />';
+      echo '<script src="' . $webPath . 'components/salesforceconclusionslider/salesforceconclusionslider.js" defer></script>';
       break;
     case "shopify-services":
       echo '<link rel="stylesheet" href="' . $webPath . 'components/shopifyheader/shopifyheader.css" />';

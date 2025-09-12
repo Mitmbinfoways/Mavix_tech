@@ -49,16 +49,16 @@
           <ul
             class="list-unstyled footer-font d-flex flex-column gap-3 mt-4">
             <li>
-              <a href="https://mavixtech.com/shopify-services" class="d-flex justify-content-lg-start text-white text-decoration-none">Shopify</a>
+              <a href="<?php echo $config['SITE_URL']; ?>shopify-services" class="d-flex justify-content-lg-start text-white text-decoration-none">Shopify</a>
             </li>
             <li>
-              <a href="https://mavixtech.com/salesforces-services" class="d-flex justify-content-lg-start text-white text-decoration-none">Salesforce</a>
+              <a href="<?php echo $config['SITE_URL']; ?>salesforces-services" class="d-flex justify-content-lg-start text-white text-decoration-none">Salesforce</a>
             </li>
             <li>
-              <a href="https://mavixtech.com/email-marketing" class="d-flex justify-content-lg-start text-white text-decoration-none">Email Marketing</a>
+              <a href="<?php echo $config['SITE_URL']; ?>email-marketing" class="d-flex justify-content-lg-start text-white text-decoration-none">Email Marketing</a>
             </li>
             <li>
-              <a href="https://mavixtech.com/digital-marketing" class="d-flex justify-content-lg-start text-white text-decoration-none">Digital Marketing</a>
+              <a href="<?php echo $config['SITE_URL']; ?>digital-marketing" class="d-flex justify-content-lg-start text-white text-decoration-none">Digital Marketing</a>
             </li>
           </ul>
         </div>
@@ -122,17 +122,18 @@
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
-<!-- Dynamic content loader -->
+<?php if (isset($page) && strtolower($page) === 'home') { ?>
+<!-- Dynamic content loader (home only) -->
 <script src="<?php echo $config['WEB_PATH']; ?>assets/js/homepage/home.js" defer></script>
+<?php } ?>
 
 <!-- Scroll animation script (reusable) -->
 <script type="module">
-  import {
-    initScrollAnimations
-  } from "<?php echo $config['WEB_PATH']; ?>assets/utils/scroll-animations.js";
+  import { initScrollAnimations, enhanceImagesPerformance } from "<?php echo $config['WEB_PATH']; ?>assets/utils/scroll-animations.js";
 
   window.addEventListener("DOMContentLoaded", () => {
-    initScrollAnimations(); // you can pass options here if needed
+    initScrollAnimations();
+    enhanceImagesPerformance();
   });
 </script>
 </body>

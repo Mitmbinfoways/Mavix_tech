@@ -1,11 +1,14 @@
   <nav class="navbar navbar-expand-lg text-white px-md-0 sticky-top">
     <div class="container nav-main">
-      <a class="navbar-brand" href="https://mavixtech.com/">
+      <a class="navbar-brand" href="<?php echo $config['SITE_URL']; ?>">
         <div class="navbar-logo">
           <img
-            src="assets/images/logo.svg"
+            src="<?php echo $config['WEB_PATH']; ?>assets/images/logo.svg"
             alt="Mavix Tech"
-            class="nav-logo-img" />
+            class="nav-logo-img"
+            fetchpriority="high"
+            decoding="async"
+            loading="eager" />
         </div>
       </a>
 
@@ -38,7 +41,7 @@
         </div>
         <div class="offcanvas-body justify-content-end">
           <div class="navbar-nav align-items-center">
-            <a class="nav-link toggled-nav-items" href="https://mavixtech.com/">Home</a>
+            <a class="nav-link toggled-nav-items" href="<?php echo $config['SITE_URL']; ?>">Home</a>
             <!-- Dropdown for Services -->
             <div class="nav-item dropdown d-none d-lg-block">
               <a
@@ -53,16 +56,16 @@
               </a>
               <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
                 <li class="dropdownmenu-item">
-                  <a class="dropdown-item" href="https://mavixtech.com/shopify-services">Shopify</a>
+                  <a class="dropdown-item" href="<?php echo $config['SITE_URL']; ?>shopify-services">Shopify</a>
                 </li>
                 <li class="dropdownmenu-item">
-                  <a class="dropdown-item" href="https://mavixtech.com/salesforces-services">Salesforce</a>
+                  <a class="dropdown-item" href="<?php echo $config['SITE_URL']; ?>salesforces-services">Salesforce</a>
                 </li>
                 <li class="dropdownmenu-item">
-                  <a class="dropdown-item" href="https://mavixtech.com/email-marketing">Email Marketing</a>
+                  <a class="dropdown-item" href="<?php echo $config['SITE_URL']; ?>email-marketing">Email Marketing</a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="https://mavixtech.com/digital-marketing">Digital Marketing</a>
+                  <a class="dropdown-item" href="<?php echo $config['SITE_URL']; ?>digital-marketing">Digital Marketing</a>
                 </li>
               </ul>
             </div>
@@ -79,16 +82,16 @@
 
                 <!-- Mobile Services Menu -->
                 <div id="mobileServicesMenu" class="ps-3 d-none flex-column w-100">
-                  <a class="nav-link text-start" href="https://mavixtech.com/shopify-services">Shopify</a>
-                  <a class="nav-link text-start" href="https://mavixtech.com/salesforces-services">Salesforce</a>
-                  <a class="nav-link text-start" href="https://mavixtech.com/email-marketing">Email Marketing</a>
-                  <a class="nav-link text-start" href="https://mavixtech.com/digital-marketing">Digital Marketing</a>
+                  <a class="nav-link text-start" href="<?php echo $config['SITE_URL']; ?>shopify-services">Shopify</a>
+                  <a class="nav-link text-start" href="<?php echo $config['SITE_URL']; ?>salesforces-services">Salesforce</a>
+                  <a class="nav-link text-start" href="<?php echo $config['SITE_URL']; ?>email-marketing">Email Marketing</a>
+                  <a class="nav-link text-start" href="<?php echo $config['SITE_URL']; ?>digital-marketing">Digital Marketing</a>
                 </div>
               </div>
             </div>
 
             <!-- <a class="nav-link toggled-nav-items" href="?p=features">Blog</a> -->
-            <a class="nav-link toggled-nav-items" href="https://mavixtech.com/contact-us">Contact Us</a>
+            <a class="nav-link toggled-nav-items" href="<?php echo $config['SITE_URL']; ?>contact-us">Contact Us</a>
             <!-- <a
               href="?p=order"
               class="navbar-btn px-4 py-2 rounded-pill btn-brand ms-lg-3 mt-3 mt-lg-0">Order Now</a> -->

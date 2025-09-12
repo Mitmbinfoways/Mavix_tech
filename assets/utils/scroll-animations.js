@@ -28,3 +28,32 @@ export function initScrollAnimations(options = {}) {
 
   window.addEventListener("load", observeSections);
 }
+
+export function enhanceImagesPerformance() {
+  try {
+    document.querySelectorAll('img').forEach(img => {
+      if (!img.hasAttribute('loading')) img.setAttribute('loading', 'lazy');
+      if (!img.hasAttribute('decoding')) img.setAttribute('decoding', 'async');
+      if (!img.hasAttribute('fetchpriority')) img.setAttribute('fetchpriority', 'auto');
+    });
+
+    const lazyBgElements = document.querySelectorAll('[data-bg]');
+    if (lazyBgElements.length === 0) return;
+
+    const bgObserver = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const target = entry.target;
+          const url = target.getAttribute('data-bg');
+          if (url) {
+            target.style.backgroundImage = `url("${url}")`;
+            target.removeAttribute('data-bg');
+          }
+          bgObserver.unobserve(target);
+        }
+      });
+    }, { rootMargin: '200px', threshold: 0.01 });
+
+    lazyBgElements.forEach(el => bgObserver.observe(el));
+  } catch (_) {}
+}

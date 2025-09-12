@@ -136,7 +136,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     </div>
 
     <div class="hero-btn d-flex gap-3 justify-content-center flex-wrap">
-      <a href="https://mavixtech.com/contact-us">
+      <a href="<?php echo $config['SITE_URL']; ?>contact-us">
         <button type="button" class="blob-btn">
           Contact Us
           <span class="btn-learn-more-arrow ms-2">
@@ -159,11 +159,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     </div>
 
     <div class="logo-strip mt-5">
-      <img class="logo-img" src="<?php echo $config['WEB_PATH'] ?>assets/images/mbinfoways.png" alt="mbinfoways" />
-      <img class="logo-img" src="<?php echo $config['WEB_PATH'] ?>assets/images/comonics.png" alt="comonics" />
-      <img class="logo-img" src="<?php echo $config['WEB_PATH'] ?>assets/images/auxoinnovations.png" alt="auxo innovations" />
-      <img class="logo-img" src="<?php echo $config['WEB_PATH'] ?>assets/images/crucialpointagency.png" alt="crucialpointagency" />
-      <img class="logo-img" src="<?php echo $config['WEB_PATH'] ?>assets/images/bdg-logo.svg" alt="bdg logo" />
+      <img class="logo-img" src="<?php echo $config['WEB_PATH'] ?>assets/images/mbinfoways.png" alt="mbinfoways" loading="lazy" decoding="async" />
+      <img class="logo-img" src="<?php echo $config['WEB_PATH'] ?>assets/images/comonics.png" alt="comonics" loading="lazy" decoding="async" />
+      <img class="logo-img" src="<?php echo $config['WEB_PATH'] ?>assets/images/auxoinnovations.png" alt="auxo innovations" loading="lazy" decoding="async" />
+      <img class="logo-img" src="<?php echo $config['WEB_PATH'] ?>assets/images/crucialpointagency.png" alt="crucialpointagency" loading="lazy" decoding="async" />
+      <img class="logo-img" src="<?php echo $config['WEB_PATH'] ?>assets/images/bdg-logo.svg" alt="bdg logo" loading="lazy" decoding="async" />
     </div>
   </div>
 </section>
@@ -252,7 +252,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             Boost speed, mobile usability, and sales with a high-performing Shopify storefront built for conversions.
           </p>
           <a
-            href="https://mavixtech.com/shopify-services">
+            href="<?php echo $config['SITE_URL']; ?>shopify-services">
             <button
               class="btn btn-custom ms-3 align-self-lg-start align-self-center">
               Learn More
@@ -262,11 +262,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         <div class="col-lg-8 p-0">
           <a
-            href="https://mavixtech.com/shopify-services">
+            href="<?php echo $config['SITE_URL']; ?>shopify-services">
             <img
               src="<?php echo $config['WEB_PATH'] ?>assets/images/shopify.png"
               alt="Shopify"
-              class="feature-image " />
+              class="feature-image "
+              loading="lazy" decoding="async" />
           </a>
         </div>
       </div>
@@ -281,7 +282,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             Streamline CRM workflows and improve lead management to close deals faster and boost efficiency.
           </p>
           <a
-            href="https://mavixtech.com/salesforces-services">
+            href="<?php echo $config['SITE_URL']; ?>salesforces-services">
             <button
               class="btn btn-custom ms-3 align-self-lg-start align-self-center">
               Learn More
@@ -290,11 +291,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         </div>
         <div class="col-lg-8 p-0">
           <a
-            href="https://mavixtech.com/salesforces-services">
+            href="<?php echo $config['SITE_URL']; ?>salesforces-services">
             <img
               src="<?php echo $config['WEB_PATH'] ?>assets/images/salesforce.png"
               alt="Salesforce"
-              class="feature-image" />
+              class="feature-image"
+              loading="lazy" decoding="async" />
           </a>
         </div>
       </div>
@@ -309,7 +311,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             Increase sales with engaging, well-designed email campaigns that connect with your audience.
           </p>
           <a
-            href="https://mavixtech.com/email-marketing">
+            href="<?php echo $config['SITE_URL']; ?>email-marketing">
             <button
               class="btn btn-custom ms-3 align-self-lg-start align-self-center">
               Learn More
@@ -318,11 +320,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         </div>
         <div class="col-lg-8 p-0">
           <a
-            href="https://mavixtech.com/email-marketing">
+            href="<?php echo $config['SITE_URL']; ?>email-marketing">
             <img
               src="<?php echo $config['WEB_PATH'] ?>assets/images/image.png"
               alt="Email Marketing"
-              class="img-fluid feature-image" />
+              class="img-fluid feature-image"
+              loading="lazy" decoding="async" />
           </a>
         </div>
       </div>
@@ -336,7 +339,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             Enhance your brand's online presence and drive growth with targeted digital marketing strategies.
           </p>
           <a
-            href="https://mavixtech.com/digital-marketing">
+            href="<?php echo $config['SITE_URL']; ?>digital-marketing">
             <button
               class="btn btn-custom ms-3 align-self-lg-start align-self-center">
               Learn More
@@ -344,18 +347,20 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
           </a>
         </div>
         <div class="col-lg-8 p-0 text-center">
-          <a href="https://mavixtech.com/digital-marketing">
+          <a href="<?php echo $config['SITE_URL']; ?>digital-marketing">
             <!-- Image for large screens (desktops/laptops) -->
             <img
               src="<?php echo $config['WEB_PATH'] ?>assets/images/digi.png"
               alt="Digital Marketing"
-              class="img-fluid d-none d-lg-block feature-image" />
+              class="img-fluid d-none d-lg-block feature-image"
+              fetchpriority="high" loading="eager" decoding="async" />
 
             <!-- Image for tablets and mobile -->
             <img
               src="<?php echo $config['WEB_PATH'] ?>assets/images/digi-new.jpg"
               alt="Digital Marketing"
-              class="img-fluid d-block d-lg-none feature-image" />
+              class="img-fluid d-block d-lg-none feature-image"
+              fetchpriority="high" loading="eager" decoding="async" />
           </a>
         </div>
       </div>
