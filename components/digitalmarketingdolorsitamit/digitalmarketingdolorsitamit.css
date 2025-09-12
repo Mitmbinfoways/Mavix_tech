@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  /* font-family: 'DM Sans', sans-serif; */
+  text-align: center;
+  overflow-x: hidden;
+}
+
+.highlight-section h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.heding-color {
+  color: #ec4899;
+  font-weight: 700;
+  position: relative;
+  z-index: 2;
+}
+
+.heading-global {
+  font-weight: 600 !important;
+  font-size: 36px !important;
+  font-family: "Poppins", sans-serif;
+  color: #030712 !important;
+  line-height: 1.5;
+  position: relative;
+}
+
+.subheading-global {
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  font-family: "DM Sans", sans-serif;
+  color: #4b575e !important;
+  text-align: center !important;
+}
+
+.highlighted-text {
+  position: relative;
+  display: inline-block;
+  margin-left: 341px !important;
+}
+.highlight-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.image-blure {
+  margin-right: 280px !important;
+}
+
+.image-blure::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 50;
+
+  /* right: 80 !important ; */
+  bottom: 0.1em;
+  width: 30rem;
+  height: 4rem;
+
+  background-size: contain;
+  z-index: -1;
+}
+
+.highlighted-tex-left {
+  margin-left: -9px !important;
+  margin-top: -48px !important;
+}
+
+.description {
+  margin: 0 auto;
+  font-size: 0.9rem;
+  color: #4b5563;
+}
+
+.img-underline {
+  position: absolute;
+  bottom: -8px; /* adjust based on the image height */
+  left: 58px !important;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.img-size {
+  position: absolute;
+  left: 450px;
+  top: 80px;
+  width: 500px;
+  height: 60px;
+  /* margin-left: 30%;
+            margin-top: -10px; */
+}
+
+.dolor-sit-description {
+  text-align: center;
+}
+.digitalmarkating-dolor-sit-img {
+  width: 90% !important ;
+  top: 75% !important;
+  left: 3% !important;
+}
+@media (min-width: 768px) {
+  .highlight-section h2 {
+    font-size: 2.2rem;
+  }
+
+  .description {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 424px) and (min-width: 320px) {
+  .img-size {
+    width: 200px;
+    height: 30px;
+  }
+
+  .heading-global {
+    font-size: 20px !important;
+  }
+}
+
+@media (max-width: 424px) {
+  .heading-global {
+    font-size: 20px !important;
+  }
+
+  .img-underline {
+    width: 100%;
+  }
+}

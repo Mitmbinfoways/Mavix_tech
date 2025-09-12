@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+.highlight-pink {
+  background: linear-gradient(to top, #ffb8e4 50%, transparent 50%);
+  color: #e4288f;
+  font-weight: 700;
+}
+
+.highlight-purple {
+  background: linear-gradient(to top, #e9d2f4 50%, transparent 50%);
+  font-weight: 700;
+}
+
+.main-heading {
+  font-weight: 700;
+  color: #0d1b3e;
+}
+
+.subtext {
+  color: #444;
+  max-width: 800px;
+  margin: auto;
+}
+
+.cta {
+  font-weight: 700;
+  color: #0d1b3e;
+}
+
+.salseforse-consulting-content {
+  font-weight: 700 !important;
+  font-size: 18px !important;
+  color: #4B575E !important;
+  font-family: "DM Sans", sans-serif !important;
+}
+
+.salseforce-concultion-img {
+  left: 33% !important;
+  top: 39% !important;
+  width: 36% !important;
+  height: 30% !important;
+  pointer-events: none;
+}
+
+@media (max-width: 1400px) {
+  .salseforce-concultion-img {
+    left: 22% !important;
+    top: 25% !important;
+    width: 45% !important;
+    height: 20% !important;
+
+    pointer-events: none;
+  }
+}
+
+@media (min-width: 992px) {
+  .main-heading {
+    font-size: 2.25rem;
+  }
+
+  .subtext {
+    font-size: 1.125rem;
+  }
+
+  .cta {
+    font-size: 1.125rem;
+  }
+
+
+}
+
+@media (max-width: 991px) {
+  .salseforce-concultion-img {
+    left: 34% !important;
+    top: 20% !important;
+    width: 52% !important;
+    height: 13% !important;
+
+    pointer-events: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .salseforce-concultion-img {
+    top: 20% !important;
+    width: 54% !important;
+    height: auto !important;
+  }
+
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 575.98px) {
+  .main-heading {
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .subtext {
+    font-size: 0.95rem;
+    padding: 0 1rem;
+  }
+
+  .cta {
+    font-size: 0.95rem;
+    padding: 0 1rem;
+  }
+
+
+}
+
+
+@media (min-width: 576px) and (max-width: 991px) {
+  .main-heading {
+    font-size: 1.75rem;
+  }
+
+  .subtext {
+    font-size: 1rem;
+    padding: 0 2rem;
+  }
+
+  .cta {
+    font-size: 1rem;
+    padding: 0 2rem;
+  }
+
+  section {
+    padding: 3rem 0;
+  }
+}
+
+
+@media screen and (max-width: 497px) {
+  .salseforce-concultion-img {
+    top: 15% !important;
+    width: 45% !important;
+    height: auto !important;
+    right: 10% !important;
+    left: auto !important;
+  }
+
+}
+
+@media screen and (max-width: 426px) {
+  .salseforce-concultion-img {
+    top: 19% !important;
+    width: 60% !important;
+    height: auto !important;
+    right: 10% !important;
+    left: auto !important;
+  }
+}
+
+@media screen and (max-width: 402px) {
+  .salseforce-concultion-img {
+    top: 15% !important;
+    width: 45% !important;
+    height: auto !important;
+    right: 10% !important;
+    left: auto !important;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .salseforce-concultion-img {
+    top: 19% !important;
+    width: 60% !important;
+    height: auto !important;
+    right: 10% !important;
+    left: auto !important;
+  }
+
+}
+
+@media screen and (max-width: 320px) {
+  .salseforce-concultion-img {
+    width: 51% !important;
+    top: 18% !important;
+    left: 38% !important
+  }
+
+}

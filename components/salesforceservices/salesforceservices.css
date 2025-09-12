@@ -1,0 +1,157 @@
+.highlight {
+  color: #f34c9b;
+  font-weight: 700;
+}
+
+.salseforse-service-button {
+  padding: 2% 5% !important;
+  background-color: #ec4899 !important;
+  color: white !important;
+  font-family: "DM Sans", sans-serif !important;
+  font-weight: 600 !important;
+  font-size: 16px !important;
+}
+
+.btn-pink {
+  background-color: #f34c9b;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  font-weight: 600;
+  border-radius: 6px;
+}
+
+.cert-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* .badge-img {
+     width: 100% !important;
+     height: auto;
+     margin: 10px auto !important;
+ } */
+
+.badge-img-last {
+  width: 160% !important;
+}
+
+.badge-g {
+  gap: 3rem;
+}
+
+.salseforce-underline-img {
+  bottom: -8px; /* sits just below the text */
+  left: 0;
+  height: auto;
+  pointer-events: none;
+  z-index: -1; /* keeps it behind the text */
+}
+
+.cert-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  margin: 2rem auto;
+  max-width: 800px;
+  opacity: 0; /* Start invisible */
+  animation: fadeInSteps 1.5s ease-in-out forwards;
+}
+
+/* Keyframes for two-step fade-in */
+@keyframes fadeInSteps {
+  0% {
+    opacity: 0; /* Start completely hidden */
+  }
+  50% {
+    opacity: 0.5; /* Half visible at 50% of animation */
+  }
+  100% {
+    opacity: 1; /* Fully visible at the end */
+  }
+}
+
+.badge-row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  /* flex-wrap: wrap; */
+}
+
+.badge-img {
+  max-width: 130px;
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.badge-img:hover {
+  transform: scale(1.05);
+}
+
+@media (max-width: 1400px) {
+  .salseforce-underline-img {
+    bottom: 36px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .salseforce-excelense-service-img {
+    top: 89% !important;
+    left: 18% !important;
+  }
+  .salseforce-underline-img {
+    bottom: 36px;
+  }
+}
+@media (max-width: 991px) {
+  .salseforce-excelense-service-img {
+    top: 68% !important;
+    left: 0% !important;
+  }
+  .salseforce-underline-img {
+    bottom: 20px;
+  }
+}
+@media (max-width: 991px) {
+  .salseforce-excelense-service-img {
+    top: 68% !important;
+    left: 0% !important;
+  }
+}
+/* Optional: Stack all badges on smaller screens */
+
+@media screen and (max-width: 768px) {
+  .salseforce-excelense-service-img {
+    width: 75% !important;
+    top: 70% !important;
+  }
+
+  /* .badge-img-last {
+         width: 140% !important;
+     } */
+}
+@media (max-width: 576px) {
+  .badge-row {
+    /* flex-direction: column; */
+    align-items: center;
+  }
+
+  .badge-img {
+    max-width: 80px;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .salseforce-excelense-service-img {
+    width: 40% !important;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .salseforce-excelense-service-img {
+    width: 39% !important;
+  }
+}

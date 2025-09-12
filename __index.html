@@ -1,0 +1,966 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.13.1/font/bootstrap-icons.min.css"
+      integrity="sha512-t7Few9xlddEmgd3oKZQahkNI4dS6l80+eGEzFQiqtyVYdvcSG2D3Iub77R20BdotfRPA9caaRkg1tyaJiPmO0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/components/header/header.css" />
+    <link rel="stylesheet" href="/components/potential/potential.css" />
+    <link
+      rel="stylesheet"
+      href="/components/elevatebusiness/elevatebusiness.css"
+    />
+    <link
+      rel="stylesheet"
+      href="/components/transformative/transformative.css"
+    />
+
+    <link rel="stylesheet" href="/components/contact/style.css" />
+    <link rel="stylesheet" href="/components/footer/footer.css" />
+
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="global.css" />
+
+    <!-- Slick Slider CSS -->
+    <link rel="stylesheet" href="/components/slider-2/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.rawgit.com/kenwheeler/slick/master/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.rawgit.com/kenwheeler/slick/master/slick-theme.css"
+    />
+
+    <!-- Animate.css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- Page Sections -->
+    <nav class="navbar navbar-expand-lg text-white px-md-0 sticky-top">
+      <div class="container nav-main">
+        <a class="navbar-brand" href="index.html">
+          <div class="navbar-logo">
+            <img
+              src="assets/images/mavix_Logo.png"
+              alt="Logo"
+              class="nav-logo-img"
+            />
+          </div>
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#navbarOffcanvas"
+          aria-controls="navbarOffcanvas"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Replace the collapse div with offcanvas -->
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="navbarOffcanvas"
+          aria-labelledby="navbarOffcanvasLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title text-white" id="navbarOffcanvasLabel">
+              Menu
+            </h5>
+            <button
+              type="button"
+              class="btn-close text-reset"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body justify-content-end">
+            <div class="navbar-nav align-items-center">
+              <a class="nav-link toggled-nav-items" href="index.html">Home</a>
+
+              <!-- Dropdown for Services -->
+              <div class="nav-item dropdown d-none d-lg-block">
+                <a
+                  class="nav-link dropdown-toggle toggled-nav-items"
+                  href="#menu"
+                  id="servicesDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Services
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+                  <li class="dropdownmenu-item">
+                    <a class="dropdown-item" href="shopify-service.html"
+                      >Shopify</a
+                    >
+                  </li>
+                  <li class="dropdownmenu-item">
+                    <a class="dropdown-item" href="salesforces-service.html"
+                      >Salesforce</a
+                    >
+                  </li>
+                  <li class="dropdownmenu-item">
+                    <a class="dropdown-item" href="email-marketing.html"
+                      >Email Marketing</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="digital-marketing.html"
+                      >Digital Marketing</a
+                    >
+                  </li>
+                </ul>
+              </div>
+
+              <div
+                class="accordion nav-accordion d-block d-lg-none toggled-nav-items"
+                id="navAccordion"
+              >
+                <div class="accordion-item border-0 shadow-sm mb-2">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button
+                      class="accordion-button mainsubheading-global"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseOne"
+                      aria-expanded="false"
+                      aria-controls="collapseOne"
+                    >
+                      Services
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseOne"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingOne"
+                    data-bs-parent="#navAccordion"
+                  >
+                    <div
+                      class="accordion-body frequently-cont mainsubheading-global"
+                    >
+                      <ul class="list-unstyled ps-0 mb-0">
+                        <li class="my-2">
+                          <a
+                            class="text-decoration-none text-dark"
+                            href="shopify-service.html"
+                            >Shopify</a
+                          >
+                        </li>
+                        <li class="my-2">
+                          <a
+                            class="text-decoration-none text-dark"
+                            href="salesforces-service.html"
+                            >Salesforce</a
+                          >
+                        </li>
+                        <li class="my-2">
+                          <a
+                            class="text-decoration-none text-dark"
+                            href="email-marketing.html"
+                            >Email Marketing</a
+                          >
+                        </li>
+                        <li class="my-2">
+                          <a
+                            class="text-decoration-none text-dark"
+                            href="digital-marketing.html"
+                            >Digital Marketing</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <a class="nav-link toggled-nav-items" href="#features">Blog</a>
+              <a class="nav-link toggled-nav-items" href="contact-us.html"
+                >Contact Us</a
+              >
+              <a
+                href="order.html"
+                class="navbar-btn px-4 py-2 rounded-pill btn-brand ms-lg-3 mt-3 mt-lg-0"
+                >Order Now</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section class="hero-section">
+      <div class="container text-center scroll-section">
+        <div class="hero-heading position-relative">
+          <p>
+            Unlock Growth With<br />
+            Powerful Business Technology Solutions
+            from <span class="hero-heading-effect">Mavix Tech</span>
+          </p>
+          <div
+            class="position-absolute top-50 start-50 hero-bg-img translate-middle"
+          >
+            <img src=".assets/images/homepage-hero-bg-gradient.png"  class="home-tech-home-img"/>
+          </div>
+        </div>
+
+        <div class="hero-btn d-flex gap-3 justify-content-center flex-wrap">
+          <button class="btn btn-get-started">Get Started</button>
+          <button class="blob-btn">
+            Learn More
+            <span class="btn-learn-more-arrow ms-2"
+              ><i class="bi bi-arrow-right"></i
+            ></span>
+            <span class="blob-btn__inner">
+              <span class="blob-btn__blobs">
+                <span class="blob-btn__blob"></span>
+                <span class="blob-btn__blob"></span>
+                <span class="blob-btn__blob"></span>
+                <span class="blob-btn__blob"></span>
+              </span>
+            </span>
+          </button>
+
+          <!-- Goo Filter -->
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="animation-svg"
+            version="1.1"
+          >
+            <defs>
+              <filter id="goo">
+                <feGaussianBlur
+                  in="SourceGraphic"
+                  result="blur"
+                  stdDeviation="10"
+                ></feGaussianBlur>
+                <feColorMatrix
+                  in="blur"
+                  mode="matrix"
+                  values="
+            1 0 0 0 0
+            0 1 0 0 0
+            0 0 1 0 0
+            0 0 0 21 -7
+        "
+                  result="goo"
+                ></feColorMatrix>
+                <feBlend in="SourceGraphic" in2="goo" result="mix"></feBlend>
+              </filter>
+            </defs>
+          </svg>
+        </div>
+
+        <div class="hero-text">
+          Grow your business with innovative Business Technology Solutions designed to match your needs.
+        </div>
+
+        <div class="hero-image">
+          <img src=".assets/images/DHL.png" alt="DHL" />
+          <img src=".assets/images/AMEX.png" alt="Amex" />
+          <img src=".assets/images/Microsoft.png" alt="Microsoft" />
+          <img src=".assets/images/Nhl.png" alt="NHL" />
+          <img src=".assets/images/Wikipedia.png" alt="Wikipedia" />
+        </div>
+      </div>
+    </section>
+
+    <section class="">
+      <div class="container py-5 ai-driven">
+        <div class="section-heading scroll-section">
+          <p class="mainheading-global">
+            Ignite Your <span class="mainheding-color">Business Growth </span> with
+            Powerful Business Technology <br class="d-none d-md-block" /> Solutions
+          </p>
+          <p class="subtitle-contetn text-muted mt-4">
+            Accelerate your digital success with innovative, scalable, and result-focused business technology solutions 
+            designed to drive growth and <br
+              class="d-none d-lg-block"
+            />
+            streamline your operations
+          </p>
+        </div>
+
+        <div class="row text-center mt-5">
+          <div class="col-12 col-md-6 col-lg-3 mb-4">
+            <div
+              class="info-box scroll-section"
+              data-animation="animate__fadeInUp"
+              data-delay="0s"
+            >
+              <p class="ai-agnite-heading">01</p>
+              <!-- <p class="ps-3 ai-agnite subcontainet-global fw-bold">
+                
+              </p> -->
+              <p class="ps-3 ai-agnite subcontainet-global mt-2">
+               Dedicated Expert Team Skilled professionals focused on delivering innovative, effective results for today’s competitive business landscape.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 mb-4">
+            <div
+              class="info-box scroll-section"
+              data-animation="animate__fadeInUp"
+              data-delay="0.2s"
+            >
+              <p class="ai-agnite-heading">02</p>
+              <!-- <p class="ps-3 ai-agnite subcontainet-global fw-bold">
+               
+              </p> -->
+              <p class="ps-3 ai-agnite subcontainet-global mt-2">
+               Scalable Infrastructure  Agile technology frameworks are built to evolve with your business and support sustainable growth.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 mb-4">
+            <div
+              class="info-box scroll-section"
+              data-animation="animate__fadeInUp"
+              data-delay="0.4s"
+            >
+              <p class="ai-agnite-heading">03</p>
+              <!-- <p class="ps-1 ai-agnite subcontainet-global fw-bold">
+                
+              </p> -->
+              <p class="ps-1 ai-agnite subcontainet-global mt-2">
+               Data-Driven Optimization Enhance efficiency and decision-making with strategic improvements powered by data intelligence.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 mb-4">
+            <div
+              class="info-box scroll-section"
+              data-animation="animate__fadeInUp"
+              data-delay="0.6s"
+            >
+              <p class="ai-agnite-heading">04</p>
+              <!-- <p class="ps-1 ai-agnite subcontainet-global fw-bold">
+               
+              </p> -->
+              <p class="ps-1 ai-agnite subcontainet-global mt-2">
+               Seamless Integration Capabilities  Effortlessly unify your systems with our Business Technology Solutions for smooth operational performance.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- shhopify scroll section -->
+
+    <section>
+      <div class="container text-center">
+        <p class="phase-titele mainheading-global">
+          <span class="br-toggle">Explore Our Core Services That </span>
+          <span class="br-toggle">Power Digital Growth</span>
+        </p>
+        <p class="text-muted subtitle-contetn">
+          <span class="br-toggle"
+            >From building online stores to boosting brand visibility,</span
+          >
+          <span class="br-toggle"> our core services are built to drive business success.</span>
+        </p>
+      </div>
+
+      <div class="container mt-4 custom-scroll-height">
+        <a
+          href="shopify-service.html"
+          class="text-decoration-none text-dark scrollable-card"
+        >
+          <div class="row integration-card animate__animated shadow">
+            <div
+              class="col-lg-4 d-flex flex-column justify-content-center card-left"
+            >
+              <p class="mb-2 card-title ms-4 me-5">Shopify</p>
+              <p class="mb-3 ms-4 me-4 integration-card-content">
+                Boost speed, mobile usability, and sales with a high-performing Shopify storefront built for conversions.
+              </p>
+              <button
+                class="btn btn-custom ms-3 align-self-lg-start align-self-center"
+              >
+              Learn More
+              </button>
+            </div>
+
+            <div class="col-lg-8 p-0">
+              <img
+                src="assets/images/shopify.png"
+                alt="Shopify"
+                class="img-fluid feature-image "
+              />
+            </div>
+          </div>
+        </a>
+        <a
+          href="salesforces-service.html"
+          class="text-decoration-none text-dark scrollable-card"
+        >
+          <div class="row integration-card animate__animated shadow">
+            <div
+              class="col-lg-4 d-flex flex-column justify-content-center card-left"
+            >
+              <h5 class="mb-2 card-title ms-4 me-5">Salesforce</h5>
+              <p class="mb-3 ms-4 me-4 integration-card-content">
+                Streamline CRM workflows and improve lead management to close deals faster and boost efficiency.
+              </p>
+              <button
+                class="btn btn-custom ms-3 align-self-lg-start align-self-center"
+              >
+                Learn More
+              </button>
+            </div>
+            <div class="col-lg-8 p-0">
+              <img
+                src="assets/images/salesforce.png"
+                alt="Salesforce"
+                class="img-fluid feature-image"
+              />
+            </div>
+          </div>
+        </a>
+
+        <a
+          href="email-marketing.html"
+          class="text-decoration-none text-dark scrollable-card"
+        >
+          <div class="row integration-card animate__animated shadow">
+            <div
+              class="col-lg-4 d-flex flex-column justify-content-center card-left"
+            >
+              <h5 class="mb-2 card-title ms-4 me-5">Email Marketing</h5>
+              <p class="mb-3 ms-4 me-4 integration-card-content">
+                Increase sales with engaging, well-designed email campaigns that connect with your audience.
+              </p>
+              <button
+                class="btn btn-custom ms-3 align-self-lg-start align-self-center"
+              >
+                Learn More
+              </button>
+            </div>
+            <div class="col-lg-8 p-0">
+              <img
+                src="assets/images/emailmarketing.png"
+                alt="Email Marketing"
+                class="img-fluid feature-image"
+              />
+            </div>
+          </div>
+        </a>
+
+        <a
+          href="digital-marketing.html"
+          class="text-decoration-none text-dark scrollable-card"
+        >
+          <div class="row integration-card animate__animated shadow">
+            <div
+              class="col-lg-4 d-flex flex-column justify-content-center card-left"
+            >
+              <h5 class="mb-2 card-title ms-4 me-5">Digital Marketing</h5>
+              <p class="mb-3 ms-4 me-4 integration-card-content">
+                Enhance your brand’s online presence and drive growth with targeted digital marketing strategies.
+              </p>
+              <button
+                class="btn btn-custom ms-3 align-self-lg-start align-self-center"
+              >
+                Learn More
+              </button>
+            </div>
+            <div class="col-lg-8 p-0">
+              <img
+                src="assets/images/digitalmarketing.png"
+                alt="Digital Marketing"
+                class="img-fluid feature-image"
+              />
+            </div>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section class="container py-5 transformative-main">
+      <div class="scroll-section">
+        <h2 class="section-title mainheading-global">
+          <span class="mainheding-color">What Our Clients </span>Say About<br />
+          Mavix Tech
+        </h2>
+        <p class="section-subtitle subtitle-contetn text-muted mt-4">
+          Discover how Mavix Tech’s Business Technology Solutions have transformed businesses and fueled growth.
+        </p>
+      </div>
+
+      <div class="d-flex flex-wrap p-2 p-lg-0 g-3 mt-5">
+        <!-- Testimonial 1 -->
+        <div class="col-md-6 col-lg-4 mb-2 mb-lg-0 p-0 p-lg-2">
+          <div
+            class="testimonial-card scroll-section"
+            data-animation="animate__fadeInUp"
+            data-delay="0s"
+          >
+            <div class="testimonial-quote mb-3">
+              <img src="assets/images/Vector.png" alt="" />
+            </div>
+            <p>
+              Mavix Tech delivers innovative Business Technology Solutions designed to drive results across key industries.
+            </p>
+            <div class="client-info">
+              <img src="assets/images/Transformative1.png" alt="Client 1" />
+              <div class="d-block mt-4">
+                <p class="user-name">Alex Johnson</p>
+                <p class="user-detail">CTO at TechInnovate</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimonial 2 -->
+        <div class="col-md-6 col-lg-4 mb-2 mb-lg-0 p-0 p-lg-2">
+          <div
+            class="testimonial-card scroll-section"
+            data-animation="animate__fadeInUp"
+            data-delay="0.1s"
+          >
+            <div class="testimonial-quote mb-3">
+              <img src="assets/images/Vector.png" alt="" />
+            </div>
+            <p>
+              Mavix Tech transformed our outdated online store into a sleek,
+              high-converting Shopify website. Their team was professional,
+              fast,
+            </p>
+            <div class="client-info">
+              <img src="assets/images/Transformative2.png" alt="Client 2" />
+              <div class="d-block mt-4">
+                <p class="user-name">Emily Davis</p>
+                <p class="user-detail">Marketing Director at RetailPulse</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimonial 3 -->
+        <div class="col-md-6 col-lg-4 mb-2 mb-lg-0 p-0 p-lg-2">
+          <div
+            class="testimonial-card scroll-section"
+            data-animation="animate__fadeInUp"
+            data-delay="0.2s"
+          >
+            <div class="testimonial-quote mb-3">
+              <img src="assets/images/Vector.png" alt="" />
+            </div>
+            <p>
+              The email marketing campaigns Mavix Tech created were not only
+              beautiful but highly effective. Our open rates improved by 45%.
+            </p>
+            <div class="client-info">
+              <img src="assets/images/Transformative3.png" alt="Client 3" />
+              <div class="d-block mt-4">
+                <p class="user-name">Michael Lee</p>
+                <p class="user-detail">CTO at TechInnovate</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimonial 4 -->
+        <div class="col-md-6 col-lg-4 mb-2 mb-lg-0 p-0 p-lg-2">
+          <div
+            class="testimonial-card scroll-section"
+            data-animation="animate__fadeInUp"
+            data-delay="0.3s"
+          >
+            <div class="testimonial-quote mb-3">
+              <img src="assets/images/Vector.png" alt="" />
+            </div>
+            <p>
+              We needed someone to untangle our Salesforce mess—and Mavix Tech
+              delivered beyond expectations. They customized CRM,
+            </p>
+            <div class="client-info">
+              <img src="assets/images/Transformative4.png" alt="Client 4" />
+              <div class="d-block mt-4">
+                <p class="user-name">Sarah Martinez</p>
+                <p class="user-detail">
+                  Operations Manager at Visionary Studios
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimonial 5 -->
+        <div class="col-md-6 col-lg-4 mb-2 mb-lg-0 p-0 p-lg-2">
+          <div
+            class="testimonial-card scroll-section"
+            data-animation="animate__fadeInUp"
+            data-delay="0.4s"
+          >
+            <div class="testimonial-quote mb-3">
+              <img src="assets/images/Vector.png" alt="" />
+            </div>
+            <p>
+              We needed someone to untangle our Salesforce mess—and Mavix Tech
+              delivered beyond expectations. They customized CRM,
+            </p>
+            <div class="client-info">
+              <img src="assets/images/Transformative5.png" alt="Client 5" />
+              <div class="d-block mt-4">
+                <p class="user-name">James Wilson</p>
+                <p class="user-detail">
+                  Customer Experience Lead at BrightPath
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimonial 6 -->
+        <div class="col-md-6 col-lg-4 mb-2 mb-lg-0 p-0 p-lg-2">
+          <div
+            class="testimonial-card scroll-section"
+            data-animation="animate__fadeInUp"
+            data-delay="0.5s"
+          >
+            <div class="testimonial-quote mb-3">
+              <img src="assets/images/Vector.png" alt="" />
+            </div>
+            <p>
+              We needed someone to untangle our Salesforce mess—and Mavix Tech
+              delivered beyond expectations. They customized CRM,
+            </p>
+            <div class="client-info">
+              <img src="assets/images/Transformative6.png" alt="Client 6" />
+              <div class="d-block mt-4">
+                <p class="user-name">John Thompson</p>
+                <p class="user-detail">IT Director at SuccessNet Solutions</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- advanced features section -->
+    <section class="scroll-section">
+      <div id="home-advanced-features" class=""></div>
+
+      <div class="hero-btn d-flex gap-3 justify-content-center flex-wrap">
+        <button class="btn btn-get-started">Get Started</button>
+        <button
+          class="btn btn-learn-more btn-learn-more-bottom blob-btn text-dark"
+        >
+          Learn More
+          <span class="btn-learn-more-arrow ms-2"
+            ><i class="bi bi-arrow-right"></i
+          ></span>
+          <span class="blob-btn__inner">
+            <span class="blob-btn__blobs">
+              <span class="blob-btn__blob"></span>
+              <span class="blob-btn__blob"></span>
+              <span class="blob-btn__blob"></span>
+              <span class="blob-btn__blob"></span>
+            </span>
+          </span>
+        </button>
+      </div>
+    </section>
+
+    <section class="container contact-container py-5">
+      <div class="text-center mb-4 scroll-section">
+        <h2 class="mainheading-global">
+          <span class="mainheding-color">Contact</span> us
+        </h2>
+        <p class="text-muted subtitle-contetn">
+          We’re here to help—-share your thoughts or<br />
+          inquiries with us, and we’ll get back to you <br />
+          soon!
+        </p>
+      </div>
+      <div class="row g-lg-4 d-flex align-items-start">
+        <!-- Image -->
+        <div class="col-md-3 text-center">
+          <img
+            src="assets/images/woman.png"
+            alt="Woman with tablet"
+            class="img-fluid rounded-4 shadow-sm scroll-section"
+            data-animation="animate__fadeInUp"
+            data-delay="0s"
+          />
+          <div
+            class="card-custom mt-3 text-start scroll-section"
+            data-animation="animate__fadeInUp"
+            data-delay="0.1s"
+          >
+            <img
+              src="assets/images/location.png"
+              alt="Location icon"
+              class="mb-2"
+            />
+            <p class="mb-1 text-muted">Location</p>
+            <small>Office: 123 Maple Street, Springfield</small>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="col-md-6 flex-fill align-self-stretch">
+          <div
+            class="card-custom d-flex flex-column h-100 position-relative scroll-section"
+            data-animation="animate__fadeInUp"
+            data-delay="0.1s"
+          >
+            <form class="p-4 pt-5">
+              <div class="mb-4">
+                <label class="form-label small text-muted">NAME</label>
+                <input type="text" class="form-control" value="Jonnie Dawson" />
+              </div>
+              <div class="mb-4">
+                <label class="form-label small text-muted">EMAIL</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  value="hello@uiwiki.co"
+                />
+              </div>
+              <div class="mb-4">
+                <label class="form-label small text-muted">MESSAGE</label>
+                <textarea class="form-control" rows="6">
+I’d love to learn more about your services</textarea
+                >
+              </div>
+              <button type="submit" class="btn btn-custom px-4">
+                Send Message
+              </button>
+            </form>
+            <div
+              class="position-absolute arrow-custom top-100 start-70 translate-middle"
+            >
+              <img
+                src="assets/images/letter_send 1.png"
+                alt="Arrow pointing to form"
+                class="img-fluid arrow-image"
+              />
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="col-md-3 flex-fill align-self-stretch">
+          <div class="d-flex flex-column h-100 justify-content-between">
+            <div
+              class="card-custom mb-3 flex-grow-1 scroll-section"
+              data-animation="animate__fadeInUp"
+              data-delay="0.1s"
+            >
+              <img src="assets/images/sms.png" alt="Phone icon" class="mb-2" />
+              <div class="mb-2"><strong>Email</strong></div>
+              <p class="text-muted mb-0 text-break">hello@uiwiki.co</p>
+            </div>
+            <div
+              class="card-custom mb-3 flex-grow-1 scroll-section"
+              data-animation="animate__fadeInUp"
+              data-delay="0.1s"
+            >
+              <img
+                src="assets/images/call.png"
+                alt="Phone icon"
+                class="mb-2"
+              />
+              <div class="mb-2"><strong>Phone</strong></div>
+              <p class="text-muted mb-0">Office: 6232 1151 261</p>
+            </div>
+            <div
+              class="card-custom flex-grow-1 scroll-section"
+              data-animation="animate__fadeInUp"
+              data-delay="0.1s"
+            >
+              <div class="mb-2"><strong>Live chat</strong></div>
+              <p class="text-muted mb-0">Available 24/7</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer position-relative">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-6 mb-5">
+            <div class="logo mb-3">
+              <img
+                src="assets/images/mavix_Logo.png"
+                alt="Logo"
+                class="nav-logo-img"
+              />
+            </div>
+            <!-- <p class="mt-4 footer-font logo-content">
+              Sparkly is your gateway to expert-led, accessible learning.
+              Empowering you with skills to succeed in a fast-changing world, we
+              offer courses designed to help you grow and achieve your goals at
+              your own pace.
+            </p> -->
+            <div class="back-to-top footer-font mt-5">
+              <span class="me-2">Back to top</span>
+              <a href="#" class="btn btn-light btn-sm">↑</a>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-2 mb-5">
+            <div class="mt-4">
+              <h5 class="footer-font-heading">Company</h5>
+              <ul
+                class="list-unstyled footer-font d-flex flex-column gap-3 mt-4"
+              >
+                <li>
+                  <a href="#" class="text-white text-decoration-none">Home</a>
+                </li>
+                <li>
+                  <a href="#" class="text-white text-decoration-none"
+                    >Mentors</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="text-white text-decoration-none"
+                    >About us</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-2 mb-5">
+            <div class="mt-4">
+              <h5 class="footer-font-heading">Support</h5>
+              <ul
+                class="list-unstyled footer-font d-flex flex-column gap-3 mt-4"
+              >
+                <li>
+                  <a href="#" class="text-white text-decoration-none"
+                    >Contact us</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="text-white text-decoration-none">Blogs</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-2 mb-5">
+            <div class="mt-4">
+              <h5 class="footer-font-heading">Courses</h5>
+              <ul
+                class="list-unstyled footer-font d-flex flex-column gap-3 mt-4"
+              >
+                <li>
+                  <a href="#" class="text-white text-decoration-none"
+                    >UI/UX Designing</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="text-white text-decoration-none"
+                    >Web Development</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="text-white text-decoration-none"
+                    >Data Visualization</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="text-white text-decoration-none"
+                    >Digital Marketing</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="text-white text-decoration-none">AI/ML</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <hr class="my-4 mb-5" />
+
+        <div
+          class="d-flex flex-column flex-md-row justify-content-between align-items-center"
+        >
+          <p class="mb-2 mb-md-0 footer-font">
+            © Sparkly Inc. All Rights Reserved.
+          </p>
+          <ul class="footer-social-media-ul social-icons">
+            <li>
+              <a href="#"><i class="bi bi-twitter-x icon"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="bi bi-facebook icon"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="bi bi-instagram icon"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="bi bi-linkedin icon"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <img
+        src="assets/images/Ellipse.png"
+        alt="Background Glow"
+        class="ellipse-img left-img"
+      />
+      <img
+        src="assets/images/Ellipse.png"
+        alt="Background Glow"
+        class="ellipse-img right-img"
+      />
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- jQuery and Slick -->
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <!-- Dynamic content loader -->
+    <script src="/assets/js/homepage/home.js" defer></script>
+
+    <!-- Scroll animation script (reusable) -->
+    <script type="module">
+      import { initScrollAnimations } from "/assets/utils/scroll-animations.js";
+
+      window.addEventListener("DOMContentLoaded", () => {
+        initScrollAnimations(); // you can pass options here if needed
+      });
+    </script>
+  </body>
+</html>

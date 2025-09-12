@@ -1,0 +1,19 @@
+.contact-section1 {
+     background-color: #0B1E3F !important;
+     color: white;
+     padding-top: 5% !important;
+}
+
+ .contact-section1 h2 {
+     font-size: 2.5rem;
+     font-weight: bold;
+ }
+
+ .contact-section1 p {
+     font-size: 1rem;
+     opacity: 0.8;
+ }
+
+ .contactus-header {
+     padding-bottom: 8% !important;
+ }

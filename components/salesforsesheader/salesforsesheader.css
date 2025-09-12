@@ -1,0 +1,75 @@
+.salesforce-main {
+  background-color: #06143b;
+  color: white;
+}
+
+.highlight {
+  color: #f8469d;
+}
+
+.service-icon {
+  width: 28px;
+  height: 28px;
+}
+
+.services-list li {
+  margin-bottom: 15px !important;
+  display: flex;
+  align-items: center;
+}
+
+.form-container {
+  background-color: #1c2b5c;
+  border-radius: 10px;
+  padding: 30px;
+  color: #fff;
+}
+
+.form-control::placeholder {
+  font-size: 0.9rem;
+}
+
+.btn-submit {
+  background-color: #ec4899 !important;
+  border: none;
+  color: #fff !important;
+  font-weight: 600;
+}
+
+.btn-submit:hover {
+  background-color: #d53f8b;
+}
+
+.section-title {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.salse-header-arrow {
+  top: 76% !important;
+  height: 44% !important;
+  left: 56% !important;
+  width: auto !important;
+}
+
+@media screen and (max-width: 768px) {
+  .salse-header-arrow {
+    top: 92% !important;
+    left: 17% !important;
+    height: 19% !important;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .salse-header-arrow {
+    height: 12% !important;
+    top: 96% !important;
+    left: 3% !important;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .salse-header-arrow {
+    width: 54% !important;
+  }
+}

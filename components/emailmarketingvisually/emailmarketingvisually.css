@@ -1,0 +1,139 @@
+.heding-color {
+  color: #ec4899;
+}
+
+.heading-global {
+  font-weight: 600;
+  font-size: 36px;
+  font-family: "Poppins", sans-serif;
+  color: #030712;
+}
+
+.subheading-global {
+  font-weight: 400;
+  font-size: 16px;
+  font-family: "DM Sans", sans-serif;
+  color: #030712;
+}
+
+.email-marketing-content {
+  font-weight: 400;
+  font-size: 16px;
+  font-family: "DM Sans", sans-serif;
+  color: #4b575e;
+}
+
+.email-marketing-btn {
+  border: none;
+  background-color: #ec4899;
+  padding: 14px 34px;
+  color: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+.email-marketing-btn:hover {
+  background-color: #d63384;
+}
+
+.section-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.highlight {
+  color: #ec3ba2;
+}
+
+.feature-icon {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.feature-heading {
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.feature-text {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.check-list {
+  padding-left: 1.5rem;
+}
+.check-list li {
+  list-style: none;
+  position: relative;
+  padding-left: 24px;
+  margin-bottom: 8px;
+}
+.check-list li::before {
+  content: "✔";
+  color: #28a745;
+  font-size: 0.9rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.emailmarketing-underline-img {
+  position: absolute;
+  bottom: -6px;
+  left: 0;
+  width: 100%;
+  height: auto;
+  pointer-events: none;
+  z-index: -1;
+}
+
+.emailmarketing-pixelperfect-img {
+  position: absolute;
+  bottom: 40px; 
+  left: 220px;
+  width: 100%;
+  max-width: 250px; /* control size */
+  height: auto;
+  pointer-events: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .emailmarketing-pixelperfect-img {
+    top: 25%;
+    right: 20%;
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .emailmarketing-pixelperfect-img {
+    top: 40%;
+    left: 30%;
+    right: auto;
+    width: 49%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .emailmarketing-underline-img {
+    bottom: -4px;
+    width: 95%;
+    left: 2%;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .emailmarketing-underline-img {
+    bottom: -3px;
+    width: 90%;
+    left: 5%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .emailmarketing-pixelperfect-img {
+    top: 40%;
+  }
+}

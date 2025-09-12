@@ -1,0 +1,180 @@
+/* Typography */
+.heding-color {
+  color: #ec4899;
+}
+
+.heading-global {
+  font-weight: 600;
+  font-size: 36px;
+  font-family: "Poppins", sans-serif;
+  color: #030712;
+  line-height: 1.3;
+}
+
+.subheading-global {
+  font-weight: 400;
+  font-size: 16px;
+  font-family: "DM Sans", sans-serif;
+  color: #030712;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  background-color: #fff;
+  color: #0c1635;
+}
+
+/* Card styles */
+.card-title1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  color: #0b1e3f;
+  line-height: 28px;
+  width: 80%;
+}
+
+.card-numbersystem {
+  height: 10%;
+  width: 14%;
+  border: 1.5px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-text {
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #000000;
+  font-weight: 400;
+}
+
+.section-title {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.highlight-pink {
+  color: #ff4fcb;
+}
+
+.card-custom {
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+  padding: 25px;
+  height: 100%;
+}
+
+.card-custom h6 {
+  font-size: 14px;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.card-custom h5 {
+  font-weight: 700;
+  color: #0c1635;
+}
+
+.card-custom p {
+  font-size: 15px;
+  color: #4a4a4a;
+  margin-top: 10px;
+}
+
+.card-numbersystem-card {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.card-nmber1 {
+  border: 1.5px solid black;
+  height: 33px;
+  width: 33px;
+}
+
+/* ✅ Shopify migrate underline image */
+.shopify-migrate-img {
+  position: absolute;
+  bottom: -8px; /* underline sits just below text */
+  left: 0;
+  width: 100%; /* matches word width */
+  height: auto;
+  pointer-events: none;
+  z-index: -1; /* goes behind the text */
+}
+
+/* Remove old conflicting class */
+.migrate1-service-img-header {
+  display: none; /* deprecated – no longer used */
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+  .shopify-migrate-img {
+    bottom: -6px;
+    width: 95%;
+    left: 2%;
+  }
+}
+
+@media (max-width: 767px) {
+  .section-title {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .card-custom {
+    margin-bottom: 20px;
+    border: 1px solid #0b1e3f;
+  }
+
+  .card-title1 {
+    width: 100%;
+  }
+
+  .shopify-migrate-img {
+    bottom: -5px;
+    width: 92%;
+    left: 4%;
+  }
+}
+
+@media (max-width: 576px) {
+  .shopify-migrate-img {
+    bottom: -4px;
+    width: 90%;
+    left: 5%;
+  }
+}
+
+@media (max-width: 425px) {
+  .shopify-migrate-img {
+    bottom: -3px;
+    width: 85%;
+    left: 7%;
+  }
+}
+
+@media (max-width: 320px) {
+  .card-title1 {
+    width: 100%;
+  }
+
+  .shopify-migrate-img {
+    bottom: -3px;
+    width: 80%;
+    left: 10%;
+  }
+}

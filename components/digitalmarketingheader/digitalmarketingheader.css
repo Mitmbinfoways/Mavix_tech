@@ -1,0 +1,190 @@
+.hero-section {
+    background-color: #0B1E3F;
+    padding-top: 150px;
+    padding-bottom: 80px;
+    overflow: hidden;
+
+}
+
+.hero-bg-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    pointer-events: none;
+}
+
+
+.hero-heading {
+    position: relative;
+    z-index: 1;
+
+}
+
+
+.hero-heading p {
+    font-weight: 700;
+    font-size: 76px;
+    color: #ffffff !important;
+    line-height: 1.2;
+}
+
+.hero-heading-effect {
+    color: #ec4899;
+}
+
+/* Responsive text */
+@media (max-width: 992px) {
+    .hero-heading p {
+        font-size: 48px;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero-heading p {
+        font-size: 36px;
+    }
+}
+
+/* Button styles */
+.hero-btn {
+    margin-top: 60px;
+}
+
+/* .btn-get-started {
+    background-color: #EC4899;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-weight: 500;
+}
+
+.btn-get-started:hover {
+    background-color: #e91e63;
+    color: white;
+} */
+
+.btn-learn-more {
+    color: white;
+    border: 2px solid #ff4081;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-weight: 700;
+}
+
+.btn-learn-more:hover {
+    background-color: #ff4081;
+    color: white;
+}
+
+.hero-text {
+    margin-top: 12%;
+    color: white;
+    text-align: center;
+}
+
+/* Company Logos */
+.hero-image {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 120px !important;
+    padding: 0 16px;
+}
+
+.hero-image img {
+    max-width: 120px;
+    height: auto;
+}
+
+@media (min-width: 768px) {
+    .hero-image {
+        justify-content: space-evenly;
+    }
+
+    .hero-image img {
+        max-width: 140px;
+    }
+}
+
+@media (min-width: 992px) {
+    .hero-image img {
+        max-width: 160px;
+    }
+}
+
+.bg-svg img {
+    top: 0;
+    left: 0;
+    height: 50%;
+}
+
+/* ---------------------------------------------- */
+
+
+.email-form {
+    max-width: 400px;
+    margin: 30px auto 0;
+    background-color: #f3f4ff;
+    border-radius: 50px;
+    padding: 6px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.05);
+}
+
+.email-form input {
+    border: none;
+    outline: none;
+    background: transparent;
+    flex-grow: 1;
+    padding: 10px 15px;
+    font-size: 14px;
+    border-radius: 50px;
+    color: #333;
+}
+
+.email-form button {
+    background: #EC4899;
+    color: #fff;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+@media (max-width: 576px) {
+
+    .email-form {
+        padding: 1%;
+        border-radius: 30px;
+    }
+
+    .email-form input[type="email"],
+    .email-form button {
+        padding: 0.6rem 1rem;
+        font-size: 0.9rem;
+        border-radius: 25px;
+    }
+}
+@media screen and (max-width: 320px) {
+   
+     .email-form {
+        /* padding: 1%; */
+        border-radius: 30px;
+    }
+
+    .email-form input[type="email"],
+    .email-form button {
+        padding: 8px 8px;
+        font-size: 0.9rem;
+        border-radius: 25px;
+    }
+}

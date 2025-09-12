@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@100..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100..900&display=swap");
+
+body {
+  background-color: white;
+}
+
+/* Headings */
+.heding-color {
+  color: #ec4899;
+}
+
+.heading-global {
+  font-weight: 600;
+  font-size: 36px;
+  font-family: "Poppins", sans-serif;
+  color: #030712;
+  line-height: 1.3;
+}
+
+.subheading-global {
+  font-weight: 400;
+  font-size: 16px;
+  font-family: "DM Sans", sans-serif;
+  color: #000000;
+}
+
+/* Content */
+.shopifysolution-content {
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Highlight underline image */
+.mainheding-color {
+  position: relative; /* parent for underline */
+}
+
+.services-list span {
+  display: inline-block;
+  margin: 0.5rem 1.5rem 0.5rem 0;
+  border-bottom: 2px solid #000;
+  font-size: 0.95rem;
+  white-space: nowrap;
+}
+
+.serviceblock-title {
+  font-family: "Poppins", sans-serif;
+  color: #000000;
+  font-size: 21px;
+  font-weight: 600;
+}
+
+.serviceblock-right {
+  margin-bottom: 10%;
+}
+
+@media (max-width: 992px) {
+  .shopifysolution-content {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .serviceblock-right {
+    padding: 24px;
+  }
+}
+
+@media (max-width: 576px) {
+  .heading-global {
+    font-size: 22px;
+    line-height: 1.4;
+  }
+  .subheading-global {
+    font-size: 14px;
+  }
+  .serviceblock-title {
+    font-size: 18px;
+  }
+  .services-list span {
+    font-size: 13px;
+    padding-bottom: 0.15rem;
+    border-bottom: 1px solid #333;
+  }
+}

@@ -1,0 +1,66 @@
+.card-custom {
+  border-radius: 1rem;
+  box-shadow: 0 10px 16px rgb(215, 213, 213) !important;
+  padding: 1.5rem;
+}
+
+.btn-custom {
+  background-color: #0c1b3c;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer !important;
+}
+
+.btn-custom:hover {
+  background-color: #1f2d4d;
+  color: white;
+  cursor: pointer !important;
+}
+
+.heading-global {
+  font-family: Poppins, sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+}
+
+.sub-heading-global {
+  font-family: Dm Sans, sans-serif;
+  line-height: 28px;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.heading-colored {
+  color: #ef2c84;
+  font-weight: bold;
+}
+
+.form-control {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  border-radius: 0;
+  padding-left: 0;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-bottom: 1px solid #000;
+}
+
+.shape-image {
+  top: 300;
+}
+
+.arrow-custom {
+  position: absolute;
+  cursor: pointer !important;
+  top: 8%;
+  transform: translateX(-50%);
+}
+
+@media (max-width: 768px) {
+  .card-custom {
+    border: 1px solid gray;
+    box-shadow: none !important;
+  }
+}

@@ -1,0 +1,129 @@
+body {
+  background-color: #f9f9f9;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.section-title span {
+  color: #e91e63;
+}
+
+.highlight-heading span {
+  display: inline-block;
+  position: relative;
+  background-image: url("https://pluspng.com/img-png/line-png-hd-decorative-line-black-free-png-image-png-image-200.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom center;
+  padding-bottom: 1em;
+  color: #e91e63;
+}
+
+.card-custom {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+  height: 100%;
+}
+
+.icon-box {
+  font-size: 1.8rem;
+  color: #4a4a4a;
+  margin-bottom: 10px;
+}
+
+.cta-section {
+  background-color: #051d4d;
+  color: white;
+  border-radius: 12px 0px 0px 12px;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+.cta-btn {
+  background-color: transparent;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: 2px solid white;
+}
+
+.cta-btn:hover {
+  background-color: white;
+  color: #06142e !important;
+  transition: all 0.3s ease;
+}
+
+.cta-image {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 0px 12px 12px 0px;
+}
+
+.cta-image img {
+  max-width: 100%;
+  /* border-radius: 12px; */
+  padding: 4% !important;
+}
+
+.bussiness-potential-card-title {
+  font-weight: 600 !important;
+  font-size: 28px !important;
+  color: #ffffff !important;
+  font-family: "Poppins", sans-serif !important;
+}
+
+.shopify-underline-img {
+  position: absolute;
+  bottom: -24px; /* places it just below the text */
+  left: 0;
+  width: 100%; /* matches word width */
+  height: auto;
+  pointer-events: none;
+  z-index: -1; 
+}
+
+.subcontainet-global-header:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .bussiness-potential-card-title {
+    font-size: 25px !important;
+  }
+
+  .shopify-underline-img {
+    bottom: -4px;
+    width: 95%;
+    left: 2%;
+  }
+}
+@media screen and (max-width: 490px) {
+  .shopify-underline-img {
+    bottom: -3px;
+    width: 90%;
+    left: 5%;
+  }
+}
+@media screen and (max-width: 426px) {
+  .card-custom {
+    padding: 12px !important;
+  }
+
+  .bussiness-potential-card-title {
+    font-size: 22px !important;
+  }
+}
+
+@media screen and (max-width: 396px) {
+  .card-custom {
+    padding: 12px;
+  }
+}
+

@@ -1,0 +1,222 @@
+.avatar-container {
+    width: 80px;
+    height: 80px;
+    background-color: #313035;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+/* Testimonial card style */
+.testimonial-card {
+    border-radius: 1rem;
+    background-color: #f9f9f9;
+    padding: 2rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    /* max-width: 100%; */
+}
+
+.testimonial-quote {
+    font-size: 16px;
+    color: #333;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    padding: 0 15%;
+}
+
+.testimonial-name {
+    font-weight: 700;
+    margin-top: 24px;
+    font-family: "DM Sans", sans-serif;
+    line-height: 21px !important;
+    color: #000000;
+}
+
+.testimonial-title {
+    font-size: 14px;
+    font-family: "DM Sans", sans-serif;
+    color: #090909;
+    font-weight: 400;
+}
+
+/* Left Section */
+.heading-global {
+    font-weight: 600;
+    font-size: 36px;
+    font-family: "Poppins", sans-serif;
+    color: #030712;
+}
+
+.heding-color {
+    color: #EC4899;
+}
+
+.subheading-global {
+    font-weight: 400;
+    font-size: 16px;
+    font-family: "DM Sans", sans-serif;
+    color: #00000066;
+}
+
+/* Arrows */
+.arrow-btn {
+    border: none;
+    background: transparent;
+    /* font-size: 1.2rem; */
+    /* margin-right: 1rem; */
+}
+
+/* Container Padding */
+.voices-containt {
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+.avatar123 {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    padding: 0px !important;
+    position: relative;
+    top: -10px !important;
+    display: flex;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+
+
+
+
+
+/* ---------- Responsive Styling ---------- */
+@media (max-width: 992px) {
+    .heading-global {
+        font-size: 30px;
+    }
+
+    .subheading-global {
+        font-size: 15px;
+    }
+
+    .testimonial-quote {
+        font-size: 16px;
+        padding: 0 8%;
+    }
+
+    .testimonial-name {
+        font-size: 16px;
+    }
+
+    .testimonial-title {
+        font-size: 13px;
+    }
+
+    .avatar-container {
+        width: 60px;
+        height: 60px;
+    }
+
+    .avatar123 {
+        width: 100%;
+        height: 100px;
+        object-fit: cover;
+        padding: 0px !important;
+        position: relative;
+        top: -10px !important;
+        display: flex;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .heading-global {
+        font-size: 26px;
+    }
+
+    .subheading-global {
+        font-size: 14px;
+    }
+
+    .testimonial-quote {
+        font-size: 15px;
+        padding: 0 5%;
+    }
+
+    .testimonial-name {
+        font-size: 15px;
+    }
+
+    .testimonial-title {
+        font-size: 12px;
+    }
+
+    .avatar-container {
+        width: 50px;
+        height: 50px;
+    }
+
+    .avatar123 {
+        width: 100%;
+        height: 60px;
+        object-fit: cover;
+        padding: 0px !important;
+        position: relative;
+        top: -5px !important;
+        display: flex;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .heading-global {
+        font-size: 22px;
+    }
+
+    .subheading-global {
+        font-size: 13px;
+    }
+
+    .testimonial-quote {
+        font-size: 14px;
+        padding: 0 3%;
+    }
+
+    .testimonial-name {
+        font-size: 14px;
+    }
+
+    .testimonial-title {
+        font-size: 11px;
+    }
+
+    .avatar-container {
+        width: 40px;
+        height: 40px;
+    }
+
+    .avatar123 {
+         width: 100%;
+        height: 50px;
+        object-fit: cover;
+        padding: 0px !important;
+        position: relative;
+        top: -5px !important;
+        display: flex;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+    .arrow-btn {
+        /* font-size: 1rem; */
+    }
+
+    .voices-containt {
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+}

@@ -1,0 +1,111 @@
+/* Navbar style starts here */
+.navbar {
+  background-color: #0b1e3f;
+}
+
+.logo {
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+  font-size: 36px;
+}
+
+.logo-span {
+  color: #033fff;
+}
+
+.navbar-brand {
+  color: #ffffff !important;
+}
+
+.navbar-nav a {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.nav-link {
+  color: #ffffff !important;
+}
+
+.navbar-toggler {
+  border-color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.8%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+.navbar > .container {
+  padding: 0 72px;
+}
+
+.dropdownmenu-item {
+  border-bottom: 1px solid gray;
+  padding: 4px 0px;
+}
+
+.nav-item ul {
+  border-radius: 10px !important;
+  /* box-shadow: 2px 4px rgb(221, 218, 218) !important; */
+  box-shadow: black 0px 5px 15px !important;
+
+  background-color: white;
+}
+.dropdown-item:focus {
+  background-color: #ffffff !important;
+  color: black !important;
+}
+.nav-main {
+  padding: 0% !important;
+}
+@media (max-width: 991px) {
+  .navbar > .container {
+    padding: 0 16px;
+  }
+}
+
+.navbar-btn {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.navbar-btn:hover {
+  background-color: #dc3187;
+  color: #ffffff;
+}
+
+.btn-brand {
+  background-color: #ec4899;
+  text-decoration: none;
+  color: #ffffff;
+  width: max-content;
+}
+
+/* Offcanvas styles */
+.offcanvas-header,
+.offcanvas-body {
+  background-color: #0b1e3f;
+}
+
+.btn-close {
+  filter: invert(1) grayscale(100%) brightness(200%) !important;
+}
+
+.offcanvas .btn-close:focus {
+  box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
+}
+
+.accordion-button-navbar {
+  height: 100% !important;
+  width: 100% !important;
+  background-color: #0b1e3f !important;
+  color: #ffffff !important;
+  border: none !important;
+  box-shadow: none !important;
+  display: flex !important;
+  align-items: start !important;
+  justify-content: start !important;
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  font-family: "DM Sans", sans-serif !important;
+}

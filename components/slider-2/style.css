@@ -1,0 +1,180 @@
+.slider2 {
+  width: 90%;
+  /* Increased from 500px for better responsiveness */
+  /* max-width: 1200px; */
+  /* Add max-width */
+  position: relative;
+  /* Add position relative */
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 20px 0;
+  /* Add padding to slider container */
+  visibility: visible;
+  /* Ensure visibility */
+}
+
+.slick-current h3 {
+  background: orange;
+}
+
+#slick-slide-control07 {
+  color: red;
+}
+
+.custom-card {
+  background-color: #011d4a;
+  color: white;
+  border-radius: 16px;
+  transition: transform 0.3s ease;
+  margin: 15px 20px;
+  /* Increased horizontal margin for better spacing */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  /* Add subtle shadow */
+  height: auto;
+  /* Set a fixed height */
+  width: 100%;
+  /* Ensure full width */
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  /* Add padding inside the card */
+  visibility: visible;
+  /* Ensure visibility */
+  opacity: 1;
+  /* Ensure opacity */
+}
+
+
+
+.custom-card img {
+  width: 100% !important;
+  height: 100% !important;
+  /* Set fixed height for images */
+  object-fit: cover;
+  border-radius: 8px;
+  /* Rounded corners for images */
+  margin-bottom: 10px;
+}
+
+.bussines-card-title {
+  color: #ffffff !important;
+  font-weight: 400 !important;
+  margin: 15px 0;
+  margin-bottom: 25px;
+  font-size: 21px !important;
+}
+
+.card-text {
+  color: #FBFBFB !important;
+  line-height: 24px;
+  font-size: 14px !important;
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+  /* Adjusted margin for better spacing */
+}
+.slick-dots li button{
+  height: 10px !important;
+  width: 10px !important;
+}
+/* Styles for the dots/navigation */
+/* Normal dots */
+.slick-dots li button:before {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 6px;
+  background-color: black;
+  /* Set to black */
+  border-radius: 10px;
+  opacity: 0.3;
+  transition: all 0.3s ease;
+}
+
+/* Active dot */
+.slick-dots li.slick-active button:before {
+  width: 50px;
+  background-color: black;
+}
+
+/* Fix card heights */
+.slider2 .slick-track {
+  display: flex !important;
+}
+
+.slider2 .slick-slide {
+  height: inherit !important;
+  display: flex !important;
+}
+
+.slider2 .slick-slide>div {
+  flex: 1;
+  display: flex;
+}
+
+/* remove this before putting it into main folder */
+.heding-color {
+  color: #ec4899;
+}
+
+.heading-global {
+  font-weight: 600 !important;
+  font-size: 36px !important;
+  font-family: "Poppins", sans-serif;
+  color: #030712 !important;
+}
+
+.subheading-global {
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  font-family: "DM Sans", sans-serif;
+  color: #030712 !important;
+}
+
+
+
+
+.custom-card {
+  background-color: #051D4D;
+  /* Dark navy blue */
+  border-radius: 20px;
+  color: white;
+  height: 100%;
+  padding: 0% !important;
+  margin: 2% !important;
+  
+}
+
+.image-wrapper1 {
+  width: 244px;
+  height: 160px;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 10px;
+  margin-top: 8% !important;
+}
+
+.card-img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-top: 10% !important;
+}
+
+.bussines-card-title {
+  font-weight: 600;
+  font-size: 18px;
+  margin: 0% !important;
+  padding-top: 20px !important;
+  color: #fff;
+}
+
+.card-text {
+  color: #9bbad3;
+  font-size: 14px;
+  margin-top: 8px;
+  margin-bottom: 25% !important;
+}
+

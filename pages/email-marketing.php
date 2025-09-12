@@ -1,0 +1,517 @@
+  <section>
+    <div class="hero-section overflow-hidden">
+      <div class="text-center scroll-section">
+        <div class="hero-heading position-relative">
+          <p>
+            Professional
+            <span class="hero-heading-effect">Email </span> <br> <span class="hero-heading-effect">Marketing
+            </span>Development <br> Company
+          </p>
+          <div class="position-absolute top-80 start-50 email-hero-bg-img translate-middle">
+            <img src="<?php echo $config['WEB_PATH'] ?>assets/images/homepage-hero-bg-gradient.png" class="email-tech-home-img">
+          </div>
+        </div>
+
+
+        <p class="text-light mt-3 mb-4  email-marketing-hero-subtext">
+          Stand out with beautifully designed, mobile-friendly email marketing services from a trusted email template
+          development company t hat drive real engagement and boost your brand visibility. Let us help you connect with
+          your audience effectively.
+        </p>
+
+        <div>
+          <a
+            href="https://mavixtech.com/contact-us"
+            class="navbar-btn px-4 py-2 rounded-pill btn-brand ms-lg-3 mt-3 mt-lg-0">Order Now</a>
+        </div>
+
+        <div class="logo-strip mt-5">
+          <img class="logo-img" src="<?php echo $config['WEB_PATH'] ?>assets/images/mbinfoways.png" alt="mbinfoways" />
+          <img class="logo-img" src="<?php echo $config['WEB_PATH'] ?>assets/images/comonics.png" alt="comonics" />
+          <img class="logo-img" src="<?php echo $config['WEB_PATH'] ?>assets/images/auxoinnovations.png" alt="auxo innovations" />
+          <img class="logo-img" src="<?php echo $config['WEB_PATH'] ?>assets/images/crucialpointagency.png" alt="crucialpointagency" />
+          <img class="logo-img" src="<?php echo $config['WEB_PATH'] ?>assets/images/bdg-logo.svg" alt="bdg logo" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="scroll-section">
+    <div class="py-5">
+      <div class="containers pad-right row mb-3 mb-md-0">
+        <div class="col-lg-6 scroll-section" data-animation="animate__fadeInUp" data-delay="0s">
+          <div class="email-marketing">
+            <p class="mainheading-global position-relative z-1">
+              Crafting
+              <span class="mainheding-color position-relative d-inline-block">
+                Visually
+                <img
+                  src="<?php echo $config['WEB_PATH'] ?>assets/images/ShopifyDevlopment.png"
+                  class="emailmarketing-underline-img d-none d-md-block"
+                  alt="Highlight Underline" />
+              </span>
+              Stunning <br class="d-none d-md-block"> Email Templates That Convert
+            </p>
+            <p class="mt-3 email-marketing-content emailmarketing-subcontent">We design engaging, mobile-friendly
+              email templates that enhance
+              your brand and increase customer interaction.</p>
+
+
+            <div class="d-flex mt-3 justify-content-start align-items-start gap-2">
+              <img class="check-icon" src="<?php echo $config['WEB_PATH'] ?>assets/images/blue.svg">
+              <p class="mainsubheading-global emailmarketing-subcontent ">Get beautifully crafted templates that reflect
+                your brand identity and drive better campaign performance, whether it's a newsletter HTML template or a
+                product marketing email template.</p>
+            </div>
+            <div class="d-flex mt-3 justify-content-start align-items-start gap-2">
+              <img class="check-icon" src="<?php echo $config['WEB_PATH'] ?>assets/images/blue.svg">
+
+              <p class="mainsubheading-global emailmarketing-subcontent">Ensure every email looks perfect on all screen
+                sizes with fully responsive, mobile-first designs—our specialty includes creating responsive email
+                templates and responsive newsletter templates optimized for all devices.</p>
+
+            </div>
+            <div class="d-flex mt-3 justify-content-start align-items-start gap-2">
+              <img class="check-icon" src="<?php echo $config['WEB_PATH'] ?>assets/images/blue.svg">
+              <p class="mainsubheading-global emailmarketing-subcontent">Build trust and conversions with layouts
+                optimized for readability, engagement, and clear call-to-actions.</p>
+            </div>
+
+            <a href="https://mavixtech.com/contact-us">
+              <button class="email-marketing-btn mt-3 mb-3 mb-lg-0">Contact us</button>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-6 d-flex justify-content-center align-items-center scroll-section"
+          data-animation="animate__fadeInUp" data-delay="0.2s">
+          <img src="<?php echo $config['WEB_PATH'] ?>assets/images/email-marketing-img1.jpg" class="img-fluid rounded-4">
+        </div>
+      </div>
+      <div class="containers pad-right row mt-md-5">
+        <div class="col-lg-6 d-flex justify-content-center align-items-center scroll-section"
+          data-animation="animate__fadeInUp" data-delay="0s">
+          <img src="<?php echo $config['WEB_PATH'] ?>assets/images/pixle_perfact.jpg" class="img-fluid rounded-4">
+        </div>
+        <div class="col-lg-6 scroll-section px-4" data-animation="animate__fadeInUp" data-delay="0.2s">
+          <p class="mainheading-global position-relative z-1 mt-4">Responsive, <span
+              class="mainheding-color">Pixel-Perfect
+              <img src="<?php echo $config['WEB_PATH'] ?>assets/images/ShopifyDevlopment.png"
+                class="position-absolute img-fluid emailmarketing-pixelperfect-img service-img-header z-1 d-none d-md-block"
+                alt="Highlight Underline"></span>
+            <br class="d-none d-md-block"> Email Coding
+
+          </p>
+          <p class="email-marketing-content emailmarketing-subcontent ">Our email marketing services include
+            clean, responsive code that
+            renders flawlessly across every major email platform.</p>
+
+          <div class="d-flex mt-3 justify-content-start align-items-start gap-2">
+            <img class="check-icon" src="<?php echo $config['WEB_PATH'] ?>assets/images/blue.svg">
+            <p class="mainsubheading-global emailmarketing-subcontent  "> Code tested across Outlook, Gmail,
+              Apple Mail, and more for
+              perfect cross-client compatibility</p>
+
+          </div>
+          <div class="d-flex mt-3 justify-content-start align-items-start gap-2">
+            <img class="check-icon" src="<?php echo $config['WEB_PATH'] ?>assets/images/blue.svg">
+            <p class="mainsubheading-global emailmarketing-subcontent  "> Responsive layouts built from scratch
+              to work beautifully on all
+              screen sizes and devices</p>
+
+          </div>
+          <div class="d-flex mt-3 justify-content-start align-items-start gap-2">
+            <img class="check-icon" src="<?php echo $config['WEB_PATH'] ?>assets/images/blue.svg">
+            <p class="mainsubheading-global emailmarketing-subcontent  ">Lightweight, well-structured HTML ensures fast
+              loading and optimal email deliverability—ideal for email advertising templates and more.</p>
+
+          </div>
+          <a href="https://mavixtech.com/contact-us">
+            <button class="email-marketing-btn mt-3">Start Collaborating</button>
+          </a>
+
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+  <div id="emailmarketing-service" class="scroll-section"></div>
+
+  <!-- <section class="">
+    <div class="container">
+      <p class="mainheading-global text-center mt-5 position-relative z-1 scroll-section"
+        data-animation="animate__fadeInUp" data-delay="0s">
+        <span class="mainheding-color">Powerful Tools</span> to Enhance <br class="d-none d-lg-block">
+        Every Email You Send
+        <img src="<?php echo $config['WEB_PATH'] ?>assets/images/ShopifyDevlopment.png"
+          class="position-absolute img-fluid email-markating-powerfooltool-img service-img-header z-1"
+          alt="Highlight Underline">
+      </p>
+
+      <div class="row text-center text-lg-start gy-5">
+        <div class="col-12 col-md-6 col-lg-3 scroll-section" data-animation="animate__fadeInUp" data-delay="0.2s">
+          <div class="feature-icon py-3"><img src="<?php echo $config['WEB_PATH'] ?>assets/images/email-tools-img1.png" class="img-fluid"> </div>
+          <div class="feature-heading">Grow</div>
+          <p class="feature-text mb-4 pe-5">Reach your audience and turn subscribers into customers</p>
+          <hr>
+          <div class="d-flex justify-content-start align-items-start gap-2">
+            <img src="<?php echo $config['WEB_PATH'] ?>assets/images/rigth-icon.png" class="img-fluid my-1">
+            <p class="mainsubheading-global">Unlimited landing pages</p>
+
+          </div>
+          <div class="d-flex justify-content-start align-items-start gap-2">
+            <img src="<?php echo $config['WEB_PATH'] ?>assets/images/rigth-icon.png" class="img-fluid my-1">
+            <p class="mainsubheading-global">Unlimited opt-in forms</p>
+
+          </div>
+          <div class="d-flex justify-content-start align-items-start gap-2">
+            <img src="<?php echo $config['WEB_PATH'] ?>assets/images/rigth-icon.png" class="img-fluid my-1">
+            <p class="mainsubheading-global">Landing page & form templates</p>
+
+          </div>
+          <div class="d-flex justify-content-start align-items-start gap-2">
+            <img src="<?php echo $config['WEB_PATH'] ?>assets/images/rigth-icon.png" class="img-fluid my-1">
+            <p class="mainsubheading-global">Newsletter feed & website</p>
+
+          </div>
+          <div class="d-flex justify-content-start align-items-start gap-2">
+            <img src="<?php echo $config['WEB_PATH'] ?>assets/images/rigth-icon.png" class="img-fluid my-1">
+            <p class="mainsubheading-global">Custom domain</p>
+
+          </div>
+          <div class="d-flex justify-content-start align-items-start gap-2">
+            <img src="<?php echo $config['WEB_PATH'] ?>assets/images/rigth-icon.png" class="img-fluid my-1">
+            <p class="mainsubheading-global">List growth reporting</p>
+
+          </div>
+          <div class="d-flex justify-content-start align-items-start gap-2">
+            <img src="<?php echo $config['WEB_PATH'] ?>assets/images/rigth-icon.png" class="img-fluid my-1">
+            <p class="mainsubheading-global">Creator Network</p>
+
+          </div>
+          <div class="d-flex justify-content-start align-items-start gap-2">
+            <img src="<?php echo $config['WEB_PATH'] ?>assets/images/rigth-icon.png" class="img-fluid my-1">
+            <p class="mainsubheading-global">Recommendations</p>
+
+          </div>
+
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 scroll-section" data-animation="animate__fadeInUp" data-delay="0.4s">
+          <div class="feature-icon py-3"><img src="<?php echo $config['WEB_PATH'] ?>assets/images/email-tools-img2.png"> </div>
+          <div class="feature-heading">Connect</div>
+          <p class="feature-text mb-4 pe-5">Create deeper connections that drive real results</p>
+          <hr>
+          <div class="d-flex justify-content-start align-items-start gap-2">
+            <img src="<?php echo $config['WEB_PATH'] ?>assets/images/rigth-icon.png" class="img-fluid my-1">
+            <p class="mainsubheading-global">Unlimited email sends</p>
+
+          </div>
+          <div class="d-flex justify-content-start align-items-start gap-2">
+            <img src="<?php echo $config['WEB_PATH'] ?>assets/images/rigth-icon.png" class="img-fluid my-1">
+            <p class="mainsubheading-global">Custom email templates</p>
+
+          </div>
+          <div class="d-flex justify-content-start align-items-start gap-2">
+            <img src="<?php echo $config['WEB_PATH'] ?>assets/images/rigth-icon.png" class="img-fluid my-1">
+            <p class="mainsubheading-global">Email template library</p>
+
+          </div>
+          <div class="d-flex justify-content-start align-items-start gap-2">
+            <img src="<?php echo $config['WEB_PATH'] ?>assets/images/rigth-icon.png" class="img-fluid my-1">
+            <p class="mainsubheading-global">Deliver opt-in incentives</p>
+
+          </div>
+          <div class="d-flex justify-content-start align-items-start gap-2">
+            <img src="<?php echo $config['WEB_PATH'] ?>assets/images/rigth-icon.png" class="img-fluid my-1">
+            <p class="mainsubheading-global">Subscriber tagging</p>
+
+          </div>
+          <div class="d-flex justify-content-start align-items-start gap-2">
+            <img src="<?php echo $config['WEB_PATH'] ?>assets/images/rigth-icon.png" class="img-fluid my-1">
+            <p class="mainsubheading-global">A/B split testing</p>
+
+          </div>
+          <div class="d-flex justify-content-start align-items-start gap-2">
+            <img src="<?php echo $config['WEB_PATH'] ?>assets/images/rigth-icon.png" class="img-fluid my-1">
+            <p class="mainsubheading-global">Conditional email content</p>
+
+          </div>
+          <div class="d-flex justify-content-start align-items-start gap-2">
+            <img src="<?php echo $config['WEB_PATH'] ?>assets/images/rigth-icon.png" class="img-fluid my-1">
+            <p class="mainsubheading-global">Resend unopened campaigns</p>
+          </div>
+          <div class="d-flex justify-content-start align-items-start gap-2">
+            <img src="<?php echo $config['WEB_PATH'] ?>assets/images/rigth-icon.png" class="img-fluid my-1">
+            <p class="mainsubheading-global">In-email polls</p>
+
+          </div>
+
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 scroll-section" data-animation="animate__fadeInUp" data-delay="0.6s">
+          <div class="feature-icon py-3"><img src="<?php echo $config['WEB_PATH'] ?>assets/images/email-tools-img3.png"> </div>
+          <div class="feature-heading">Design</div>
+          <p class="feature-text mb-4 pe-5">Expertly crafted emails by top designers.
+          </p>
+          <hr>
+          <div class="d-flex justify-content-start align-items-start gap-2">
+            <img src="<?php echo $config['WEB_PATH'] ?>assets/images/rigth-icon.png" class="img-fluid my-1">
+            <p class="mainsubheading-global">Mobile-responsive templates</p>
+
+          </div>
+          <div class="d-flex justify-content-start align-items-start gap-2">
+            <img src="<?php echo $config['WEB_PATH'] ?>assets/images/rigth-icon.png" class="img-fluid my-1">
+            <p class="mainsubheading-global">Clean, pixel-perfect design</p>
+
+          </div>
+          <div class="d-flex justify-content-start align-items-start gap-2">
+            <img src="<?php echo $config['WEB_PATH'] ?>assets/images/rigth-icon.png" class="img-fluid my-1">
+            <p class="mainsubheading-global">Dark mode support</p>
+
+          </div>
+          <div class="d-flex justify-content-start align-items-start gap-2">
+            <img src="<?php echo $config['WEB_PATH'] ?>assets/images/rigth-icon.png" class="img-fluid my-1">
+            <p class="mainsubheading-global">Drag-and-drop components</p>
+
+          </div>
+          <div class="d-flex justify-content-start align-items-start gap-2">
+            <img src="<?php echo $config['WEB_PATH'] ?>assets/images/rigth-icon.png" class="img-fluid my-1">
+            <p class="mainsubheading-global">Branded layout options</p>
+
+          </div>
+          <div class="d-flex justify-content-start align-items-start gap-2">
+            <img src="<?php echo $config['WEB_PATH'] ?>assets/images/rigth-icon.png" class="img-fluid my-1">
+            <p class="mainsubheading-global">Live preview testing</p>
+
+          </div>
+          <div class="d-flex justify-content-start align-items-start gap-2">
+            <img src="<?php echo $config['WEB_PATH'] ?>assets/images/rigth-icon.png" class="img-fluid my-1">
+            <p class="mainsubheading-global">Custom HTML compatibility</p>
+
+          </div>
+          <div class="d-flex justify-content-start align-items-start gap-2">
+            <img src="<?php echo $config['WEB_PATH'] ?>assets/images/rigth-icon.png" class="img-fluid my-1">
+            <p class="mainsubheading-global">Device optimization</p>
+
+          </div>
+
+
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 scroll-section" data-animation="animate__fadeInUp" data-delay="0.8s">
+          <div class="feature-icon py-3"><img src="<?php echo $config['WEB_PATH'] ?>assets/images/email-tools-img4.png"></div>
+          <div class="feature-heading">Monetize</div>
+          <p class="feature-text mb-4 pe-5">Unlock new revenue opportunities from every campaign
+            <hr>
+          </p>
+
+          <div class="d-flex justify-content-start align-items-start gap-2">
+            <img src="<?php echo $config['WEB_PATH'] ?>assets/images/rigth-icon.png" class="img-fluid my-1">
+            <p>Sell digital products</p>
+
+          </div>
+          <div class="d-flex justify-content-start align-items-start gap-2">
+            <img src="<?php echo $config['WEB_PATH'] ?>assets/images/rigth-icon.png" class="img-fluid my-1">
+            <p>Run paid newsletters</p>
+
+          </div>
+          <div class="d-flex justify-content-start align-items-start gap-2">
+            <img src="<?php echo $config['WEB_PATH'] ?>assets/images/rigth-icon.png" class="img-fluid my-1">
+            <p>Offer recurring subscriptions</p>
+
+          </div>
+          <div class="d-flex justify-content-start align-items-start gap-2">
+            <img src="<?php echo $config['WEB_PATH'] ?>assets/images/rigth-icon.png" class="img-fluid my-1">
+            <p>Setup virtual tip jars</p>
+
+
+          </div>
+          <div class="d-flex justify-content-start align-items-start gap-2">
+            <img src="<?php echo $config['WEB_PATH'] ?>assets/images/rigth-icon.png" class="img-fluid my-1">
+            <p>Email ad placements</p>
+
+          </div>
+          <div class="d-flex justify-content-start align-items-start gap-2">
+            <img src="<?php echo $config['WEB_PATH'] ?>assets/images/rigth-icon.png" class="img-fluid my-1">
+            <p>Paid Recommendations</p>
+
+          </div>
+          <div class="d-flex justify-content-start align-items-start gap-2">
+            <img src="<?php echo $config['WEB_PATH'] ?>assets/images/rigth-icon.png" class="img-fluid my-1">
+            <p>Affiliate links integration</p>
+
+          </div>
+          <div class="d-flex justify-content-start align-items-start gap-2">
+            <img src="<?php echo $config['WEB_PATH'] ?>assets/images/rigth-icon.png" class="img-fluid my-1">
+            <p>Promo code campaigns</p>
+
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+    </div>
+  </section> -->
+
+  <section class="email-providers-section py-4">
+    <div class="pad containers text-center">
+      <!-- Heading -->
+      <h2 class="mainheading-global">
+        WE SUPPORT <span class="mainheding-color">50+</span> EMAIL SERVICE PROVIDERS
+      </h2>
+
+      <!-- Logos Grid -->
+      <div class="row justify-content-center align-items-center mt-4 gy-4">
+        <!-- Provider Logos -->
+        <?php
+        $providers = [
+          "marketo.png",
+          "braze.png",
+          "kalviyo.png",
+          "hubspot.png",
+          "mailchimp.png",
+          "salesforce_p.png",
+          "salesforce_m.png",
+          "campaing.png",
+          "eloqua.png",
+          "iterable.png",
+          "yesmail.png",
+          "mailkit.svg",
+          "emma.png",
+          "epsilon.svg",
+          "emarsys.svg",
+          "fresh-mail.png"
+        ];
+
+        foreach ($providers as $provider) {
+          echo '
+            <div class="col-6 col-sm-3 pad">
+              <img src="' . $config['WEB_PATH'] . 'assets/images/' . $provider . '" 
+                   alt="Email Provider" 
+                   class="img-fluid provider-logo" />
+            </div>
+          ';
+        }
+        ?>
+      </div>
+    </div>
+  </section>
+
+
+  <div id="digitalmarketing-slider1" class="scroll-section"></div>
+
+  <!-- <div id="emailmarketing-service" class="scroll-section"> </div> -->
+
+  <section class="scroll-section">
+    <div class="container my-5 mt-5 ">
+      <div class="text-container mt-5 text-center position-relative">
+        <p class="mainheading-global d-inline-block position-relative">
+          <span class="highlight-wrapper position-relative d-inline-block">
+            <span class="mainheding-color">Frequently</span>
+            <img src="<?php echo $config['SITE_URL'] ?>assets/images/FrequentlyAsk Header.png"
+              class="position-absolute img-fluid frequentlyask-heading-img service-img-header z-1 d-none d-md-block"
+              alt="Highlight Underline" />
+          </span>
+          Asked Questions
+        </p>
+      </div>
+
+      <p class="text-center text-muted mt-3 mb-5">Find answers to common questions about our services, process, and
+        expertise.</p>
+
+      <div class="accordion frequently-main" id="faqAccordion">
+        <div class="accordion-item border-0 shadow-sm mb-2">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button mainsubheading-global   " type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              What are email marketing services?
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+            data-bs-parent="#faqAccordion">
+            <div class="accordion-body frequently-cont mainsubheading-global ">
+              Email marketing services involve designing and developing professional email templates for promotional and
+              transactional communication.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item border-0 shadow-sm mb-2">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button mainsubheading-global  collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Do you create custom email designs?
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+            data-bs-parent="#faqAccordion">
+            <div class="accordion-body frequently-cont mainsubheading-global ">
+              Yes, we design fully customized email template designs customized to your brand and campaign goals.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item border-0 shadow-sm mb-2">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button mainsubheading-global  collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Are your email templates mobile-friendly?
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+            data-bs-parent="#faqAccordion">
+            <div class="accordion-body frequently-cont mainsubheading-global ">
+              Absolutely! All our templates are responsive email templates optimized for mobile devices.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item border-0 shadow-sm mb-2">
+          <h2 class="accordion-header" id="headingFour">
+            <button class="accordion-button mainsubheading-global  collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+              Can I use these templates on any platform?
+            </button>
+          </h2>
+          <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+            data-bs-parent="#faqAccordion">
+            <div class="accordion-body frequently-cont mainsubheading-global ">
+              Yes, our templates are compatible with most major email platforms and created by expert html email
+              designers.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item border-0 shadow-sm mb-2">
+          <h2 class="accordion-header" id="headingFive">
+            <button class="accordion-button mainsubheading-global  collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+              How long does it take to deliver a template?
+            </button>
+          </h2>
+          <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+            data-bs-parent="#faqAccordion">
+            <div class="accordion-body frequently-cont mainsubheading-global ">
+              Typically, we deliver email templates within 3–5 business days.
+            </div>
+          </div>
+        </div>
+
+
+        <div class="accordion-item border-0 shadow-sm mb-2">
+          <h2 class="accordion-header" id="headingSix">
+            <button class="accordion-button mainsubheading-global  collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+              Can you match the template design to my brand?
+            </button>
+          </h2>
+          <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+            data-bs-parent="#faqAccordion">
+            <div class="accordion-body frequently-cont mainsubheading-global ">
+              Yes, we ensure each email design aligns with your brand's look and feel.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>

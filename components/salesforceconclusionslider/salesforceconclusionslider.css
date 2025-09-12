@@ -1,0 +1,417 @@
+body {
+
+
+
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+
+
+.slider4 {
+
+    width: 90%;
+
+    /* Increased from 500px for better responsiveness */
+
+    max-width: 1200px;
+
+    /* Add max-width */
+
+    position: relative;
+
+    /* Add position relative */
+
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    padding: 20px 0;
+
+    /* Add padding to slider container */
+
+    visibility: visible;
+
+    /* Ensure visibility */
+
+}
+
+
+
+.slick-current h3 {
+
+    background: orange;
+
+}
+
+
+
+#slick-slide-control07 {
+
+    color: red;
+
+}
+
+
+
+.custom-card-salesforce {
+
+    background-color: #ffffff;
+
+    color: #000000;
+
+    border-radius: 12px;
+
+    padding: 30px 25px;
+
+    margin: 20px 15px;
+
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: flex-start;
+
+    transition: transform 0.3s ease;
+
+}
+
+
+
+.customers-subtitle {
+
+    width: 82%;
+
+    padding-left: 15%;
+
+}
+
+
+
+
+
+
+
+.custom-card-salesforce:hover {
+
+    transform: translateY(-5px);
+
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.08);
+
+}
+
+
+
+.customer-card-title {
+
+    font-family: 'Poppins', sans-serif;
+
+    font-size: 18px !important;
+
+    font-weight: 600 !important;
+
+    margin-top: 20px !important;
+
+    margin-bottom: 15px;
+
+    color: #000000 !important;
+
+}
+
+
+
+.card-text {
+
+    font-family: 'DM Sans', sans-serif;
+
+    font-size: 14px;
+
+    line-height: 1.6;
+
+    color: #000000 !important;
+
+    font-weight: 400;
+
+}
+
+
+
+
+
+/* Styles for the dots/navigation */
+
+/* Normal dots */
+
+.slick-dots li button:before {
+
+    content: '';
+
+    display: inline-block;
+
+    width: 20px;
+
+    height: 6px;
+
+    background-color: black;
+
+    /* Set to black */
+
+    border-radius: 10px;
+
+    opacity: 0.3;
+
+    transition: all 0.3s ease;
+
+}
+
+
+
+/* Active dot */
+
+.slick-dots li.slick-active button:before {
+
+    width: 50px;
+
+    background-color: black;
+
+
+
+}
+
+
+
+
+
+/* Fix card heights */
+
+.slider4 .slick-track {
+
+    display: flex !important;
+
+
+
+}
+
+
+
+.slider4 .slick-slide {
+
+    height: inherit !important;
+
+    display: flex !important;
+
+}
+
+
+
+.slider4 .slick-slide>div {
+
+    flex: 1;
+
+    display: flex;
+
+}
+
+
+
+.custom-image {
+
+    height: 45px;
+
+    width: 45px;
+
+}
+
+
+
+
+
+
+
+
+
+/* remove this before putting it into main folder */
+
+.heding-color {
+
+    color: #EC4899;
+
+
+
+}
+
+
+
+.heading-global {
+
+    font-weight: 600 !important;
+
+    font-size: 36px !important;
+
+    font-family: "Poppins", sans-serif;
+
+    color: #030712 !important;
+
+
+
+}
+
+
+
+.subheading-global {
+
+    font-weight: 400 !important;
+
+    font-size: 16px !important;
+
+    font-family: "DM Sans", sans-serif;
+
+    color: #030712 !important;
+
+}
+
+
+
+/* This css For Number Style apllay Font Style Applay  */
+
+
+
+
+
+.customers-containe {
+
+    display: flex !important;
+
+    align-items: center !important;
+
+    justify-content: center !important;
+
+    text-align: center !important;
+
+    width: 58%;
+
+    margin: 0 auto;
+
+
+
+}
+
+
+
+.customers-containe p {
+
+    display: flex !important;
+
+    align-items: center !important;
+
+    justify-content: center !important;
+
+    display: inline-block;
+
+    text-align: left;
+
+    /* Optional: keep text block aligned left inside center */
+
+}
+
+
+
+.salseforce-consulting-services-img {
+
+    height: auto !important;
+
+    pointer-events: none;
+
+    top: 89% !important;
+
+    left: 33% !important;
+
+    width: 24% !important;
+
+}
+
+
+
+.salseforce-slider-img {
+
+    /* width: 65px !important;
+
+    height: 65px !important; */
+
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+
+    .salseforce-consulting-services-img {
+
+        width: 50% !important;
+
+        left: 16% !important;
+
+    }
+
+
+
+}
+
+
+
+@media screen and (max-width: 425px) {
+
+    .custom-card-salesforce {
+
+        padding: 0% !important;
+
+        margin: 0% !important;
+
+    }
+
+
+
+    .salseforce-consulting-serv {}
+
+}
+
+
+
+@media screen and (max-width: 375px) {
+
+    .salseforce-consulting-services-img {
+
+        top: 70% !important;
+
+        width: 80% !important;
+
+    }
+
+
+
+}
+
+
+
+@media screen and (max-width: 320px) {
+
+    .salseforce-consulting-services-img {
+
+        width: 42% !important;
+
+        left: 51% !important;
+
+        top: 62% !important;
+
+    }
+
+
+
+}

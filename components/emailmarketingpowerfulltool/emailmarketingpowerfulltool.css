@@ -1,0 +1,119 @@
+.heding-color {
+    color: #EC4899;
+
+}
+
+.heading-global {
+    font-weight: 600 !important;
+    font-size: 36px !important;
+    font-family: "Poppins", sans-serif;
+    color: #030712 !important;
+
+}
+
+.subheading-global {
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    font-family: "DM Sans", sans-serif;
+    color: #030712 !important;
+}
+
+.email-marketing-content {
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    font-family: "DM Sans", sans-serif;
+    color: #4B575E !important;
+
+}
+
+.email-marketing-btn {
+
+    border: none;
+    background-color: #EC4899;
+    padding: 14px 34px;
+    color: #fff;
+    border-radius: 8px;
+
+}
+
+
+
+.section-title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.highlight {
+    color: #ec3ba2;
+}
+
+.feature-icon {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.feature-heading {
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.feature-text {
+    font-size: 0.95rem;
+    color: #555;
+}
+
+.check-list {
+    padding-left: 1.5rem;
+}
+
+.check-list li {
+    list-style: none;
+    position: relative;
+    padding-left: 24px;
+    margin-bottom: 8px;
+}
+
+.check-list li::before {
+    content: '✔';
+    color: #28a745;
+    font-size: 0.9rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.email-marketing-powerfooltool-img {
+
+    left: 28% !important;
+    top: 39% !important;
+    width: 23% !important;
+    height: 27% !important;
+}
+@media screen and (max-width: 991px) {
+    .email-marketing-powerfooltool-img {
+        left: 0% !important;
+        width: 34% !important;
+        height: auto !important;
+    }
+
+
+}
+@media screen and (max-width: 768px) {
+    .email-marketing-powerfooltool-img {
+        left: 0% !important;
+        width: 45% !important;
+        height: auto !important;
+    }
+
+
+}
+
+@media screen and (max-width: 425px) {
+    .email-marketing-powerfooltool-img {
+        left: 5% !important;
+        width: 49% !important;
+    }
+
+   
+}
