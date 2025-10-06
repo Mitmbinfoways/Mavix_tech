@@ -622,6 +622,12 @@ p {
   display: block;
 }
 
+@media (max-width: 1440px) {
+  .custom-gradient-border-box-width {
+    width: 100%;
+  }
+}
+
 @media (max-width: 1280px) {
   .containers {
     margin: 0px 20px;

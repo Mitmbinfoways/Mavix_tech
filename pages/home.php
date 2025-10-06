@@ -449,7 +449,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 </section>
 
 <section id="salesforce-voicethat" class="scroll-section">
-  <div class="container py-5 voices-containt">
+  <div class="containers my-5 ml-5 lg:gap-3 py-5  voices-containt">
     <div class="row align-items-center flex-column flex-lg-row">
       <!-- Left Section -->
       <div class="col-12 col-lg-5 left-section mb-4 mb-lg-0 text-start">
