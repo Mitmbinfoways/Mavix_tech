@@ -152,8 +152,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <div class="container contactus-header scroll-section">
       <div class="row text-start">
         <div class="col-12 col-md-8 text-start">
-          <p class="contact-us-heading">Contact Us</p>
+          <p class="contact-us-heading">Get in Touch with <span class="hero-heading-effect">Mavix Tech</span></p>
         </div>
+        <div class="col-12 col-md-8 text-start">
+        <p class="scroll-section" data-animation="animate__fadeInUp" data-delay="0.2s">
+              Are you looking for Business Technology Solutions? Does it include Shopify, Salesforce, Digital Marketing, or Email Marketing Services in the USA? You're just there.
+            </p>
+          </div>
       </div>
     </div>
   </section>
@@ -165,7 +170,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
           <div class="contact-info">
             <h2 class="scroll-section" data-animation="animate__fadeInUp" data-delay="0.2s">Contact Information</h2>
             <p class="scroll-section" data-animation="animate__fadeInUp" data-delay="0.2s">
-              Say something to start a live chat!
+              Call us today to discuss your queries, project ideas, or to schedule a consultation.
             </p>
             <div class="contact-details scroll-section" data-animation="animate__fadeInUp" data-delay="0.4s">
               <p class="d-flex gap-3 align-items-start my-3">

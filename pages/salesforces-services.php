@@ -110,8 +110,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <div class="row gy-4 align-items-start">
       <!-- Services Column -->
       <div class="col-lg-6">
-        <p class="salesforce-header-head mb-4"><span class="salesforce-header-color">Professional Salesforce</span> Development<br
-            class="d-none d-md-block"> Company</p>
+        <p class="salesforce-header-head mb-4"><span class="salesforce-header-color">Reliable Salesforce Development Services</span> for Business Growth </p>
         <div class="position-absolute top-50 start-35 digital-hero-bg-img translate-middle">
           <img src="<?php echo $config['SITE_URL'] ?>assets/images/homepage-hero-bg-gradient.png" class="shopify-tech-home-img" />
         </div>
@@ -122,25 +121,25 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 <div class="icon-bg">
                   <img src="<?php echo $config['WEB_PATH'] ?>assets/images/Salesforceheader1.svg" class="service-icon">
                 </div>
-                <span class="salseforce-heading-content">Offshore Salesforce Development</span>
+                <span class="salseforce-heading-content">Data-Driven Customization</span>
               </li>
               <li class="subcontainet-global-header">
                 <div class="icon-bg">
                   <img src="<?php echo $config['WEB_PATH'] ?>assets/images/Salesforceheader2.svg" class="service-icon">
                 </div>
-                <span class="salseforce-heading-content">Custom Application Development Services</span>
+                <span class="salseforce-heading-content">Elevate conversion, enhance operations</span>
               </li>
               <li class="subcontainet-global-header">
                 <div class="icon-bg">
                   <img src="<?php echo $config['WEB_PATH'] ?>assets/images/Salesforceheader3.svg" class="service-icon">
                 </div>
-                <span class="salseforce-heading-content">Streamlined Sales Workflows</span>
+                <span class="salseforce-heading-content">Simple setting up and Personalization</span>
               </li>
               <li class="subcontainet-global-header">
                 <div class="icon-bg">
                   <img src="<?php echo $config['WEB_PATH'] ?>assets/images/Salesforceheader4.svg" class="service-icon">
                 </div>
-                <span class="salseforce-heading-content">Salesforce CRM Development</span>
+                <span class="salseforce-heading-content">Cross-Channel Support System</span>
               </li>
             </ul>
           </div>
@@ -151,25 +150,25 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 <div class="icon-bg">
                   <img src="<?php echo $config['WEB_PATH'] ?>assets/images/Salesforceheader5.svg" class="service-icon">
                 </div>
-                <span class="salseforce-heading-content">Seamless Data Migration & Integration</span>
+                <span class="salseforce-heading-content">Comprehensive Framework for all-sized Businesses</span>
               </li>
               <li class="subcontainet-global-header">
                 <div class="icon-bg">
                   <img src="<?php echo $config['WEB_PATH'] ?>assets/images/Salesforceheader6.svg" class="service-icon">
                 </div>
-                <span class="salseforce-heading-content">End-to-End Training & Onboarding</span>
+                <span class="salseforce-heading-content">Custom Salesforce Configuration</span>
               </li>
               <li class="subcontainet-global-header">
                 <div class="icon-bg">
                   <img src="<?php echo $config['WEB_PATH'] ?>assets/images/Salesforceheader7.svg" class="service-icon">
                 </div>
-                <span class="salseforce-heading-content">Custom Reports & Dashboards</span>
+                <span class="salseforce-heading-content">Salesforce Optimization Services</span>
               </li>
               <li class="subcontainet-global-header">
                 <div class="icon-bg">
                   <img src="<?php echo $config['WEB_PATH'] ?>assets/images/Salesforceheader8.svg" class="service-icon">
                 </div>
-                <span class="salseforce-heading-content">Ongoing Support & Maintenance</span>
+                <span class="salseforce-heading-content">Salesforce Marketing Cloud Setup</span>
               </li>
             </ul>
           </div>
@@ -257,13 +256,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   <div class="row justify-content-center">
     <div class="col-lg-11">
       <p class="mainheading-global mb-3 position-relative z-1">
-        Certified <span class="mainheding-color">Certified Salesforce Development</span> Company Empowering Business Transformation
+        Certified <span class="mainheding-color">Salesforce Development</span> Helping Brands Grow
         <img src="<?php echo $config['WEB_PATH'] ?>assets/images/ShopifyDevlopment.png"
           class="position-absolute img-fluid salesforce-Certified z-1 d-none d-md-block"
           alt="Highlight Underline" />
       </p>
       <p class="subtitle-contetn text-muted mb-4">
-        Partner with a certified Salesforce development company to unlock your CRM’s true potential. We’re trusted Salesforce consulting experts helping brands scale efficiently, deliver top-tier customer experiences, and harness data-driven decision-making. Whether you’re optimizing existing Salesforce operations or launching from scratch, our affordable Salesforce development agency ensures lasting value through innovative solutions and unmatched support.
+        Mavix Tech specializes in offering a complete bouquet of Salesforce consulting Services in the USA. The package provides custom apps, CRM installation, third-party integration, data transfer, and process automation. All these advanced features build a durable and strong business infrastructure for igniting business performance with measurable growth.
       </p>
       <p class="salseforse-consulting-content">
         Let’s elevate your business with mavixtech and schedule your free Salesforce consultation today!
@@ -276,7 +275,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   <div class="container">
     <div class="scroll-section mb-5">
       <p class="mainheading-global text-center position-relative z-1">
-        End-to-End Services by a Trusted
+        End-to-End Pack of
         <span class="mainheding-color position-relative d-inline-block">
           Salesforce Development
           <img
@@ -284,7 +283,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             class="shopify-underline-img d-none d-md-block"
             alt="Highlight Underline" />
         </span>
-        Company
+         Services by Mavix Tech
       </p>
     </div>
 
@@ -294,73 +293,58 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <div class="card-custom">
           <div class="icon-box"><i class="bi bi-grid icon-large"></i>
           </div>
-          <p class="card-title-heading">Salesforce Application Development</p>
-          <p class="subtitle-contetn pe-md-5">Our expert Salesforce application developers create dynamic, scalable apps that enhance platform capabilities, from internal workflows to customer-facing tools. These apps integrate seamlessly with your CRM, improving efficiency and enabling smarter decision-making.</p>-->
+          <p class="card-title-heading">Salesforce App Development Services</p>
+          <p class="subtitle-contetn pe-md-5">Expedite your productivity by relying on tailored Salesforce apps built specifically for your brand. Enhance your business performance and achieve objectives by adding more features. We create apps that align with your brand voice and business requirements.</p>
         </div>
       </div>
       <!-- Card 2 -->
       <div class="col-md-6 col-lg-6 scroll-section" data-animation="animate__fadeInUp" data-delay="0.1s">
         <div class="card-custom">
           <div class="icon-box"><i class="bi bi-code-slash"></i></div>
-          <p class="card-title-heading">Salesforce App Development Company</p>
-          <p class="subtitle-contetn pe-md-5">As a top-rated Salesforce app development company, we design customized apps that streamline operations and deliver rich, personalized customer experiences. Whether it’s sales enablement or internal tools, our apps drive engagement and ROI.</p>
+          <p class="card-title-heading">Salesforce Integration Consultant</p>
+          <p class="subtitle-contetn pe-md-5">Connect all your current tools and platforms with the Salesforce system, like ERP systems, accounting tools, and other systems, to use the new amalgamation of tools easily. Our experts ensure all your existing tools connect with Salesforce diligently for the best productivity.</p>
         </div>
       </div>
       <!-- Card 3 -->
       <div class="col-md-6 col-lg-6 scroll-section" data-animation="animate__fadeInUp" data-delay="0.2s">
         <div class="card-custom">
           <div class="icon-box"><i class="bi bi-arrow-left-right"></i></div>
-          <p class="card-title-heading">Salesforce Integration Consultant</p>
-          <p class="subtitle-contetn pe-md-5">Our Salesforce integration consultants ensure smooth connections between Salesforce and third-party systems—like ERPs, eCommerce platforms, and marketing tools—reducing manual work and enabling centralized data insights.</p>
+          <p class="card-title-heading">Salesforce Consulting and Customization Services</p>
+          <p class="subtitle-contetn pe-md-5">We specialize in offering expert Salesforce consulting to connect CRM to your business goals. We synchronize processes through bespoke dashboards, automation, and navigation, offering tailored Salesforce CRM consulting for better user adoption and productivity.</p>
         </div>
       </div>
       <!-- Card 4 -->
       <div class="col-md-6 col-lg-6 scroll-section" data-animation="animate__fadeInUp" data-delay="0.3s">
         <div class="card-custom">
           <div class="icon-box"><i class="bi bi-toggle-off"></i></div>
-          <p class="card-title-heading">Salesforce Consulting & Customization</p>
-          <p class="subtitle-contetn pe-md-5">We provide expert Salesforce consulting to align your CRM with business goals. From process automation to custom dashboards and workflows, our team delivers personalized Salesforce CRM consulting services that improve user adoption and productivity.</p>
+          <p class="card-title-heading">Salesforce Data Migration & Support Service</p>
+          <p class="subtitle-contetn pe-md-5">Transfer critical information of your business from existing systems like Zoho, HubSpot, or Microsoft Dynamics into Salesforce without dropping any data or facing downtime. Get an easy, flowing process of transition with the least operational disruption.</p>
         </div>
       </div>
       <!-- Card 5 -->
       <div class="col-md-6 col-lg-6 scroll-section" data-animation="animate__fadeInUp" data-delay="0.4s">
         <div class="card-custom">
           <div class="icon-box"><img src="<?php echo $config['WEB_PATH'] ?>assets/images/Salesforceheader8.svg" alt="Consulting"></div>
-          <p class="card-title-heading">Migration & Support Services</p>
-          <p class="subtitle-contetn pe-md-5">Ensure secure, accurate, and disruption-free data transfer with our migration services. Post-deployment, rely on our support team for issue resolution, platform optimization, and user training.</p>
+          <p class="card-title-heading">Salesforce CRM Development Services</p>
+          <p class="subtitle-contetn pe-md-5">Get a fully set-up Salesforce platform with bespoke features, role-based secure access, simple dashboards, and accurate integrations with existing tools, ensuring a smooth transition. All-in-one package of setting up, integration, customization, transfer, and ongoing support.</p>
         </div>
       </div>
       <!-- Card 6 -->
       <div class="col-md-6 col-lg-6 scroll-section" data-animation="animate__fadeInUp" data-delay="0.5s">
         <div class="card-custom">
           <div class="icon-box"><i class="bi bi-gear"></i></div>
-          <p class="card-title-heading">Salesforce CRM Development</p>
-          <p class="subtitle-contetn pe-md-5">We build scalable, customized CRM systems with advanced features to manage leads, opportunities, and service requests—perfect for growing teams that need centralized visibility and control.</p>
+          <p class="card-title-heading">Salesforce Managed Services</p>
+          <p class="subtitle-contetn pe-md-5">Get expert, ongoing support to track performance, feature updates, and frequent security updates from our Salesforce-certified experts. It includes daily health checks, performance checks, and admin support for timely updates and accurate maintenance.</p>
         </div>
       </div>
       <!-- Card 7 -->
       <div class="col-md-6 col-lg-6 scroll-section" data-animation="animate__fadeInUp" data-delay="0.6s">
         <div class="card-custom">
           <div class="icon-box"><i class="bi bi-file-code"></i></div>
-          <p class="card-title-heading">Salesforce Managed Services</p>
-          <p class="subtitle-contetn pe-md-5">Our ongoing Salesforce development services include system health checks, performance monitoring, admin support, and timely updates to keep your environment secure and efficient.</p>
-        </div>
-      </div>
-      <!-- Card 8 -->
-      <div class="col-md-6 col-lg-6 scroll-section" data-animation="animate__fadeInUp" data-delay="0.7s">
-        <div class="card-custom">
-          <div class="icon-box"><i class="bi bi-person-gear"></i></div>
           <p class="card-title-heading">Offshore Salesforce Development</p>
-          <p class="subtitle-contetn pe-md-5">Looking to reduce costs without sacrificing quality? Our offshore Salesforce development model ensures top-tier development support with flexible engagement options and guaranteed delivery.</p>
+          <p class="subtitle-contetn pe-md-5">Looking for cost-cutting without cutting corners? Our offshore Salesforce Development experts are the right bet. Our business model offers flexible engagement options, ensuring on-time delivery with high-end solutions.</p>
         </div>
-      </div>
-      <div class="col-md-6 col-lg-6 scroll-section" data-animation="animate__fadeInUp" data-delay="0.7s">
-        <div class="card-custom ">
-          <div class="icon-box"><i class="bi bi-person-gear"></i></div>
-          <p class="card-title-heading">Salesforce Application Development Services</p>
-          <p class="subtitle-contetn pe-md-5">From basic extensions to enterprise-grade solutions, our Salesforce application development services empower your teams with intelligent, responsive, and mobile-friendly experiences that boost adoption.</p>
-        </div>
-      </div>
+      </div> 
     </div>
 
     <!-- CTA Section -->
@@ -368,11 +352,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       <div class="cta-section mt-5 g-4 col-md-6 col-lg-6 scroll-section" data-animation="animate__fadeInUp"
         data-delay="0.8s">
         <div>
-          <p class="bussiness-potential-card-title pe-md-5 ps-2">Revolutionize Your Customer Experience with
-            Salesforce</p>
+          <p class="bussiness-potential-card-title pe-md-5 ps-2">Give a new boost to your business with Salesforce</p>
 
           <a class="navbar-brand" href="https://mavixtech.com/contact-us">
-            <button class="cta-btn subcontainet-global-header mt-3 ps-2">Talk to our Salesforce Experts</button>
+            <button class="cta-btn subcontainet-global-header mt-3 ps-2">Get started with a Salesforce expert</button>
           </a>
         </div>
       </div>
@@ -391,20 +374,20 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <div class="row align-items-center">
       <!-- Left Text Column -->
       <div class="col-md-6 scroll-section" data-animation="animate__fadeInUp" data-delay="0s">
-        <p class="mainheading-global position-relative z-1">Why We’re a Preferred <span
-            class="mainheding-color">Salesforce Development
+        <p class="mainheading-global position-relative z-1">Why Choose Mavix Tech for <span
+            class="mainheding-color">Salesforce Application Development
             <img src="<?php echo $config['WEB_PATH'] ?>assets/images/salseforce-excelense-service.png"
               class="position-absolute img-fluid salseforce-underline-img z-1 d-none d-md-block"
               alt="Highlight Underline">
-          </span> Company
+          </span> Services
 
         </p>
         <p class="mt-3 mainsubheading-global pe-5 ">
-          Get expert-led, affordable Salesforce solutions that scale with your goals. Whether you need Salesforce CRM development company support or offshore Salesforce development resources, we help you build, automate, and optimize with ease.
+         Working with Mavix Tech as your Salesforce App Development Partner, you gain access to an expert pool of Salesforce consultants. They create a meaningful fusion of innovation, planning, and data-based prudence to improve your business operations. We are committed to making sure that your CRM grows as your business develops. 
         </p>
         <!-- <p class="mt-4 card-title-heading">Get Started with Our Certified Experts Today!</p> -->
         <a href="https://mavixtech.com/contact-us">
-          <button class="btn salseforse-service-button mt-3">Start Collaborating with Our Salesforce Experts</button>
+          <button class="btn salseforse-service-button mt-3">Schedule a free consultation today</button>
         </a>
       </div>
 
@@ -667,13 +650,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <h2 class="accordion-header" id="headingOne">
           <button class="accordion-button mainsubheading-global   " type="button" data-bs-toggle="collapse"
             data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-            What services does your Salesforce development company offer?
+            What is there in your Salesforce development services?
           </button>
         </h2>
         <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
           data-bs-parent="#faqAccordion">
           <div class="accordion-body frequently-cont mainsubheading-global ">
-            We offer Salesforce application development, integration, migration, consulting, support, and CRM customization.
+            As a leading Salesforce Development Company, we offer the entire ecosystem of Salesforce, which includes CRM setup, easy integration, app development, data transfer, optimization, and post-service support.
           </div>
         </div>
       </div>
@@ -682,13 +665,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <h2 class="accordion-header" id="headingTwo">
           <button class="accordion-button mainsubheading-global  collapsed" type="button" data-bs-toggle="collapse"
             data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-            Are you a certified Salesforce development company?
+            How fast can you install Salesforce?
           </button>
         </h2>
         <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
           data-bs-parent="#faqAccordion">
           <div class="accordion-body frequently-cont mainsubheading-global ">
-            Yes, we’re staffed with certified Salesforce developers with deep expertise across multiple clouds and industries.
+           It is based on complexity, which may range from 20 to 80 days. This timeline is powered by customization, integrations, and staff training for easy management.
           </div>
         </div>
       </div>
@@ -697,13 +680,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <h2 class="accordion-header" id="headingThree">
           <button class="accordion-button mainsubheading-global  collapsed" type="button" data-bs-toggle="collapse"
             data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-            Can you help with Salesforce automation and integration?
+           Can I get a personalized Salesforce aligned with my requirements?
           </button>
         </h2>
         <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
           data-bs-parent="#faqAccordion">
           <div class="accordion-body frequently-cont mainsubheading-global ">
-            Absolutely! Our Salesforce integration consultants streamline your workflows through smart automation and system integrations.
+            Yes. This is part of our promise to offer customized Salesforce solutions, where we configure dashboards, develop bespoke processes, and similar Lightning elements.
           </div>
         </div>
       </div>
@@ -712,13 +695,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <h2 class="accordion-header" id="headingFour">
           <button class="accordion-button mainsubheading-global  collapsed" type="button" data-bs-toggle="collapse"
             data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-            Is Salesforce development scalable for small businesses?
+           Do you offer after-sales help?
           </button>
         </h2>
         <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
           data-bs-parent="#faqAccordion">
           <div class="accordion-body frequently-cont mainsubheading-global ">
-            Yes, our solutions scale with you—ideal for startups to enterprises seeking a trusted Salesforce development partner.
+           Yes. We are committed to ensuring your system works well even after installation and training. We deliver services like monitoring, feature updates, glitch resolution, and strategic improvements. 
           </div>
         </div>
       </div>
@@ -727,29 +710,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <h2 class="accordion-header" id="headingFive">
           <button class="accordion-button mainsubheading-global  collapsed" type="button" data-bs-toggle="collapse"
             data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-            Do you provide Salesforce Marketing Cloud services?
+           Can you shift my existing CRM data to Salesforce?
           </button>
         </h2>
         <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
           data-bs-parent="#faqAccordion">
           <div class="accordion-body frequently-cont mainsubheading-global ">
-            Yes, our Marketing Cloud developers create powerful campaign journeys customized to your audience and platform.
-          </div>
-        </div>
-      </div>
-
-
-      <div class="accordion-item border-0 shadow-sm mb-2">
-        <h2 class="accordion-header" id="headingSix">
-          <button class="accordion-button mainsubheading-global  collapsed" type="button" data-bs-toggle="collapse"
-            data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-            What sets your Salesforce app developers apart?
-          </button>
-        </h2>
-        <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
-          data-bs-parent="#faqAccordion">
-          <div class="accordion-body frequently-cont mainsubheading-global ">
-            We’re an experienced Salesforce app development company offering custom, responsive, and efficient application builds at affordable rates.
+            Yes. We are experts in offering clean, leakproof, secure data migration from CRMs to other similar platforms like HubSpot, Dynamics, and custom platforms.
           </div>
         </div>
       </div>

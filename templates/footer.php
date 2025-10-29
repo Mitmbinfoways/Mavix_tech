@@ -14,12 +14,10 @@
         </div>
       </div>
 
-
       <div class="col-12 col-md-6 col-lg-2 mb-5">
         <div class="mt-4">
           <h5 class="d-flex justify-content-lg-start footer-font-heading">Services</h5>
-          <ul
-            class="list-unstyled footer-font d-flex flex-column gap-3 mt-4">
+          <ul class="list-unstyled footer-font d-flex flex-column gap-3 mt-4">
             <li>
               <a href="<?php echo $config['SITE_URL']; ?>shopify-services" class="d-flex justify-content-lg-start text-white text-decoration-none">Shopify</a>
             </li>
@@ -68,11 +66,19 @@
 
     <hr class="my-4 mb-5" />
 
-    <div
-      class="d-flex flex-column flex-md-row justify-content-between align-items-center">
+    <div class="d-flex flex-column flex-md-row justify-content-between align-items-center">
       <p class="mb-2 mb-md-0 footer-font">
         © MavixTech. All Rights Reserved.
       </p>
+      <ul class="list-unstyled d-flex gap-3 mb-0 footer-font">
+        <li>
+          <a href="<?php echo $config['SITE_URL']; ?>privacy-policy" class="text-white text-decoration-none">Privacy Policy</a>
+        </li>
+        <li>|</li>
+        <li>
+          <a href="<?php echo $config['SITE_URL']; ?>TermsAndConditions" class="text-white text-decoration-none">Terms & Conditions</a>
+        </li>
+      </ul>
     </div>
   </div>
 
@@ -90,7 +96,6 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 <!-- jQuery and Slick -->
-
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
@@ -109,5 +114,4 @@
   });
 </script>
 </body>
-
 </html>

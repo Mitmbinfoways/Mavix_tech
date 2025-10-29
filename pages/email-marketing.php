@@ -3,9 +3,9 @@
       <div class="text-center scroll-section">
         <div class="hero-heading position-relative">
           <p>
-            Professional
-            <span class="hero-heading-effect">Email </span> <br> <span class="hero-heading-effect">Marketing
-            </span>Development <br> Company
+            Trusted
+            <span class="hero-heading-effect">Email </span> <br> <span class="hero-heading-effect">Marketing Services 
+            </span>Development <br> for Business Growth
           </p>
           <div class="position-absolute top-80 start-50 email-hero-bg-img translate-middle">
             <img src="<?php echo $config['WEB_PATH'] ?>assets/images/homepage-hero-bg-gradient.png" class="email-tech-home-img">
@@ -14,15 +14,13 @@
 
 
         <p class="text-light mt-3 mb-4  email-marketing-hero-subtext">
-          Stand out with beautifully designed, mobile-friendly email marketing services from a trusted email template
-          development company t hat drive real engagement and boost your brand visibility. Let us help you connect with
-          your audience effectively.
+        Amplify your brand’s voice and fortify customer relationships with Mavix Tech’s Email Marketing Services in the USA. As a developing Email Marketing Development Company, we convert the intricacies of the digital space into result-driven, strategic campaigns that cultivate quantifiable outcomes and business expansion.
         </p>
 
         <div>
           <a
             href="https://mavixtech.com/contact-us"
-            class="navbar-btn px-4 py-2 rounded-pill btn-brand ms-lg-3 mt-3 mt-lg-0">Order Now</a>
+            class="navbar-btn px-4 py-2 rounded-pill btn-brand ms-lg-3 mt-3 mt-lg-0">Connect with us now</a>
         </div>
 
         <div class="logo-strip mt-5">
@@ -42,39 +40,38 @@
         <div class="col-lg-6 scroll-section" data-animation="animate__fadeInUp" data-delay="0s">
           <div class="email-marketing">
             <p class="mainheading-global position-relative z-1">
-              Crafting
+              Our Custom
               <span class="mainheding-color position-relative d-inline-block">
-                Visually
+                Email Template 
                 <img
                   src="<?php echo $config['WEB_PATH'] ?>assets/images/ShopifyDevlopment.png"
                   class="emailmarketing-underline-img d-none d-md-block"
                   alt="Highlight Underline" />
               </span>
-              Stunning <br class="d-none d-md-block"> Email Templates That Convert
+              Design Trigger <br class="d-none d-md-block">  Conversions
             </p>
-            <p class="mt-3 email-marketing-content emailmarketing-subcontent">We design engaging, mobile-friendly
-              email templates that enhance
-              your brand and increase customer interaction.</p>
+            <p class="mt-3 email-marketing-content emailmarketing-subcontent">We design what converts. Our email campaign development services are all about user-friendliness, precision targeting, and multiplatform reach. Our emails are packed with powerful analytics, clean personalization, and strong converting elements. </p>
 
 
             <div class="d-flex mt-3 justify-content-start align-items-start gap-2">
               <img class="check-icon" src="<?php echo $config['WEB_PATH'] ?>assets/images/blue.svg">
-              <p class="mainsubheading-global emailmarketing-subcontent ">Get beautifully crafted templates that reflect
-                your brand identity and drive better campaign performance, whether it's a newsletter HTML template or a
-                product marketing email template.</p>
+              <p class="mainsubheading-global emailmarketing-subcontent ">Better engagement and conversion with effective email strategies crafted to synchronize with audiences and promote sales.</p>
             </div>
             <div class="d-flex mt-3 justify-content-start align-items-start gap-2">
               <img class="check-icon" src="<?php echo $config['WEB_PATH'] ?>assets/images/blue.svg">
 
-              <p class="mainsubheading-global emailmarketing-subcontent">Ensure every email looks perfect on all screen
-                sizes with fully responsive, mobile-first designs—our specialty includes creating responsive email
-                templates and responsive newsletter templates optimized for all devices.</p>
+              <p class="mainsubheading-global emailmarketing-subcontent">Launch your email strategy supported by our subject matter specialist, who offers ongoing support from initiation to launch and after.</p>
 
             </div>
             <div class="d-flex mt-3 justify-content-start align-items-start gap-2">
               <img class="check-icon" src="<?php echo $config['WEB_PATH'] ?>assets/images/blue.svg">
-              <p class="mainsubheading-global emailmarketing-subcontent">Build trust and conversions with layouts
-                optimized for readability, engagement, and clear call-to-actions.</p>
+              <p class="mainsubheading-global emailmarketing-subcontent">Ramp up your brand name using creative and bespoke emails, along with advanced categorization, to reach out to each customer individually. </p>
+            </div>
+
+             <div class="d-flex mt-3 justify-content-start align-items-start gap-2">
+              <img class="check-icon" src="<?php echo $config['WEB_PATH'] ?>assets/images/blue.svg">
+              <p class="mainsubheading-global emailmarketing-subcontent">Boost processing, campaign ROI, and brand identity with our full-range Email Marketing Services.</p>
+              
             </div>
 
             <a href="https://mavixtech.com/contact-us">
@@ -93,40 +90,33 @@
           <img src="<?php echo $config['WEB_PATH'] ?>assets/images/pixle_perfact.jpg" class="img-fluid rounded-4">
         </div>
         <div class="col-lg-6 scroll-section px-4" data-animation="animate__fadeInUp" data-delay="0.2s">
-          <p class="mainheading-global position-relative z-1 mt-4">Responsive, <span
-              class="mainheding-color">Pixel-Perfect
+          <p class="mainheading-global position-relative z-1 mt-4"> High-Converting, Responsive<span
+              class="mainheding-color"> Email  Coding for Flawless
               <img src="<?php echo $config['WEB_PATH'] ?>assets/images/ShopifyDevlopment.png"
                 class="position-absolute img-fluid emailmarketing-pixelperfect-img service-img-header z-1 d-none d-md-block"
                 alt="Highlight Underline"></span>
-            <br class="d-none d-md-block"> Email Coding
+            <br class="d-none d-md-block">  Campaigns
 
           </p>
-          <p class="email-marketing-content emailmarketing-subcontent ">Our email marketing services include
-            clean, responsive code that
-            renders flawlessly across every major email platform.</p>
+          <p class="email-marketing-content emailmarketing-subcontent ">With ongoing innovation, email marketing is enhanced by Artificial Intelligence, automated operations, and transparent, measurable reporting, enabling businesses to stay competitive.</p>
 
           <div class="d-flex mt-3 justify-content-start align-items-start gap-2">
             <img class="check-icon" src="<?php echo $config['WEB_PATH'] ?>assets/images/blue.svg">
-            <p class="mainsubheading-global emailmarketing-subcontent  "> Code tested across Outlook, Gmail,
-              Apple Mail, and more for
-              perfect cross-client compatibility</p>
+            <p class="mainsubheading-global emailmarketing-subcontent  "> Use responsive, pixel-perfect email properly coded for seamless display across all email clients on any platform.</p>
 
           </div>
           <div class="d-flex mt-3 justify-content-start align-items-start gap-2">
             <img class="check-icon" src="<?php echo $config['WEB_PATH'] ?>assets/images/blue.svg">
-            <p class="mainsubheading-global emailmarketing-subcontent  "> Responsive layouts built from scratch
-              to work beautifully on all
-              screen sizes and devices</p>
+            <p class="mainsubheading-global emailmarketing-subcontent  "> Made from scratch responsive template guarantees your emails look fabulous across all types of devices and screen sizes.</p>
 
           </div>
           <div class="d-flex mt-3 justify-content-start align-items-start gap-2">
             <img class="check-icon" src="<?php echo $config['WEB_PATH'] ?>assets/images/blue.svg">
-            <p class="mainsubheading-global emailmarketing-subcontent  ">Lightweight, well-structured HTML ensures fast
-              loading and optimal email deliverability—ideal for email advertising templates and more.</p>
+            <p class="mainsubheading-global emailmarketing-subcontent  ">Simple, light, easy HTML ensures it loads quickly with optimal deliverability, making your email campaigns more productive.</p>
 
           </div>
           <a href="https://mavixtech.com/contact-us">
-            <button class="email-marketing-btn mt-3">Start Collaborating</button>
+            <button class="email-marketing-btn mt-3">Get better conversion with email marketing</button>
           </a>
 
         </div>
@@ -416,22 +406,20 @@
         </p>
       </div>
 
-      <p class="text-center text-muted mt-3 mb-5">Find answers to common questions about our services, process, and
-        expertise.</p>
+      <p class="text-center text-muted mt-3 mb-5">Have questions? Get clear, concise answers to all those queries and make the most of our email marketing services.</p>
 
       <div class="accordion frequently-main" id="faqAccordion">
         <div class="accordion-item border-0 shadow-sm mb-2">
           <h2 class="accordion-header" id="headingOne">
             <button class="accordion-button mainsubheading-global   " type="button" data-bs-toggle="collapse"
               data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-              What are email marketing services?
+             What constitutes your email marketing services?
             </button>
           </h2>
           <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
             data-bs-parent="#faqAccordion">
             <div class="accordion-body frequently-cont mainsubheading-global ">
-              Email marketing services involve designing and developing professional email templates for promotional and
-              transactional communication.
+             You get a complete package of digital marketing services. It is a full suite of strategy planning, campaign map, list management, automation, A/B testing, assessment, and ongoing support.
             </div>
           </div>
         </div>
@@ -440,13 +428,13 @@
           <h2 class="accordion-header" id="headingTwo">
             <button class="accordion-button mainsubheading-global  collapsed" type="button" data-bs-toggle="collapse"
               data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-              Do you create custom email designs?
+             How long does it take to introduce an email campaign?
             </button>
           </h2>
           <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
             data-bs-parent="#faqAccordion">
             <div class="accordion-body frequently-cont mainsubheading-global ">
-              Yes, we design fully customized email template designs customized to your brand and campaign goals.
+             It might range from 7 to 20 days. It depends on your integration requirements and intricacy level.
             </div>
           </div>
         </div>
@@ -455,13 +443,13 @@
           <h2 class="accordion-header" id="headingThree">
             <button class="accordion-button mainsubheading-global  collapsed" type="button" data-bs-toggle="collapse"
               data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-              Are your email templates mobile-friendly?
+              Can you make the email content personalized, given my brand voice?
             </button>
           </h2>
           <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
             data-bs-parent="#faqAccordion">
             <div class="accordion-body frequently-cont mainsubheading-global ">
-              Absolutely! All our templates are responsive email templates optimized for mobile devices.
+             Of course. We create branded templates, unique messaging designs, and target groups to ensure your emails effectively convey your brand's story. 
             </div>
           </div>
         </div>
@@ -470,14 +458,13 @@
           <h2 class="accordion-header" id="headingFour">
             <button class="accordion-button mainsubheading-global  collapsed" type="button" data-bs-toggle="collapse"
               data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-              Can I use these templates on any platform?
+              Do you deliver post-launch help?
             </button>
           </h2>
           <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
             data-bs-parent="#faqAccordion">
             <div class="accordion-body frequently-cont mainsubheading-global ">
-              Yes, our templates are compatible with most major email platforms and created by expert html email
-              designers.
+             Yes, we’re here for you, after the email campaign is over, as the work doesn't end here. You can have ongoing campaign tracking, performance checking, and expert support for the best outcomes from your email initiative.
             </div>
           </div>
         </div>
@@ -486,29 +473,13 @@
           <h2 class="accordion-header" id="headingFive">
             <button class="accordion-button mainsubheading-global  collapsed" type="button" data-bs-toggle="collapse"
               data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-              How long does it take to deliver a template?
+              Can you sync email campaigns with my current CRM system?
             </button>
           </h2>
           <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
             data-bs-parent="#faqAccordion">
             <div class="accordion-body frequently-cont mainsubheading-global ">
-              Typically, we deliver email templates within 3–5 business days.
-            </div>
-          </div>
-        </div>
-
-
-        <div class="accordion-item border-0 shadow-sm mb-2">
-          <h2 class="accordion-header" id="headingSix">
-            <button class="accordion-button mainsubheading-global  collapsed" type="button" data-bs-toggle="collapse"
-              data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-              Can you match the template design to my brand?
-            </button>
-          </h2>
-          <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
-            data-bs-parent="#faqAccordion">
-            <div class="accordion-body frequently-cont mainsubheading-global ">
-              Yes, we ensure each email design aligns with your brand's look and feel.
+              Yes, we have been into these integrations for a while and offer simple and safe integration with all major CRM and e-commerce systems, which include Shopify, Salesforce, and others.
             </div>
           </div>
         </div>

@@ -3,23 +3,20 @@
       <div class="containers text-center scroll-section" data-animation="animate__fadeInUp" data-delay="0s">
         <div class="pad hero-heading position-relative">
           <p>
-            Boost Business with Our<br> <span class="hero-heading-effect">Digital Marketing </span>Services Company in
-            the USA
+            Partner with Reliable<br> <span class="hero-heading-effect">Digital Marketing </span>Company USA for Business Growth
           </p>
           <div class="position-absolute top-60 start-70 hero-bg-img translate-middle">
             <img src="<?php echo $config['WEB_PATH'] ?>assets/images/homepage-hero-bg-gradient.png" class="digital-tech-home-img">
           </div>
         </div>
         <p class="pad text-light mt-4 mb-4">
-          Partner with a leading Digital Marketing Services Company trusted by top businesses across the USA. We offer
-          results-driven digital strategies—including PPC, SEO, Local SEO, and social media—that boost your visibility,
-          conversions, and ROI.
+         Go that extra mile to run your business better with your brand’s voice and scale your online presence with Mavix Tech, a trusted Digital Marketing Agency in the USA, providing creative online marketing services. Our professional internet marketing agency unites creativity, insights, and technology to define planning that increases your ROI and triggers sustainable growth across digital spaces.
         </p>
 
         <div>
           <a
             href="https://mavixtech.com/contact-us"
-            class="navbar-btn px-4 py-2 rounded-pill btn-brand ms-lg-3 mt-3 mt-lg-0">Order Now</a>
+            class="navbar-btn px-4 py-2 rounded-pill btn-brand ms-lg-3 mt-3 mt-lg-0">Call us today</a>
         </div>
 
         <!-- <div class="hero-text">
@@ -42,7 +39,7 @@
     <div class="container">
       <div class="text-container mt-5 text-center">
         <p class="mainheading-global position-relative z-1">
-          Experience Growth with the Best
+          Transform Your Business with a Top 
           <span class="highlight-wrapper">
             <span class="mainheding-color">Digital Marketing
               <img src="<?php echo $config['WEB_PATH'] ?>assets/images/SalseMigrate.png"
@@ -50,16 +47,13 @@
                 alt="Highlight Underline" />
             </span>
           </span>
-          Company in the USA
+          Agency in the USA
         </p>
       </div>
 
       <div>
         <p class="subheading-global mt-4 mainsubheading-global">
-          As a Digital Marketing Services Company USA businesses trust, we offer a powerful mix of services—from
-          ROI-focused PPC Campaigns to SEO Services in the USA, Local SEO Services USA, and Meta Ads. Our data-backed
-          strategies ensure your brand gets discovered, clicked, and remembered.We’re not just another digital marketing
-          agency in the USA—we’re your long-term growth partner.
+          Mavix Tech, a growing Digital Marketing Company in the USA, delivers full-service digital marketing services for your business growth. It is a compact suite of Search Engine Optimization and PPC efforts, social media, content distribution, and email campaigns. We provide adjustable, insightful services designed to offer you sustainable business growth across all platforms.
         </p>
       </div>
     </div>
@@ -68,11 +62,11 @@
   <section>
     <div class="containers py-4 py-lg-5">
       <p class="header-text mainheading-global mb-4 position-relative z-1 scroll-section"
-        data-animation="animate__fadeInUp" data-delay="0s">Digital Marketing <span class="mainheding-color position-relative">Services <img src="<?php echo $config['WEB_PATH'] ?>assets/images/SalseMigrate.png"
+        data-animation="animate__fadeInUp" data-delay="0s">Core Digital Marketing 
+<span class="mainheding-color position-relative">Services <img src="<?php echo $config['WEB_PATH'] ?>assets/images/SalseMigrate.png"
             class="position-absolute img-fluid digital-marketing-service-img d-none d-md-block service-img-header z-1"
             alt="Highlight Underline" />
-        </span> We
-        Offer
+        </span> Mavix Tech offers
       </p>
 
       <!-- PPC Card -->
@@ -85,11 +79,9 @@
           </div>
           <div class="col-lg-7 p-4">
             <div class="card-body">
-              <p class="service-title mt-4">PPC – Pay Per Click</p>
+              <p class="service-title mt-4">Local SEO Service USA</p>
               <p class="mainsubheading-global mt-3 shopify-card-content pe-5 ">
-                As a top-tier PPC Agency in the USA, we create laser-focused campaigns that generate instant traffic and
-                conversions. From search and display to remarketing and shopping ads, our PPC management company in the
-                USA handles everything—from keyword research and A/B testing to bid management and ROI tracking.
+               Connect with local customers instantly, leveraging our Local SEO Services USA.  We optimize your Google Business Profile, create regional content, and ensure your business ranks on local search results. Start by promoting your business locally with local SEO services.
               </p>
               <!-- <a href="#" class="learn-more">Learn More</a> -->
             </div>
@@ -109,12 +101,10 @@
               <!-- Content -->
               <div class="col-lg-8 p-3 d-flex flex-column justify-content-center order-2 order-lg-2">
                 <p class="service-title">
-                  Google Ads Management
+                 Google Ads Management
                 </p>
                 <p class="mainsubheading-global mt-3 shopify-card-content">
-                  Our Google-certified experts manage your full Google Ads strategy—from ad creation to performance
-                  analysis. With years of experience as a Digital Marketing & SEO Agency USA, we ensure your campaigns
-                  generate maximum exposure and measurable conversions.
+                 Our Google-certified team creates catchy ad campaigns, studying and optimizing every click to deliver unique conversions that activate your brand’s space and drive quantifiable growth.
                 </p>
                 <!-- <a href="#" class="learn-more">Learn More</a> -->
               </div>
@@ -135,9 +125,7 @@
               <div class="col-lg-8 p-3 d-flex flex-column justify-content-center order-2 order-lg-2">
                 <p class="service-title">Meta Ads (Facebook & Instagram)</p>
                 <p class="mainsubheading-global mt-3">
-                  We manage high-impact ad campaigns across Facebook and Instagram. Our Meta Ads strategies combine
-                  creative storytelling with sharp targeting to maximize results. Choose us as your social media
-                  advertising agency in the USA and get content that connects and converts.
+                  We fuse storytelling expertise with razor-sharp targeting to develop Meta ad campaigns that go live on Facebook and Instagram. It converts scrollers into followers, thus promoting your social space.
                 </p>
                 <!-- <a href="#" class="learn-more">Learn More</a> -->
               </div>
@@ -158,11 +146,9 @@
           <!-- Content Section -->
           <div class="col-lg-7 p-4 order-2 order-lg-1">
             <div class="card-body">
-              <p class="service-title mt-4">Strategic Ad Campaign Planning & Management</p>
+              <p class="service-title mt-4">Strategic Ad Planning & Management</p>
               <p class="mainsubheading-global mt-3 shopify-card-content pe-5">
-                Our experts design goal-oriented ad strategies tailored to your audience and budget. As a reliable
-                digital marketing company in the USA, we plan, execute, and optimize multi-channel campaigns for
-                consistent performance.
+               We create bespoke ad blueprints for your unique brand. From ideation to optimization, we engineer multi-channel strategies that match your business objectives with optimal marketing impact.
               </p>
               <!-- <a href="#" class="learn-more">Learn More</a> -->
             </div>
@@ -181,9 +167,7 @@
             <div class="card-body">
               <p class="service-title mt-4">Search Engine Optimization (SEO)</p>
               <p class="mainsubheading-global mt-3 shopify-card-content pe-3 ">
-                Our SEO Services in the USA help your website rank higher on Google and other search engines. As a
-                professional SEO in the company USA, we cover technical SEO, on-page and off-page optimization, and SEO
-                audits to ensure long-term organic growth
+               We discover Google’s secrets to enhance your website ranking using technical wizardry, content quality, and strategic link-building, all leading to a long-term organic push that places you at the forefront of competition.
               </p>
               <!-- <a href="#" class="learn-more">Learn More</a> -->
             </div>
@@ -204,9 +188,7 @@
             <div class="card-body">
               <p class="service-title mt-4">Local SEO Services USA</p>
               <p class="mainsubheading-global mt-3 shopify-card-content pe-5">
-                Target customers in your neighborhood or city with our geo-specific Local SEO Services USA. As a trusted
-                local SEO in the agency USA, we optimize your Google Business Profile, create localized content, and
-                ensure your brand stands out in local searches.
+                Capture your regional search with geo-targeted SEO tips that create a local buzz, optimize your Google Business Profile, and make your brand the first choice for locals.
               </p>
               <!-- <a href="#" class="learn-more">Learn More</a> -->
             </div>
@@ -224,12 +206,10 @@
           </div>
           <div class="col-lg-7 p-4">
             <div class="card-body">
-              <p class="service-title  mt-4">Social Media Marketing (SSM)
+              <p class="service-title  mt-4">Content Creation & Marketing
               </p>
               <p class="mainsubheading-global mt-3 shopify-card-content pe-5">
-                We offer full-service social media solutions—from daily posts and story management to paid ads and
-                influencer partnerships. As a digital marketing services company in the USA, we make your brand voice
-                stronger on Instagram, Facebook, Twitter, and LinkedIn.
+               Content, visuals, and videos are designed to align with your brand's story. Our content marketing creates your intriguing brand’s story in the digital space, capturing traffic, engaging with audiences, and making genuine connections.
               </p>
               <!-- <a href="#" class="learn-more">Learn More</a> -->
             </div>
@@ -251,9 +231,7 @@
             <div class="card-body">
               <p class="service-title  mt-4">Content Creation & Marketing </p>
               <p class="mainsubheading-global mt-3 shopify-card-content pe-5">
-                We craft SEO-optimized blogs, web content, product descriptions, and more that attract and retain your
-                target audience. Our content marketing experts ensure your brand tells a compelling story while
-                improving your visibility as a search engine optimization company in the USA.
+                Content, visuals, and videos are designed to align with your brand's story. Our content marketing creates your intriguing brand’s story in the digital space, capturing traffic, engaging with audiences, and making genuine connections.
               </p>
               <!-- <a href="#" class="learn-more">Learn More</a> -->
             </div>
@@ -279,7 +257,7 @@
           </span><br class="d-none d-md-block">
           to Delivers Growth
         </p>
-        <p class="scroll-section mt-3">We follow a data-backed, transparent process that ensures measurable success for your business—whether you're targeting a city, state, or the entire United States.</p>
+        <p class="scroll-section mt-3">Following a data-driven and clear understanding, we ensure measurable impact if you are targeting local places, cities, or states in the USA.</p>
       </div>
       <div class="containers py-4 mt-5">
         <div class="row g-4">
@@ -287,10 +265,10 @@
             <div class="scroll-section card-shadow p-4 h-100" data-animation="animate__fadeInUp" data-delay="0s">
               <div class="step-title mainheding-color text-muted">STEP 01</div>
               <div class="step-heading mb-2">
-                Discovery & Strategy
+                Unfolding & Ideation
               </div>
               <p class="text-start">
-                We start with an in-depth discovery session to understand your brand, goals, audience, and competitors. Then we build a tailored strategy combining PPC, SEO, local SEO in the USA, and social media for maximum impact.
+                We start with an in-depth discovery session to understand your business, motive, brand voice, target market, and of course, competitors. Based on this, we ideate a tailored strategy combining SEO, PPC, Local SEO, and social media for optimal reach.
               </p>
             </div>
           </div>
@@ -300,10 +278,10 @@
             <div class="scroll-section card-shadow p-4 h-100" data-animation="animate__fadeInUp" data-delay="0s">
               <div class="step-title mainheding-color text-muted">STEP 02</div>
               <div class="step-heading mb-2">
-                Channel Selection & Setup
+                Setup and Channel Selection 
               </div>
               <p class="text-start">
-                Not every platform is right for every brand. Our experts choose the most effective mix of Google Ads, Meta Ads, Local SEO, and email marketing based on your audience behavior and budget.
+                Every channel suits a specific brand, not every brand. Our veterans opt for the best channel with the ideal mix of Local SEO, Google Ads, Meta Ads, including email marketing customized as per your audience activities and budget.
               </p>
             </div>
           </div>
@@ -311,10 +289,10 @@
             <div class="scroll-section card-shadow p-4 h-100" data-animation="animate__fadeInUp" data-delay="0s">
               <div class="step-title mainheding-color text-muted">STEP 03</div>
               <div class="step-heading mb-2">
-                Campaign Launch & Optimization
+                Campaign Execution & Optimization
               </div>
               <p class="text-start">
-                We launch high-performing campaigns with precision targeting and then monitor them daily. Whether it’s refining keywords, adjusting bids, or updating creatives, our PPC management company in the USA makes every second and dollar count.
+                We launch targeted, measurable campaigns and continually optimize them by changing keywords, adjusting bids, and pushing new creatives for the best ROI and efficiency.
               </p>
             </div>
           </div>
@@ -322,10 +300,10 @@
             <div class="scroll-section card-shadow p-4 h-100" data-animation="animate__fadeInUp" data-delay="0s">
               <div class="step-title mainheding-color text-muted">STEP 04</div>
               <div class="step-heading mb-2">
-                Transparent Reporting & Feedback
+                Frequent and Clear Reporting & Feedback
               </div>
               <p class="text-start">
-                We believe in full transparency. Our regular reports track rankings, clicks, conversions, and ROI—so you always know what’s working. As your Digital Marketing Services Company USA, we keep you informed and involved every step of the way.
+               We rely on clear communication with frequent reports, including checking rankings, clicks, conversions, and Return on Investment, to keep you informed and engaged with your project.
               </p>
             </div>
           </div>
@@ -522,21 +500,20 @@
         </p>
       </div>
 
-      <p class="text-center text-muted mt-3 mb-5">Find answers to common questions about our services, process, and
-        expertise.</p>
+      <p class="text-center text-muted mt-3 mb-5">Find all your answers about digital marketing campaigns here, uncensored!</p>
 
       <div class="accordion frequently-main" id="faqAccordion">
         <div class="accordion-item border-0 shadow-sm mb-2">
           <h2 class="accordion-header" id="headingOne">
             <button class="accordion-button mainsubheading-global   " type="button" data-bs-toggle="collapse"
               data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-              What digital marketing services do you offer in the USA?
+             What makes Mavix Tech stand out from the crowd?
             </button>
           </h2>
           <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
             data-bs-parent="#faqAccordion">
             <div class="accordion-body frequently-cont mainsubheading-global text-start">
-              As a full-service digital marketing company USA, we offer PPC, Google Ads, Meta Ads, SEO, Local SEO, content marketing, and social media management.
+             Our dedicated all-in-one offering of digital marketing services, supported by a personalized roadmap and a focused mindset, is our forte.
             </div>
           </div>
         </div>
@@ -545,13 +522,13 @@
           <h2 class="accordion-header" id="headingTwo">
             <button class="accordion-button mainsubheading-global  collapsed" type="button" data-bs-toggle="collapse"
               data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-              What makes you the best digital marketing agency in the USA?
+              How soon can you deliver the marketing results?
             </button>
           </h2>
           <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
             data-bs-parent="#faqAccordion">
             <div class="accordion-body frequently-cont mainsubheading-global text-start">
-              We combine proven strategies, real-time data, and automation to maximize ROI. Our clients see real growth, not vanity metrics.
+              Online marketing is no easy task. PPC efforts deliver almost instant results, whereas SEO and content marketing take a bit longer to give results that range between 3 and 6 months.
             </div>
           </div>
         </div>
@@ -560,13 +537,13 @@
           <h2 class="accordion-header" id="headingThree">
             <button class="accordion-button mainsubheading-global  collapsed" type="button" data-bs-toggle="collapse"
               data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-              Do you provide affordable SEO services in the USA?
+              Do you create customized marketing strategies for US businesses?
             </button>
           </h2>
           <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
             data-bs-parent="#faqAccordion">
             <div class="accordion-body frequently-cont mainsubheading-global text-start">
-              Yes. We’re known as an affordable SEO company in the USA offering customized plans based on your business size and goals
+             Yes. We know each business is different. We created our marketing plans after careful assessment and study of the company to help them gain the right results they came searching for.
             </div>
           </div>
         </div>
@@ -575,13 +552,13 @@
           <h2 class="accordion-header" id="headingFour">
             <button class="accordion-button mainsubheading-global  collapsed" type="button" data-bs-toggle="collapse"
               data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-              Can you manage Meta (Facebook/Instagram) ad campaigns?
+             Can you handle all my online marketing requirements?
             </button>
           </h2>
           <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
             data-bs-parent="#faqAccordion">
             <div class="accordion-body frequently-cont mainsubheading-global text-start">
-              Absolutely. As a top PPC agency in the USA, we manage high-performing Meta campaigns that increase sales and visibility.
+              Yes, we deliver dedicated online marketing services that cross the complete ecosystem of online marketing, without leaving a single stage of the marketing funnel untouched, and deliver results.
             </div>
           </div>
         </div>
@@ -590,13 +567,13 @@
           <h2 class="accordion-header" id="headingFive">
             <button class="accordion-button mainsubheading-global  collapsed" type="button" data-bs-toggle="collapse"
               data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-              What sets your Local SEO services apart?
+              Can you deliver after-sales (post-launch of campaign) support also?
             </button>
           </h2>
           <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
             data-bs-parent="#faqAccordion">
             <div class="accordion-body frequently-cont mainsubheading-global text-start">
-              As the best local SEO company in the USA, we focus on Google Business Profile optimization, local citations, and geo-targeted keywords.
+             Absolutely. We are here for real-time campaign management, ideating, redefining, reporting, and expert suggestions to ensure the best results.
             </div>
           </div>
         </div>
@@ -606,13 +583,13 @@
           <h2 class="accordion-header" id="headingSix">
             <button class="accordion-button mainsubheading-global  collapsed" type="button" data-bs-toggle="collapse"
               data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-              Will I get reports on performance?
+             What industries do you offer services to?
             </button>
           </h2>
           <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
             data-bs-parent="#faqAccordion">
             <div class="accordion-body frequently-cont mainsubheading-global text-start">
-              Yes. We provide transparent monthly reporting with data on SEO rankings, ad results, and audience engagement.
+              There is no specific industry. We’re here to help out every business that needs online marketing services.
             </div>
           </div>
         </div>

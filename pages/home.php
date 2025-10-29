@@ -125,8 +125,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   <div class="text-center scroll-section">
     <div class="containers hero-heading position-relative">
       <p>
-        Unlock Growth With<br />
-        Powerful Business Technology Solutions
+        Grow Business with<br />
+        Hitech Business Technology Solutions 
         from <span class="hero-heading-effect">Mavix Tech</span>
       </p>
       <div
@@ -138,7 +138,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <div class="hero-btn d-flex gap-3 justify-content-center flex-wrap">
       <a href="<?php echo $config['SITE_URL']; ?>contact-us">
         <button type="button" class="blob-btn">
-          Contact Us
+          Connect Today
           <span class="btn-learn-more-arrow ms-2">
             <i class="bi bi-arrow-right"></i>
           </span>
@@ -155,7 +155,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     </div>
 
     <div class="hero-text">
-      Grow your business with innovative Business Technology Solutions designed to match your needs.
+      Grow business using tailored technology solutions without cutting corners and compromising quality.
     </div>
 
     <div class="logo-strip mt-5">
@@ -170,16 +170,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 <section>
   <div class="containers">
-    <div class="section-heading scroll-section section-padding">
+    <div class="section-empower scroll-section section-padding">
       <p class="mainheading-global">
-        Ignite Your <span class="mainheding-color">Business Growth </span> with
-        Powerful Business Technology <br class="d-none d-md-block" /> Solutions
+        Empower your <span class="mainheding-color"> Business Strategy</span> with
+        scalable technology solutions programmed <br class="d-none d-md-block" />to expand your business horizons
       </p>
       <p class="subtitle-contetn text-muted mt-4">
-        Accelerate your digital success with innovative, scalable, and result-focused business technology solutions
-        designed to drive growth and <br
+        Redefine transformation and expedite operations with flexible,  <br
           class="d-none d-lg-block" />
-        streamline your operations
+        results-driven solutions from Mavix Tech
       </p>
     </div>
 
@@ -190,36 +189,36 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
       <div class="scroll-section" data-animation="animate__fadeInUp" data-delay="0s">
         <div class="card-custom h-100">
-          <p class="card-nmber1 card-nmber">01</p>
-          <p class="mainsubheading-global">
-            Dedicated Expert Team Skilled professionals focused on delivering innovative, effective results for today's competitive business landscape.
+          <p class="card-nmber1 card-nmber">Expert Team </p>
+          <p class="mainsubheading-global mt-2">
+            Connect with veterans committed to driving innovation and achieving results in a dynamic marketplace.
           </p>
         </div>
       </div>
 
       <div class="scroll-section" data-animation="animate__fadeInUp" data-delay="0s">
         <div class="card-custom h-100">
-          <p class="card-nmber1 card-nmber">02</p>
-          <p class="mainsubheading-global">
-            Scalable Infrastructure Agile technology frameworks are built to evolve with your business and support sustainable growth.
+          <p class="card-nmber1 card-nmber">Flexible, Scalable Systems</p>
+          <p class="mainsubheading-global mt-2">
+           Utilize technology mechanisms that align with and support your needs, enabling your business to grow rapidly. 
           </p>
         </div>
       </div>
 
       <div class="scroll-section" data-animation="animate__fadeInUp" data-delay="0s">
         <div class="card-custom h-100">
-          <p class="card-nmber1 card-nmber">03</p>
-          <p class="mainsubheading-global">
-            Data-Driven Optimization Enhance efficiency and decision-making with strategic improvements powered by data intelligence.
+          <p class="card-nmber1 card-nmber">Data Optimization</p>
+          <p class="mainsubheading-global mt-2">
+            Accelerate functional performance with accurate analytics and intelligent data-based enhancements.
           </p>
         </div>
       </div>
 
       <div class="scroll-section" data-animation="animate__fadeInUp" data-delay="0s">
         <div class="card-custom h-100">
-          <p class="card-nmber1 card-nmber">04</p>
-          <p class="mainsubheading-global">
-            Seamless Integration Capabilities Effortlessly unify your systems with our Business Technology Solutions for smooth operational performance.
+          <p class="card-nmber1 card-nmber">Unified Solutions</p>
+          <p class="mainsubheading-global mt-2">
+            Integrate your technology/tools easily for fast turnaround and cohesive working.
           </p>
         </div>
       </div>
@@ -232,12 +231,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <section>
   <div class="container text-center">
     <p class="phase-titele mainheading-global">
-      <span class="br-toggle">Explore Our Core Services That </span>
-      <span class="br-toggle">Power Digital Growth</span>
+      <span class="br-toggle">Our Innovative <span class="hero-heading-effect"> Business</span>  </span>
+      <span class="br-toggle">Technology Solutions</span>
     </p>
     <p class="text-muted subtitle-contetn">
-      <span class="br-toggle">From building online stores to boosting brand visibility,</span>
-      <span class="br-toggle"> our core services are built to drive business success.</span>
+      <span class="br-toggle">Utilize our digital transformation services in the USA that support your business dreams. Our technology solutions</span>
+      <span class="br-toggle"> are mindfully crafted to ignite and push your business forward without losing competitive edge.</span>
     </p>
   </div>
 
@@ -249,7 +248,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
           class="col-lg-4 d-flex flex-column justify-content-center card-left">
           <p class="mb-2 card-title ms-4 me-5">Shopify</p>
           <p class="mb-3 ms-4 me-4 integration-card-content">
-            Boost speed, mobile usability, and sales with a high-performing Shopify storefront built for conversions.
+            Build rapidly, responsive stores to accelerate your conversion rate
           </p>
           <a
             href="<?php echo $config['SITE_URL']; ?>shopify-services">
@@ -279,7 +278,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
           class="col-lg-4 d-flex flex-column justify-content-center card-left">
           <h5 class="mb-2 card-title ms-4 me-5">Salesforce</h5>
           <p class="mb-3 ms-4 me-4 integration-card-content">
-            Streamline CRM workflows and improve lead management to close deals faster and boost efficiency.
+            Enhanced leads and improved CRM for more effective sales.
           </p>
           <a
             href="<?php echo $config['SITE_URL']; ?>salesforces-services">
@@ -308,7 +307,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
           class="col-lg-4 d-flex flex-column justify-content-center card-left">
           <h5 class="mb-2 card-title ms-4 me-5">Email Marketing</h5>
           <p class="mb-3 ms-4 me-4 integration-card-content">
-            Increase sales with engaging, well-designed email campaigns that connect with your audience.
+            Contact your audience using effective emails.
           </p>
           <a
             href="<?php echo $config['SITE_URL']; ?>email-marketing">
@@ -336,7 +335,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
           class="col-lg-4 d-flex flex-column justify-content-center card-left">
           <h5 class="mb-2 card-title ms-4 me-5">Digital Marketing</h5>
           <p class="mb-3 ms-4 me-4 integration-card-content">
-            Enhance your brand's online presence and drive growth with targeted digital marketing strategies.
+            Solidify your online space and boost growth with improved digital strategies.
           </p>
           <a
             href="<?php echo $config['SITE_URL']; ?>digital-marketing">
@@ -371,11 +370,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <section class=" py-5 transformative-main">
   <div class="scroll-section mt-5 mb-5 pt-3">
     <h2 class="section-title mainheading-global ">
-      <span class="mainheding-color">What Our Clients </span>Say About<br />
+      <span> Learn what our</span><span class="mainheding-color"> Clients say  </span> about Say About<br />
       Mavix Tech
     </h2>
     <p class="section-subtitle subtitle-contetn text-muted mt-4">
-      Discover how Mavix Tech's Business Technology Solutions have transformed businesses and fueled growth.
+      Understand how Mavix Tech can change your growth trajectory by creating a stronger tech business together.
     </p>
   </div>
 
@@ -543,9 +542,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       <span class="mainheding-color">Contact</span> us
     </h2>
     <p class="text-muted subtitle-contetn">
-      We're here to help you share your thoughts or<br />
-      inquiries with us, and we'll get back to you <br />
-      soon!
+      Eager to see your business succeed?<br />
+      <a class="text-decoration-none" href="<?php echo $config['SITE_URL']; ?>contact-us">Connect with our team</a> for business technology solutions.<br />
     </p>
   </div>
 
@@ -776,5 +774,3 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     toast.show();
   }
 </script>
-
-

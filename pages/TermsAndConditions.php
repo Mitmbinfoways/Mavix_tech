@@ -8,7 +8,7 @@
     <style>
         body {
             color: #2d3748;
-            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            font-family: "Poppins", sans-serif;
         }
 
         .header {
@@ -126,11 +126,6 @@
             color: white;
         }
 
-        strong {
-            color: #fef5e7;
-            font-weight: 600;
-        }
-
         .highlight {
             background: #fef5e7;
             padding: 0.2rem 0.4rem;
@@ -167,7 +162,8 @@
 
         <div class="content">
             <div class="intro">
-                <p>Welcome to Mavix Tech! These Terms and Conditions (“Terms”) govern your use of our website <a href="https://mavixtech.com" target="_blank" rel="noopener noreferrer">www.mavixtech.com</a> and our services. By accessing or using our website, you agree to comply with and be bound by these Terms.</p>
+                <p>Welcome to Mavix Tech! These Terms and Conditions (“Terms”) govern your use of our website <a href="https://mavixtech.com" target="_blank" rel="noopener noreferrer">www.mavixtech.com</a> and our services.</p>
+                <p style="margin-top: 1rem;">By accessing or using our services, you agree to the terms of this Terms and Conditions.</p>
             </div>
 
             <div class="section">
@@ -213,6 +209,7 @@
                     A-721, Dev Atelier, 100 Feet Anand Nagar Rd,<br />
                     Prahlad Nagar, Ahmedabad, Gujarat, India<br /><br />
                     Email: <a href="mailto:info@mavixtech.com">info@mavixtech.com</a><br />
+                    Communication: <a href="mailto:marketing@MavixTech.com">marketing@MavixTech.com</a><br />
                     Phone: +91 635 703 0711
                 </address>
             </div>
