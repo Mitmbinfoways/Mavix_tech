@@ -625,7 +625,7 @@
             alt="Location icon"
             class="mb-2" />
           <p class="mb-1 text-muted">Location</p>
-          <small>Office: A-721, Dev Atelier, 100 Feet Anand Nagar Rd, Prahlad Nagar, Ahmedabad</small>
+          <small>Office: C-201, Shine Superb, Nr. Shavona Tilak, Ranip, Ahmedabad, Gujarat - 382480</small>
         </div>
       </div>
 

@@ -194,16 +194,17 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
             <div class="map-container scroll-section mt-5" data-animation="animate__fadeInUp" data-delay="0.6s">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3671.0!2d72.5141574!3d23.0128776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e9b2bd5454f97%3A0x3fd23a20b85b1c7f!2sDEV%20Atelier!5e0!3m2!1sen!2sin!4v1694179999999!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3670.0930309124333!2d72.5470225!3d23.1002653!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e8319536d8be9%3A0xe051d842cbaa9dea!2sShine%20Superb!5e0!3m2!1sen!2sin!4v1730286000000!5m2!1sen!2sin"
                 width="100%"
-                height="100%"
+                height="400"
                 style="border:0;"
                 allowfullscreen=""
                 loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"
-                title="DEV Atelier Office Location">
+                title="Mavix Tech Office - Shine Superb, Ranip, Ahmedabad">
               </iframe>
             </div>
+
 
             <div class="circle-bg scroll-section"></div>
             <div class="circle-bg circle-bg-sm scroll-section"></div>
