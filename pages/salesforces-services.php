@@ -112,7 +112,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       <div class="col-lg-6">
         <p class="salesforce-header-head mb-4"><span class="salesforce-header-color">Reliable Salesforce Development Services</span> for Business Growth </p>
         <div class="position-absolute top-50 start-35 digital-hero-bg-img translate-middle">
-          <img src="<?php echo $config['SITE_URL'] ?>assets/images/homepage-hero-bg-gradient.png" class="shopify-tech-home-img" />
+          <img src="<?php echo $config['WEB_PATH'] ?>assets/images/homepage-hero-bg-gradient.png" class="shopify-tech-home-img" />
         </div>
         <div class="row">
           <div class="col-sm-6">
@@ -634,7 +634,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       <p class="mainheading-global d-inline-block position-relative">
         <span class="highlight-wrapper position-relative d-inline-block">
           <span class="mainheding-color">Frequently</span>
-          <img src="<?php echo $config['SITE_URL'] ?>assets/images/FrequentlyAsk Header.png"
+          <img src="<?php echo $config['WEB_PATH'] ?>assets/images/FrequentlyAsk Header.png"
             class="position-absolute img-fluid frequentlyask-heading-img service-img-header z-1 d-none d-md-block"
             alt="Highlight Underline" />
         </span>

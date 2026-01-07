@@ -7,7 +7,7 @@
                     <span class="highlight">Trusted Shopify Development Services</span> in the USA for Business Growth
                 </p>
                 <div class="position-absolute top-50 start-1 hero-bg-shopify-img translate-middle">
-                    <img src="<?php echo $config['SITE_URL'] ?>assets/images/homepage-hero-bg-gradient.png"
+                    <img src="<?php echo $config['WEB_PATH'] ?>assets/images/homepage-hero-bg-gradient.png"
                         class="shopify-tech-home-img" />
                 </div>
                 <p class="shopify-header-title-subtitle shopify-subtitle">
@@ -18,7 +18,7 @@
                 <ul class="list-unstyled text-white fw-medium">
                     <li class="d-flex justify-content-start gap-3 align-items-center">
                         <span class="d-inline-flex justify-content-center align-items-center">
-                            <img src="<?php echo $config['SITE_URL'] ?>assets/images/Shopify Title.png" class="mb-2"
+                            <img src="<?php echo $config['WEB_PATH'] ?>assets/images/Shopify Title.png" class="mb-2"
                                 alt="" />
                         </span>
                         <p class="shopify-header-title-subtitle">
@@ -28,7 +28,7 @@
                     </li>
                     <li class="d-flex justify-content-start gap-3 align-items-center">
                         <span class="d-inline-flex justify-content-center align-items-center">
-                            <img src="<?php echo $config['SITE_URL'] ?>assets/images/Shopify Title.png" class="mb-2"
+                            <img src="<?php echo $config['WEB_PATH'] ?>assets/images/Shopify Title.png" class="mb-2"
                                 alt="" />
                         </span>
                         <p class="shopify-header-title-subtitle">
@@ -38,7 +38,7 @@
                     </li>
                     <li class="d-flex justify-content-start gap-3 align-items-center">
                         <span class="d-inline-flex justify-content-center align-items-center">
-                            <img src="<?php echo $config['SITE_URL'] ?>assets/images/Shopify Title.png" class="mb-2"
+                            <img src="<?php echo $config['WEB_PATH'] ?>assets/images/Shopify Title.png" class="mb-2"
                                 alt="" />
                         </span>
                         <p class="shopify-header-title-subtitle">
@@ -48,7 +48,7 @@
                     </li>
                     <li class="d-flex justify-content-start gap-3 align-items-center">
                         <span class="d-inline-flex justify-content-center align-items-center">
-                            <img src="<?php echo $config['SITE_URL'] ?>assets/images/Shopify Title.png" class="mb-2"
+                            <img src="<?php echo $config['WEB_PATH'] ?>assets/images/Shopify Title.png" class="mb-2"
                                 alt="" />
                         </span>
                         <p class="shopify-header-title-subtitle">
@@ -62,7 +62,7 @@
                         <button class="custom-btn shoipify-header-book-btn">Are you looking for Shopify Experts USA?
                             Call us Today</button>
                     </a>
-                    <img src="<?php echo $config['SITE_URL'] ?>assets/images/shopify_Home_Side_Arrow.png" alt="abc"
+                    <img src="<?php echo $config['WEB_PATH'] ?>assets/images/shopify_Home_Side_Arrow.png" alt="abc"
                         class="shopify-header-arrow d-none d-lg-block" />
                 </div>
             </div>
@@ -116,7 +116,7 @@
                         <span class="mainheding-color position-relative z-1">
                             Shopify Development
               <img
-                src="<?php echo $config['SITE_URL'] ?>assets/images/Shopify Solution Drive Title.png"
+                src="<?php echo $config['WEB_PATH'] ?>assets/images/Shopify Solution Drive Title.png"
                 class="highlight-underline d-none d-md-block"
                 alt="Highlight Underline" />
                         </span>
@@ -157,7 +157,7 @@
             Our Suite of
             <span class="mainheding-color ">Shopify Development </span>
             Services
-            <img src="<?php echo $config['SITE_URL'] ?>assets/images/Shopify Service Services.png"
+            <img src="<?php echo $config['WEB_PATH'] ?>assets/images/Shopify Service Services.png"
                 class="position-absolute img-fluid shopify-services-title-img z-1 d-none d-md-block"
                 alt="Underline Highlight" />
         </p>
@@ -165,7 +165,7 @@
         <div class="pad mb-4 mt-5 scroll-section" data-animation="animate__fadeInLeft" data-delay="0s">
             <div class="row g-0 service-card">
                 <div class="col-lg-5">
-                    <img src="<?php echo $config['SITE_URL'] ?>assets/images/magento-to-shopify-migration_png.webp"
+                    <img src="<?php echo $config['WEB_PATH'] ?>assets/images/magento-to-shopify-migration_png.webp"
                         alt="SEO Image" class="img-fluid  service-img" />
                 </div>
                 <div class="col-lg-7 p-4">
@@ -190,7 +190,7 @@
                     <div class="row padding-X g-0 h-100 flex-column flex-lg-row">
                         <!-- Image -->
                         <div class="col-lg-4 order-1 order-lg-1">
-                            <img src="<?php echo $config['SITE_URL'] ?>assets/images/shopifyservice2.png"
+                            <img src="<?php echo $config['WEB_PATH'] ?>assets/images/shopifyservice2.png"
                                 alt="Development Service"
                                 class="img-fluid object-fit-cover service-img google-card offered-service-image-position" />
                         </div>
@@ -214,7 +214,7 @@
                 <div class="h-100 bg-white rounded-3 shadow-sm service-card d-flex flex-column">
                     <div class="row g-0 h-100 flex-column flex-lg-row">
                         <div class="col-lg-4 order-1 order-lg-1">
-                            <img src="<?php echo $config['SITE_URL'] ?>assets/images/shopifyservice3.png"
+                            <img src="<?php echo $config['WEB_PATH'] ?>assets/images/shopifyservice3.png"
                                 alt="Import Service"
                                 class="img-fluid object-fit-cover service-img google-card offered-service-image-position" />
                         </div>
@@ -238,7 +238,7 @@
             <div class="row g-0 flex-column flex-lg-row card service-card">
                 <!-- Image Section -->
                 <div class="col-lg-5 order-1 order-lg-2">
-                    <img src="<?php echo $config['SITE_URL'] ?>assets/images/banner_2_5__png.webp" alt="Campaign Image"
+                    <img src="<?php echo $config['WEB_PATH'] ?>assets/images/banner_2_5__png.webp" alt="Campaign Image"
                         class="img-fluid  service-img-right" />
                 </div>
                 <!-- Content Section -->
@@ -263,7 +263,7 @@
         <div class=" pad scroll-section" data-animation="animate__fadeInLeft" data-delay="0s">
             <div class="row g-0 service-card ">
                 <div class="col-lg-5">
-                    <img src="<?php echo $config['SITE_URL'] ?>assets/images/integration-banner_png.webp"
+                    <img src="<?php echo $config['WEB_PATH'] ?>assets/images/integration-banner_png.webp"
                         alt="SEO Image" class="img-fluid  service-img" />
                 </div>
                 <div class="col-lg-7 p-4">
@@ -284,7 +284,7 @@
             <div class="row g-0 flex-column flex-lg-row  service-card card">
                 <!-- Image Section -->
                 <div class="col-lg-5 order-1 order-lg-2">
-                    <img src="<?php echo $config['SITE_URL'] ?>assets/images/desk_pic_png.webp" alt="Campaign Image"
+                    <img src="<?php echo $config['WEB_PATH'] ?>assets/images/desk_pic_png.webp" alt="Campaign Image"
                         class="img-fluid  service-img-right" />
                 </div>
 
@@ -309,7 +309,7 @@
         <div class="pad scroll-section" data-animation="animate__fadeInLeft" data-delay="0s">
             <div class="row g-0 service-card">
                 <div class="col-lg-5">
-                    <img src="<?php echo $config['SITE_URL'] ?>assets/images/new_pic_shop_png.webp" alt="SEO Image"
+                    <img src="<?php echo $config['WEB_PATH'] ?>assets/images/new_pic_shop_png.webp" alt="SEO Image"
                         class="img-fluid  service-img" />
                 </div>
                 <div class="col-lg-7 p-4">
@@ -330,7 +330,7 @@
             <div class="row g-0 flex-column flex-lg-row  service-card card">
                 <!-- Image Section -->
                 <div class="col-lg-5 order-1 order-lg-2">
-                    <img src="<?php echo $config['SITE_URL'] ?>assets/images/hire-shopify-developers-picture-1_png.webp"
+                    <img src="<?php echo $config['WEB_PATH'] ?>assets/images/hire-shopify-developers-picture-1_png.webp"
                         alt="Campaign Image" class="img-fluid  service-img-right" />
                 </div>
 
@@ -356,7 +356,7 @@
         data-delay="0s">
         <div class="row g-0">
           <div class="col-md-5">
-            <img src="<?php echo $config['SITE_URL'] ?>assets/images/shopi_drop_main_png.png" alt="SEO Image" class="img-fluid  service-img" />
+            <img src="<?php echo $config['WEB_PATH'] ?>assets/images/shopi_drop_main_png.png" alt="SEO Image" class="img-fluid  service-img" />
           </div>
           <div class="col-md-7 p-4">
             <div class="card-body">
@@ -382,7 +382,7 @@
                 Why Choose
                 <span class="mainheding-color position-relative z-1">
                     Mavix Tech
-                    <img src="<?php echo $config['SITE_URL'] ?>assets/images/SalseMigrate.png"
+                    <img src="<?php echo $config['WEB_PATH'] ?>assets/images/SalseMigrate.png"
                         class="shopify-migrate-img d-none d-md-block" alt="Highlight Underline" />
                 </span>
                 for Shopify Customization Services
@@ -603,7 +603,7 @@
 <!--            <div class="carousel-item text-center active">-->
 <!--              <div class="gradient-border-box mx-auto custom-gradient-border-box-width">-->
 <!--                <div class="avatar-container mx-auto mb-3">-->
-<!--                  <img src="<?php echo $config['SITE_URL'] ?>assets/images/voice-img.png" class="avatar123" alt="Avatar" />-->
+<!--                  <img src="<?php echo $config['WEB_PATH'] ?>assets/images/voice-img.png" class="avatar123" alt="Avatar" />-->
 <!--                </div>-->
 
 <!--                <p class="testimonial-quote">-->
@@ -617,7 +617,7 @@
 <!--            <div class="carousel-item text-center">-->
 <!--              <div class="gradient-border-box mx-auto custom-gradient-border-box-width">-->
 <!--                <div class="avatar-container mx-auto mb-3">-->
-<!--                  <img src="<?php echo $config['SITE_URL'] ?>assets/images/voice-img.png" class="avatar123" alt="Avatar" />-->
+<!--                  <img src="<?php echo $config['WEB_PATH'] ?>assets/images/voice-img.png" class="avatar123" alt="Avatar" />-->
 <!--                </div>-->
 
 <!--                <p class="testimonial-quote">-->
@@ -631,7 +631,7 @@
 <!--            <div class="carousel-item text-center">-->
 <!--              <div class="gradient-border-box mx-auto custom-gradient-border-box-width">-->
 <!--                <div class="avatar-container mx-auto mb-3">-->
-<!--                  <img src="<?php echo $config['SITE_URL'] ?>assets/images/voice-img.png" class="avatar123" alt="Avatar" />-->
+<!--                  <img src="<?php echo $config['WEB_PATH'] ?>assets/images/voice-img.png" class="avatar123" alt="Avatar" />-->
 <!--                </div>-->
 
 <!--                <p class="testimonial-quote">-->
@@ -665,7 +665,7 @@
             <p class="mainheading-global d-inline-block position-relative">
                 <span class="highlight-wrapper position-relative d-inline-block">
                     <span class="mainheding-color">Frequently</span>
-                    <img src="<?php echo $config['SITE_URL'] ?>assets/images/FrequentlyAsk Header.png"
+                    <img src="<?php echo $config['WEB_PATH'] ?>assets/images/FrequentlyAsk Header.png"
                         class="position-absolute img-fluid frequentlyask-heading-img service-img-header z-1 d-none d-md-block"
                         alt="Highlight Underline" />
                 </span>

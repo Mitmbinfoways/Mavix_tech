@@ -44,8 +44,9 @@ p {
 
 .highlight-underline {
   position: absolute;
-  bottom: -20px;
-  left: 0;
+  bottom: -12px;
+  width: 280px;
+  left: 18px;
   height: auto;
   pointer-events: none;
   z-index: -1;
@@ -132,7 +133,8 @@ p {
 
 .salesforce-Certified {
   top: 40px;
-  left: 30%;
+  left: 25%;
+  width: 35%;
 }
 
 .digital-compony {
