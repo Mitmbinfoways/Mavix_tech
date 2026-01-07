@@ -67,8 +67,9 @@
   line-height: 12px !important;
   font-family: "DM Sans", sans-serif;
 }
+
 .heding-color {
-  color: #ec4899;
+  color: #35B8EB;
 }
 
 .heading-global {
@@ -95,8 +96,9 @@
   .section-subtitle {
     margin: 0 auto 40px !important;
     width: 100% !important;
-  } 
-  .transformative-main{
+  }
+
+  .transformative-main {
     padding: 0 0px !important;
   }
 }

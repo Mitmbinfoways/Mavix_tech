@@ -74,10 +74,12 @@
   margin: 20px 0;
   /* Adjusted margin for better spacing */
 }
-.slick-dots li button{
+
+.slick-dots li button {
   height: 10px !important;
   width: 10px !important;
 }
+
 /* Styles for the dots/navigation */
 /* Normal dots */
 .slick-dots li button:before {
@@ -115,7 +117,7 @@
 
 /* remove this before putting it into main folder */
 .heding-color {
-  color: #ec4899;
+  color: #35B8EB;
 }
 
 .heading-global {
@@ -143,7 +145,7 @@
   height: 100%;
   padding: 0% !important;
   margin: 2% !important;
-  
+
 }
 
 .image-wrapper1 {
@@ -177,4 +179,3 @@
   margin-top: 8px;
   margin-bottom: 25% !important;
 }
-

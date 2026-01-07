@@ -13,7 +13,7 @@ body {
 }
 
 .heding-color {
-  color: #ec4899;
+  color: #35B8EB;
   font-weight: 700;
   position: relative;
   z-index: 2;
@@ -41,6 +41,7 @@ body {
   display: inline-block;
   margin-left: 341px !important;
 }
+
 .highlight-wrapper {
   position: relative;
   display: inline-block;
@@ -78,7 +79,8 @@ body {
 
 .img-underline {
   position: absolute;
-  bottom: -8px; /* adjust based on the image height */
+  bottom: -8px;
+  /* adjust based on the image height */
   left: 58px !important;
   width: 100%;
   max-width: 100%;
@@ -100,11 +102,13 @@ body {
 .dolor-sit-description {
   text-align: center;
 }
+
 .digitalmarkating-dolor-sit-img {
-  width: 90% !important ;
+  width: 90% !important;
   top: 75% !important;
   left: 3% !important;
 }
+
 @media (min-width: 768px) {
   .highlight-section h2 {
     font-size: 2.2rem;

@@ -1,6 +1,6 @@
 /* Typography */
 .heding-color {
-  color: #ec4899;
+  color: #35B8EB;
 }
 
 .heading-global {
@@ -107,17 +107,21 @@ body {
 /* ✅ Shopify migrate underline image */
 .shopify-migrate-img {
   position: absolute;
-  bottom: -8px; /* underline sits just below text */
+  bottom: -8px;
+  /* underline sits just below text */
   left: 0;
-  width: 100%; /* matches word width */
+  width: 100%;
+  /* matches word width */
   height: auto;
   pointer-events: none;
-  z-index: -1; /* goes behind the text */
+  z-index: -1;
+  /* goes behind the text */
 }
 
 /* Remove old conflicting class */
 .migrate1-service-img-header {
-  display: none; /* deprecated – no longer used */
+  display: none;
+  /* deprecated – no longer used */
 }
 
 /* Responsive adjustments */

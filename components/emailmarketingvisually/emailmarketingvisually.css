@@ -1,5 +1,5 @@
 .heding-color {
-  color: #ec4899;
+  color: #35B8EB;
 }
 
 .heading-global {
@@ -25,15 +25,16 @@
 
 .email-marketing-btn {
   border: none;
-  background-color: #ec4899;
+  background-color: #35B8EB;
   padding: 14px 34px;
   color: #fff;
   border-radius: 8px;
   cursor: pointer;
   transition: background 0.3s ease;
 }
+
 .email-marketing-btn:hover {
-  background-color: #d63384;
+  background-color: #35B8EB;
 }
 
 .section-title {
@@ -64,12 +65,14 @@
 .check-list {
   padding-left: 1.5rem;
 }
+
 .check-list li {
   list-style: none;
   position: relative;
   padding-left: 24px;
   margin-bottom: 8px;
 }
+
 .check-list li::before {
   content: "✔";
   color: #28a745;
@@ -91,10 +94,11 @@
 
 .emailmarketing-pixelperfect-img {
   position: absolute;
-  bottom: 40px; 
+  bottom: 40px;
   left: 220px;
   width: 100%;
-  max-width: 250px; /* control size */
+  max-width: 250px;
+  /* control size */
   height: auto;
   pointer-events: none;
 }

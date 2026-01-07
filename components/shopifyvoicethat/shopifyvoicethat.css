@@ -8,6 +8,7 @@
     align-items: center;
     overflow: hidden;
 }
+
 /* Testimonial card style */
 .testimonial-card {
     border-radius: 1rem;
@@ -50,7 +51,7 @@
 }
 
 .heding-color {
-    color: #EC4899;
+    color: #35B8EB;
 }
 
 .subheading-global {
@@ -200,7 +201,7 @@
     }
 
     .avatar123 {
-         width: 100%;
+        width: 100%;
         height: 50px;
         object-fit: cover;
         padding: 0px !important;

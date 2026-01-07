@@ -1,5 +1,5 @@
 .heding-color {
-    color: #EC4899;
+    color: #35B8EB;
 
 }
 
@@ -29,7 +29,7 @@
 .email-marketing-btn {
 
     border: none;
-    background-color: #EC4899;
+    background-color: #35B8EB;
     padding: 14px 34px;
     color: #fff;
     border-radius: 8px;
@@ -90,6 +90,7 @@
     width: 23% !important;
     height: 27% !important;
 }
+
 @media screen and (max-width: 991px) {
     .email-marketing-powerfooltool-img {
         left: 0% !important;
@@ -99,6 +100,7 @@
 
 
 }
+
 @media screen and (max-width: 768px) {
     .email-marketing-powerfooltool-img {
         left: 0% !important;
@@ -115,5 +117,5 @@
         width: 49% !important;
     }
 
-   
+
 }

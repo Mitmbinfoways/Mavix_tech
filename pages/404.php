@@ -66,7 +66,7 @@
         }
 
         .btn-primary {
-            background-color: #dc3187;
+            background-color: #35B8EB;
             color: white;
         }
 
@@ -77,13 +77,13 @@
         .btn-secondary {
             background-color: transparent;
             color: #b8c5d6;
-            border-color: #dc3187;
+            border-color: #35B8EB;
         }
 
         .btn-secondary:hover {
             background-color: #0b1e3f;
-            color: #dc3187;
-            border-color: #dc3187;
+            color: #35B8EB;
+            border-color: #35B8EB;
         }
 
         @media (max-width: 768px) {

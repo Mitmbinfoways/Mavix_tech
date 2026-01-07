@@ -72,11 +72,11 @@
 
 .hero-heading-effect {
 
-    color: #ec4899;
+    color: #35B8EB;
 
 }
 
-.email-markatingheader{
+.email-markatingheader {
 
     font-weight: 400 !important;
 
@@ -126,7 +126,7 @@
 
 .btn-get-started {
 
-    background-color: #EC4899;
+    background-color: #35B8EB;
 
     color: white;
 
@@ -156,7 +156,7 @@
 
     color: white;
 
-    border: 2px solid #ff4081;
+    border: 2px solid #35B8EB;
 
     border-radius: 25px;
 
@@ -170,7 +170,7 @@
 
 .btn-learn-more:hover {
 
-    background-color: #ff4081;
+    background-color: #35B8EB;
 
     color: white;
 
@@ -208,7 +208,7 @@
 
     /* padding: 0 10px; */
 
-   
+
 
     /* margin: 0% !important; */
 
@@ -324,7 +324,7 @@
 
 .email-form button {
 
-    background: #EC4899;
+    background: #35B8EB;
 
     color: #fff;
 
@@ -342,7 +342,7 @@
 
 }
 
-.email-marketing-hero-subtext{
+.email-marketing-hero-subtext {
 
     width: 90% !important;
 

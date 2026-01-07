@@ -6,11 +6,11 @@
 }
 
 .highlight {
-  color: #e84fb1;
+  color: #35B8EB;
 }
 
 .custom-btn {
-  background-color: #e84fb1;
+  background-color: #35B8EB;
   color: white;
   border-radius: 30px;
   padding: 1.5% 5%;
@@ -38,7 +38,7 @@
   border-radius: 12px;
   width: 120px !important;
   height: auto !important;
-  padding: 15px 0% 15px 0%!important;
+  padding: 15px 0% 15px 0% !important;
   /* padding: 0% !important;
   margin: 0% !important; */
   color: #fff;
@@ -49,7 +49,7 @@
 .stat-number {
   font-size: 1.75rem;
   font-weight: 700;
-  color: #e84fb1;
+  color: #35B8EB;
 }
 
 .stat-label {
@@ -73,14 +73,14 @@
 }
 
 .highlight {
-  color: #e84fb1;
+  color: #35B8EB;
 }
 
 .shopify-header-number {
   font-weight: 500 !important;
   font-size: 36px !important;
   font-family: "Poppins", sans-serif !important;
-  color: #EC4899 !important;
+  color: #35B8EB !important;
 }
 
 /* Container for button and arrow */

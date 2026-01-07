@@ -8,7 +8,7 @@ body {
 
 /* Headings */
 .heding-color {
-  color: #ec4899;
+  color: #35B8EB;
 }
 
 .heading-global {
@@ -34,7 +34,8 @@ body {
 
 /* Highlight underline image */
 .mainheding-color {
-  position: relative; /* parent for underline */
+  position: relative;
+  /* parent for underline */
 }
 
 .services-list span {
@@ -73,12 +74,15 @@ body {
     font-size: 22px;
     line-height: 1.4;
   }
+
   .subheading-global {
     font-size: 14px;
   }
+
   .serviceblock-title {
     font-size: 18px;
   }
+
   .services-list span {
     font-size: 13px;
     padding-bottom: 0.15rem;

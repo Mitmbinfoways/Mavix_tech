@@ -48,7 +48,7 @@ ul {
   transition: all 0.3s ease;
 }
 
-.slider-btn-effect:active{
+.slider-btn-effect:active {
   scale: 0.9;
   transition: all 0.3s ease;
 }
@@ -135,7 +135,7 @@ ul {
 }
 
 .left-column .left-column-colored-heading {
-  color: #ec4899;
+  color: #35B8EB;
 }
 
 .left-column .left-column-paragraph {
@@ -223,18 +223,21 @@ ul {
 
   }
 }
+
 @media screen and (max-width: 426px) {
   .shopify-industres-img {
     bottom: 0% !important;
     top: 75% !important;
   }
 }
+
 @media screen and (max-width: 375px) {
   .slider-head {
     font-size: 22px !important;
 
   }
 }
+
 @media screen and (max-width: 320px) {
   .slider-head {
     font-size: 20px !important;

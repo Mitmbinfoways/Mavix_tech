@@ -1,11 +1,10 @@
-
 body {
   margin: 0;
   padding: 0;
 }
 
 p {
-  margin-bottom: 0px !important ;
+  margin-bottom: 0px !important;
 }
 
 .pad-left {
@@ -24,12 +23,13 @@ p {
   padding-right: 12px !important;
 }
 
-.accordion-services{
-    padding: 0px 8px;
+.accordion-services {
+  padding: 0px 8px;
 }
 
 .icon-large {
-  font-size: 32px; /* increase size */
+  font-size: 32px;
+  /* increase size */
 }
 
 .grid-template-columns-1 {
@@ -63,6 +63,7 @@ p {
     width: 260px;
     left: -180px;
   }
+
   .logo-strip {
     gap: 90px !important;
   }
@@ -72,7 +73,8 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 40px !important; /* larger so icon fits */
+  height: 40px !important;
+  /* larger so icon fits */
   width: 40px !important;
   background-color: whitesmoke;
   border-radius: 50%;
@@ -105,7 +107,8 @@ p {
 }
 
 .custom-gap {
-  gap: 12px !important; /* Adjust as needed */
+  gap: 12px !important;
+  /* Adjust as needed */
 }
 
 .h-full {
@@ -123,7 +126,8 @@ p {
 .no-shadow:focus {
   box-shadow: none !important;
   outline: none !important;
-  border-color: #ced4da; /* Keep default Bootstrap border */
+  border-color: #ced4da;
+  /* Keep default Bootstrap border */
 }
 
 .salesforce-Certified {
@@ -149,8 +153,10 @@ p {
   pointer-events: auto !important;
   cursor: pointer;
 }
+
 #submitBtn * {
-  pointer-events: none; /* Ensures spans don't block clicks */
+  pointer-events: none;
+  /* Ensures spans don't block clicks */
 }
 
 .scroll-section.animate__animated {
@@ -241,14 +247,12 @@ p {
 }
 
 .footer-social-media-ul li:nth-child(3) a:before {
-  background: radial-gradient(
-    circle at 30% 107%,
-    #fdf497 0%,
-    #fdf497 5%,
-    #fd5949 45%,
-    #d6249f 60%,
-    #285aeb 90%
-  );
+  background: radial-gradient(circle at 30% 107%,
+      #fdf497 0%,
+      #fdf497 5%,
+      #fd5949 45%,
+      #d6249f 60%,
+      #285aeb 90%);
 }
 
 .footer-social-media-ul li:nth-child(4) a:before {
@@ -344,21 +348,21 @@ p {
 
 .services-list span:hover {
   cursor: auto;
-  border-bottom: 2px solid #ff4081 !important;
-  color: #ff4081 !important;
+  border-bottom: 2px solid #35B8EB !important;
+  color: #35B8EB !important;
 }
 
 .blob-btn {
   padding: 12px;
   border-radius: 50px;
   color: white;
-  border: 1px solid #ec4899;
+  border: 1px solid #35B8EB;
   background: transparent;
   transition: all 0.2s ease-in-out;
 }
 
 .blob-btn:hover {
-  background-color: #ec4899;
+  background-color: #35B8EB;
 }
 
 .info-box {
@@ -418,7 +422,7 @@ p {
 }
 
 .heding-color {
-  color: #ec4899;
+  color: #35B8EB;
 }
 
 .heading-global {
@@ -521,7 +525,7 @@ p {
 }
 
 .btn-custom {
-  background-color: #ec4899 !important;
+  background-color: #35B8EB !important;
   color: white !important;
   border: none !important;
   padding: 12px 12px !important;
@@ -553,12 +557,10 @@ p {
 
 .gradient-border-box::before {
   top: 0px;
-  background: linear-gradient(
-    90deg,
-    rgba(21, 14, 222, 0) 10%,
-    #3f49b1 52.12%,
-    rgba(49, 29, 232, 0) 100%
-  );
+  background: linear-gradient(90deg,
+      rgba(21, 14, 222, 0) 10%,
+      #3f49b1 52.12%,
+      rgba(49, 29, 232, 0) 100%);
   left: 60%;
   width: 40%;
 }
@@ -566,12 +568,10 @@ p {
 .gradient-border-box::after {
   bottom: 0;
 
-  background: linear-gradient(
-    90deg,
-    rgba(21, 14, 222, 0) 10%,
-    #3f49b1 52.12%,
-    rgba(49, 29, 232, 0) 100%
-  );
+  background: linear-gradient(90deg,
+      rgba(21, 14, 222, 0) 10%,
+      #3f49b1 52.12%,
+      rgba(49, 29, 232, 0) 100%);
 
   left: 0%;
 
@@ -637,6 +637,7 @@ p {
   .integration-card {
     height: auto !important;
   }
+
   .containers {
     margin: 0px;
     padding: 0px;
@@ -821,7 +822,7 @@ p {
 }
 
 .hero-heading-effect {
-  color: #ec4899;
+  color: #35B8EB;
 }
 
 .blog-section {
@@ -834,6 +835,7 @@ p {
   .hero-heading p {
     font-size: 48px;
   }
+
   .highlight-underline {
     bottom: -6px;
     width: 200px;
@@ -845,14 +847,17 @@ p {
   .hero-heading p {
     font-size: 36px;
   }
+
   .blog-section {
     padding: 0px 8px;
   }
+
   .row {
     padding-left: 0px !important;
     padding-right: 0px !important;
     margin-right: 0px !important;
   }
+
   .highlight-underline {
     bottom: -4px;
     width: 90%;
@@ -867,7 +872,7 @@ p {
 }
 
 .btn-get-started {
-  background-color: #ec4899 !important;
+  background-color: #35B8EB !important;
   color: white !important;
   border: none !important;
   border-radius: 25px !important;
@@ -940,9 +945,11 @@ input[type="number"]::-webkit-inner-spin-button {
   .hero-image {
     justify-content: space-evenly;
   }
+
   .hero-image img {
     max-width: 140px;
   }
+
   .grid-template-columns-md-2 {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -952,9 +959,11 @@ input[type="number"]::-webkit-inner-spin-button {
   .hero-image img {
     max-width: 160px;
   }
+
   .grid-template-columns-lg-4 {
     grid-template-columns: repeat(4, 1fr);
   }
+
   .icon-bg {
     height: 38px;
     width: 38px;
@@ -1075,7 +1084,7 @@ input[type="number"]::-webkit-inner-spin-button {
   display: flex !important;
 }
 
-.slider2 .slick-slide > div {
+.slider2 .slick-slide>div {
   flex: 1;
   display: flex;
 }
@@ -1114,11 +1123,11 @@ input[type="number"]::-webkit-inner-spin-button {
   font-weight: 700 !important;
   font-size: 76.55px !important;
   line-height: 90px !important;
-  color: #ec4899 !important;
+  color: #35B8EB !important;
 }
 
 .mainheding-color {
-  color: #ec4899 !important ;
+  color: #35B8EB !important;
 }
 
 .mainheading-global {
@@ -1218,7 +1227,7 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 
 .salesforce-header-color {
-  color: #ec4899 !important;
+  color: #35B8EB !important;
 }
 
 .salesforce-heading-content {
@@ -1228,7 +1237,7 @@ input[type="number"]::-webkit-inner-spin-button {
 .salesforce-heading-form-title {
   font-weight: 600 !important;
   font-size: 24px !important;
-  color: #ec4899 !important;
+  color: #35B8EB !important;
   font-family: "Poppins", sans-serif !important;
 }
 
@@ -1424,7 +1433,7 @@ input[type="number"]::-webkit-inner-spin-button {
 
 @media screen and (max-width: 768px) {
   .contact-us-heading {
-    font-size: 28px !important ;
+    font-size: 28px !important;
   }
 
   .highlight-underline {
@@ -1458,7 +1467,7 @@ input[type="number"]::-webkit-inner-spin-button {
   }
 
   .hero-section {
-    padding-top: 100px !important ;
+    padding-top: 100px !important;
   }
 
   .logo-strip {
@@ -1469,7 +1478,7 @@ input[type="number"]::-webkit-inner-spin-button {
     padding: 0px 12px;
   }
 
-.pad-right {
+  .pad-right {
     padding-right: 0px !important;
   }
 
@@ -1516,7 +1525,7 @@ input[type="number"]::-webkit-inner-spin-button {
   .subtitle-contetn {
     padding: 0px !important;
   }
-  
+
   .padding-X {
     padding-left: 0px !important;
     padding-right: 0px !important;
