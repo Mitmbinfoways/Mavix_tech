@@ -386,7 +386,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         data-animation="animate__fadeInUp"
         data-delay="0s">
         <div class="testimonial-quote mb-3">
-          <img src="<?php echo $config['WEB_PATH'] ?>assets/images/Vector.png" alt="Quote" />
+          <img src="<?php echo $config['WEB_PATH'] ?>assets/images/Vector.png" class="vectore-img" alt="Quote" />
         </div>
         <p>
           Mavix Tech delivers innovative Business Technology Solutions designed to
@@ -408,7 +408,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         data-animation="animate__fadeInUp"
         data-delay="0.1s">
         <div class="testimonial-quote mb-3">
-          <img src="<?php echo $config['WEB_PATH'] ?>assets/images/Vector.png" alt="Quote" />
+          <img src="<?php echo $config['WEB_PATH'] ?>assets/images/Vector.png" class="vectore-img" alt="Quote" />
         </div>
         <p>
           Mavix Tech transformed our outdated online store into a sleek,
@@ -430,7 +430,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         data-animation="animate__fadeInUp"
         data-delay="0.2s">
         <div class="testimonial-quote mb-3">
-          <img src="<?php echo $config['WEB_PATH'] ?>assets/images/Vector.png" alt="Quote" />
+          <img src="<?php echo $config['WEB_PATH'] ?>assets/images/Vector.png" class="vectore-img" alt="Quote" />
         </div>
         <p>
           The email marketing campaigns Mavix Tech created were not only beautiful
@@ -624,7 +624,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <i class="bi bi-telephone icon icon-large"></i>
             <div class="mb-1"><strong>Phone</strong></div>
             <p>
-              <a href="tel:+9162321151261" class="contact-link">+91 6232 1151 261</a>
+              <a href="tel:+916357030711" class="contact-link">+91 6357 0307 11</a>
             </p>
           </div>
           <div class="d-lg-none">

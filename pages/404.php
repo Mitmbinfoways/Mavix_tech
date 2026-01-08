@@ -18,7 +18,6 @@
             color: #333;
             line-height: 1.6;
         }
-
         .container {
             text-align: center;
             padding: 2rem;

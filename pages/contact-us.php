@@ -175,7 +175,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <div class="contact-details scroll-section" data-animation="animate__fadeInUp" data-delay="0.4s">
               <p class="d-flex gap-3 align-items-start my-3">
                 <i class="bi bi-telephone icon"></i>
-                <a href="tel:+9162321151261" class="contact-link"> +91 6232 1151 261</a>
+                <a href="tel:+916357030711" class="contact-link"> +91 6357 0307 11</a>
               </p>
               <p class="d-flex gap-3 align-items-start">
                 <i class="bi bi-envelope icon"></i>
@@ -187,7 +187,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                   href="https://www.google.com/maps?q=A-721,+Dev+Atelier,+100+Feet+Anand+Nagar+Rd,+Prahlad+Nagar,+Ahmedabad"
                   target="_blank"
                   class="contact-link">
-                  Office: A-721, Dev Atelier, 100 Feet Anand Nagar Rd, Prahlad Nagar, Ahmedabad
+                  Office: Second, C-201, Shine Superb, Nr. Shavona Tilak, Ranip, Ahmedabad- 382480, Gujarat
                 </a>
               </p>
             </div>

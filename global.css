@@ -131,6 +131,10 @@ p {
   /* Keep default Bootstrap border */
 }
 
+.vectore-img{
+  width: 14px;
+}
+
 .salesforce-Certified {
   top: 40px;
   left: 25%;
