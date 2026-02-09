@@ -765,49 +765,50 @@
             <div class="accordion-item border-0 shadow-sm mb-2">
                 <h2 class="accordion-header" id="headingSix">
                     <button class="accordion-button mainsubheading-global collapsed" type="button"
-                        data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false"
-                        aria-controls="collapseSix">
+                        data-bs-toggle="collapse" data-bs-target="#collapseSix"
+                        aria-expanded="false" aria-controls="collapseSix">
                         Can you migrate my store from Magento to Shopify?
                     </button>
                 </h2>
-                <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
-                    data-bs-parent="#faqAccordion">
+                <div id="collapseSix" class="accordion-collapse collapse"
+                    aria-labelledby="headingSix" data-bs-parent="#faqAccordion">
                     <div class="accordion-body frequently-cont mainsubheading-global">
-                        Yes, we have been in this for years. We are aware of what it takes to perform the migration
-                        process. We ensure your data transfer is easy, clean, and without any downtime. Be it Magento,
-                        BigCommerce, or any other platform, we can easily switch it to Shopify.
+                        Yes, we have been in this for years. We ensure your data transfer is easy,
+                        clean, and without downtime.
                     </div>
                 </div>
             </div>
             <div class="accordion-item border-0 shadow-sm mb-2">
-                <h2 class="accordion-header" id="headingSix">
+                <h2 class="accordion-header" id="headingSeven">
                     <button class="accordion-button mainsubheading-global collapsed" type="button"
-                        data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false"
-                        aria-controls="collapseSix">
+                        data-bs-toggle="collapse" data-bs-target="#collapseSeven"
+                        aria-expanded="false" aria-controls="collapseSeven">
                         Can you integrate third-party ERP or APIs with Shopify?
                     </button>
                 </h2>
-                <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
-                    data-bs-parent="#faqAccordion">
+                <div id="collapseSeven" class="accordion-collapse collapse"
+                    aria-labelledby="headingSeven" data-bs-parent="#faqAccordion">
                     <div class="accordion-body frequently-cont mainsubheading-global">
-                        Yes, our experts easily integrate third-party ERP systems and APIs with this platform to manage
-                        your business operations. They perform digitized data synchronization, automated workflows, and
-                        easy synchronization for easy inventory, order, and customer management.
+                        Yes, our experts integrate third-party ERP systems and APIs to manage
+                        inventory, orders, and customers efficiently.
                     </div>
                 </div>
             </div>
+
+            <!-- Industries -->
             <div class="accordion-item border-0 shadow-sm mb-2">
-                <h2 class="accordion-header" id="headingSix">
+                <h2 class="accordion-header" id="headingEight">
                     <button class="accordion-button mainsubheading-global collapsed" type="button"
-                        data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false"
-                        aria-controls="collapseSix">
+                        data-bs-toggle="collapse" data-bs-target="#collapseEight"
+                        aria-expanded="false" aria-controls="collapseEight">
                         What industries have you served?
                     </button>
                 </h2>
-                <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
-                    data-bs-parent="#faqAccordion">
+                <div id="collapseEight" class="accordion-collapse collapse"
+                    aria-labelledby="headingEight" data-bs-parent="#faqAccordion">
                     <div class="accordion-body frequently-cont mainsubheading-global">
-                        We have been helping B2B, B2C, which includes IT companies, Real Estate, Finance, and many more.
+                        We have helped B2B and B2C businesses including IT, Real Estate,
+                        Finance, and more.
                     </div>
                 </div>
             </div>
